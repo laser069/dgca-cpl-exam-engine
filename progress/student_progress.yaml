@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.71
-questions_attempted: 132
+accuracy: 0.70
+questions_attempted: 137
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -54,8 +54,8 @@ weak_topics:
   - Latent heat of vaporisation magnitude (>5x rule)
   - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
   - NE Monsoon season/character (winter, cool, dry — not summer/wet)
-  - Virtual temperature: moist parcel's virtual temp is higher (not equal) to actual temp
-  - Equatorial tropopause paradox (higher AND colder, year-round latitude effect) — improving, retest once more to confirm
+  - Virtual temperature direction (moist > actual, always) — persistent, 3 misses. Anchor: "moist air acts warmer than it really is"
+  - Equatorial tropopause height+temperature pairing (higher AND colder together) — persistent, 3 misses; knows the mechanism but not the combined fact
 revision_due:
   - Clouds
   - Stability
@@ -219,3 +219,12 @@ history:
     accuracy: 1.00
     weak_topics: []
     notes: Immediate retry of the 4 misses from the tough round — clean sweep. Cleared true-altitude-in-warm-air, mesopause-coldest-point, and convection-vs-turbulence. Equatorial tropopause paradox improved (1 correct vs 2 prior misses) but not yet formally cleared — needs one more confirming correct answer.
+  - date: "2026-08-16"
+    chapter: Atmosphere (targeted 2-topic focus round)
+    questions: 5
+    correct: 2
+    accuracy: 0.40
+    weak_topics:
+      - Virtual temperature direction (3rd miss)
+      - Equatorial tropopause height+temperature pairing (3rd miss)
+    notes: 12th Atmosphere session, focused drill on the two remaining gaps. Both remain unresolved despite student correctly explaining the underlying mechanism/purpose for each when asked separately — the direct combined-fact recall is the sticking point. Gave memory anchor for virtual temperature: "moist air acts warmer than it really is."

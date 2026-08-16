@@ -207,7 +207,13 @@ existing entries if the same topic keeps recurring. Format:
 **Q:** Same actual temperature/pressure, one dry one moist parcel — how does the moist parcel's virtual temperature compare to its actual temperature?
 **Your answer:** A (Equal — virtual temp only applies to dry air) — **Correct:** B (Higher — reflects that it behaves like less-dense/warmer dry air)
 **Why:** notes/Atmosphere.md: virtual temperature is the temperature dry air would need to match the density of the actual moist parcel. Moist air is less dense than dry air at the same real temperature, so the equivalent dry-air (virtual) temperature must be higher to produce that same lower density.
-**Seen before:** no, count 1
+**Seen before:** yes, count 3 — missed again twice more on 2026-08-16 (once picking "equal" again, once picking "lower" via a density-reasoning question). Persistent misconception despite correctly explaining virtual temperature's *purpose* each time. Memory anchor given: "moist air acts warmer than it really is" → virtual temp > actual temp, always.
+
+## 2026-08-16 — Equatorial tropopause height+temperature pairing
+**Q:** How does the equatorial tropopause compare to the polar tropopause, on both height and temperature together?
+**Your answer:** B (Higher and warmer) — **Correct:** C (Higher and colder)
+**Why:** notes/Atmosphere.md: the two facts must be held together — the equatorial tropopause is higher AND colder simultaneously, with the greater height being the *cause* of the colder temperature (longer ascent through a falling-temperature profile), not a contradiction. Student explains the mechanism correctly when asked separately but picks the wrong combined pairing when both facts are tested together.
+**Seen before:** yes, count 3 — remains unresolved despite one correct mechanism-explanation answer in the same session.
 
 ## 2026-08-16 — Equatorial tropopause paradox (height + cold, together)
 **Q:** Why is the equatorial tropopause both higher AND colder than the polar tropopause?
