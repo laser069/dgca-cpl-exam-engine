@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.62
-questions_attempted: 60
+accuracy: 0.61
+questions_attempted: 70
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -36,13 +36,17 @@ weak_topics:
   - Greenhouse gases (CO₂/H₂O)
   - ISA lapse-rate cutoff altitude (36,090 ft vs half-mass ~18-20,000 ft confusion)
   - Latent heat of vaporisation magnitude (>5x rule)
-  - Ideal gas law form (p = ρRT) (new)
-  - Troposphere's share of atmospheric mass (~75%, not ~95%) (new)
-  - Mesosphere temperature trend (decreases with height) (new)
-  - Dominant atmospheric heat-transfer mechanism (radiation, not convection) (new)
+  - Ideal gas law form (p = ρRT)
+  - Troposphere's share of atmospheric mass (~75%, not ~95%)
+  - Mesosphere temperature trend (decreases with height)
+  - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
+  - Fahrenheit to Celsius conversion arithmetic (new)
+  - Stefan-Boltzmann Law (T⁴, not T²) (new)
+  - Conduction's limited zone (near-ground only) (new)
+  - ISA isothermal layer upper bound (~65,000 ft) (new)
 revision_due:
+  - Atmosphere (priority — 35 questions attempted, several recurring gaps)
   - Clouds
-  - Atmosphere
   - Stability
   - Visibility
   - JetStreams
@@ -118,3 +122,14 @@ history:
       - Mesosphere temperature trend
       - Dominant heat-transfer mechanism (radiation)
     notes: Student requested quiz be shortened from 20 to 10 questions mid-session.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Fahrenheit to Celsius conversion
+      - Stefan-Boltzmann Law (T^4)
+      - Conduction's limited zone
+      - ISA isothermal layer upper bound (65,000 ft)
+    notes: Fourth consecutive Atmosphere quiz — 35 Atmosphere questions attempted total. Chapter revision strongly recommended before further drilling.

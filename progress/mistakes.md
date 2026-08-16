@@ -148,3 +148,27 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** B (Convection) — **Correct:** C (Radiation)
 **Why:** notes/Atmosphere.md: radiation needs no medium and drives the fundamental short-wave-in/long-wave-out energy balance — the dominant mechanism overall. Conduction matters only very near the ground; convection is important but secondary to radiation.
 **Seen before:** no, count 1
+
+## 2026-08-16 — Fahrenheit to Celsius conversion
+**Q:** Convert 86°F to Celsius.
+**Your answer:** 101 — **Correct:** 30°C
+**Why:** °C = (°F − 32) × 5/9 = (86−32) × 5/9 = 54 × 5/9 = 30°C. Apparent formula/arithmetic mix-up.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Stefan-Boltzmann Law
+**Q:** Radiated energy is proportional to which power of temperature?
+**Your answer:** B (T²) — **Correct:** C (T⁴)
+**Why:** notes/Atmosphere.md: Stefan-Boltzmann Law — radiated energy ∝ T⁴. Small temperature differences produce large radiated-energy differences (why the sun radiates so much more intensely than Earth).
+**Seen before:** no, count 1
+
+## 2026-08-16 — Conduction's zone of significance
+**Q:** Where is conduction (molecular contact) significant as a heat-transfer mechanism in the atmosphere?
+**Your answer:** A (Throughout the troposphere equally) — **Correct:** B (Only very near the ground)
+**Why:** notes/Atmosphere.md: conduction is dominant only very near the ground; air is otherwise a poor conductor, with radiation/convection dominating away from the surface.
+**Seen before:** no, count 1
+
+## 2026-08-16 — ISA isothermal layer upper bound
+**Q:** The −56.5°C isothermal layer above 36,090 ft persists up to approximately what altitude?
+**Your answer:** A (45,000 ft) — **Correct:** C (65,000 ft)
+**Why:** notes/Atmosphere.md: ISA lapse rate 1.98°C/1000 ft up to 36,090 ft, then constant −56.5°C up to ~65,000 ft.
+**Seen before:** no, count 1
