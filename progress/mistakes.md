@@ -124,3 +124,27 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** D (No additional heat needed) — **Correct:** C (More than 5× as much heat)
 **Why:** notes/Atmosphere.md: converting already-boiling water to vapour takes >5× the heat needed to bring the same ice-cold water to the boil — that "extra" heat is latent heat, the physical driver of cloud/storm energy release.
 **Seen before:** no, count 1
+
+## 2026-08-16 — Ideal gas law form
+**Q:** Which equation correctly links pressure, density, and temperature for air as an ideal gas?
+**Your answer:** B (p = ρ/RT) — **Correct:** A (p = ρRT)
+**Why:** notes/Atmosphere.md: pressure is directly proportional to density and temperature (p = ρRT), not inversely related.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Troposphere's share of atmospheric mass
+**Q:** Approximately what fraction of the atmosphere's total mass is in the troposphere?
+**Your answer:** D (~95%) — **Correct:** C (~75%)
+**Why:** notes/Atmosphere.md: troposphere contains ~75% of atmospheric mass and nearly all weather/water vapour. Don't confuse with the separate "~half of atmospheric mass below ~18-20,000 ft" fact from notes/Fronts.md.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Mesosphere temperature trend
+**Q:** How does temperature behave with height in the mesosphere?
+**Your answer:** A (Increases) — **Correct:** C (Decreases)
+**Why:** notes/Atmosphere.md: mesosphere temperature decreases with height again (between the warming stratosphere below and warming thermosphere above) — coldest layer overall, where noctilucent clouds form.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Dominant atmospheric heat-transfer mechanism
+**Q:** Which heat-transfer mechanism is dominant overall in the atmosphere?
+**Your answer:** B (Convection) — **Correct:** C (Radiation)
+**Why:** notes/Atmosphere.md: radiation needs no medium and drives the fundamental short-wave-in/long-wave-out energy balance — the dominant mechanism overall. Conduction matters only very near the ground; convection is important but secondary to radiation.
+**Seen before:** no, count 1

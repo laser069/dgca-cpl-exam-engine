@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.62
-questions_attempted: 50
+questions_attempted: 60
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -33,9 +33,13 @@ weak_topics:
   - CAT location relative to jet-stream core (cold/poleward side)
   - Mixing ratio vs relative humidity conservation on ascent
   - Primary vs secondary rainbow radius (42° vs 52°)
-  - Greenhouse gases (CO₂/H₂O) (new)
-  - ISA lapse-rate cutoff altitude (36,090 ft vs half-mass ~18-20,000 ft confusion) (new)
-  - Latent heat of vaporisation magnitude (>5x rule) (new)
+  - Greenhouse gases (CO₂/H₂O)
+  - ISA lapse-rate cutoff altitude (36,090 ft vs half-mass ~18-20,000 ft confusion)
+  - Latent heat of vaporisation magnitude (>5x rule)
+  - Ideal gas law form (p = ρRT) (new)
+  - Troposphere's share of atmospheric mass (~75%, not ~95%) (new)
+  - Mesosphere temperature trend (decreases with height) (new)
+  - Dominant atmospheric heat-transfer mechanism (radiation, not convection) (new)
 revision_due:
   - Clouds
   - Atmosphere
@@ -103,3 +107,14 @@ history:
       - ISA lapse-rate cutoff altitude (36,090 ft)
       - Latent heat of vaporisation magnitude
     notes: Best chapter-quiz score yet. Self-corrected Q4 mid-quiz (minimum temp timing), counted as correct.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Ideal gas law form
+      - Troposphere mass share
+      - Mesosphere temperature trend
+      - Dominant heat-transfer mechanism (radiation)
+    notes: Student requested quiz be shortened from 20 to 10 questions mid-session.
