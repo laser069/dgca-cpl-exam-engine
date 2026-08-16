@@ -287,8 +287,17 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/MetInformation.md: −0.5°C rounds to 00 in magnitude (not up to 01), but still carries the M prefix since the actual value was negative. The M prefix and the rounding are separate steps.
 **Seen before:** no, count 1
 
-## 2026-08-16 — Fog-timing calculation (formula application)
+## 2026-08-16 — Fog-timing calculation (formula application) — CLEARED on 2026-08-16
 **Q:** Temp 30°C, dew point 20°C, cooling rate 2°C/hr — hours until fog?
 **Your answer:** 10 — **Correct:** 5 hours (spread 10°C ÷ rate 2°C/hr)
 **Why:** notes/Thermodynamics.md / notes/Fog.md: time to saturation = spread ÷ cooling rate. Student stated the spread (10) without completing the division.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly twice on retest 2026-08-16 (4 hrs and 5 hrs scenarios) — cleared.
+
+## 2026-08-16 — Mixing ratio vs RH on ascent — RE-CLEARED on 2026-08-16
+**Note:** Relapsed earlier in the session, answered correctly again on immediate retest — re-cleared.
+
+## 2026-08-16 — METAR negative dew point rounding, small magnitude (2nd miss)
+**Q:** Dry bulb −0.3°C, dew point −8.0°C — correct METAR encoding?
+**Your answer:** C (M01/M08) — **Correct:** B (M00/M08)
+**Why:** notes/MetInformation.md: round the magnitude first (0.3 rounds to 0), then reattach the M prefix since the original value was negative → M00. Same rounding-up error as the −0.5°C case earlier — specifically affects small negative values close to zero. Correctly handled the small-*positive* case (0.2°C → 00, no M) in the same session, so the error is isolated to the negative-magnitude-rounding step specifically.
+**Seen before:** yes, count 2 — recurring on this specific sub-case (small negative magnitudes), needs targeted drilling with several examples near zero.
