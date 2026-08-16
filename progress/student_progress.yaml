@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.57
-questions_attempted: 35
+accuracy: 0.60
+questions_attempted: 40
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -20,16 +20,18 @@ strong_topics:
   - True altitude: warm vs cold air mass at fixed indicated altitude
   - CB life-cycle staging (mature stage most hazardous)
   - Oktas coding (FEW/SCT/BKN/OVC) — correct on 3rd attempt after 2 prior misses, watch for recurrence
+  - Optical phenomena: halo (Cirrostratus), glory, Bishop's Ring, inferior mirage
 weak_topics:
   - Nacreous vs noctilucent cloud layers — persistent swap, not yet retested
   - CB anvil hail hazard outside visible cell — 2 misses, not yet retested
   - Halo vs corona: cloud source and icing-risk implication
   - Moist vs dry air density
   - ISA lapse-rate numerical sign discipline
-  - Stability classification (ELR vs DALR/SALR → conditionally unstable) (new)
-  - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal) (new)
-  - CAT location relative to jet-stream core (cold/poleward side) (new)
-  - Mixing ratio vs relative humidity conservation on ascent (new)
+  - Stability classification (ELR vs DALR/SALR → conditionally unstable)
+  - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal)
+  - CAT location relative to jet-stream core (cold/poleward side)
+  - Mixing ratio vs relative humidity conservation on ascent
+  - Primary vs secondary rainbow radius (42° vs 52°) (new)
 revision_due:
   - Clouds
   - Atmosphere
@@ -79,3 +81,11 @@ history:
       - CAT location relative to jet core
       - Mixing ratio vs relative humidity on ascent
     notes: Oktas coding correct this round after 2 prior misses.
+  - date: "2026-08-16"
+    chapter: Clouds (Optical Phenomena)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - Primary vs secondary rainbow radius (42° vs 52°)
+    notes: Strongest single-topic session — halo, glory, Bishop's Ring, inferior mirage all correct.

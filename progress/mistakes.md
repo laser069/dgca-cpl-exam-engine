@@ -100,3 +100,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** D (Both RH and mixing ratio) — **Correct:** B (Mixing ratio only)
 **Why:** notes/Thermodynamics.md: mixing ratio is conserved (no water added/removed); RH is NOT conserved — it rises as the parcel cools toward saturation. "Both" is a trap combining the two.
 **Seen before:** no, count 1
+
+## 2026-08-16 — Primary vs secondary rainbow radius
+**Q:** Radius of the primary rainbow (red outside, violet inside)?
+**Your answer:** C (52°) — **Correct:** B (42°)
+**Why:** notes/Clouds.md Optical Phenomena: primary bow = 42° radius; the fainter secondary bow (colours reversed) sits outside it at 52°. Student picked the secondary bow's radius for the primary.
+**Seen before:** no, count 1
