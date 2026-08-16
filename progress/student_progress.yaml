@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.71
-questions_attempted: 165
+accuracy: 0.70
+questions_attempted: 170
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -55,7 +55,9 @@ weak_topics:
   - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal)
   - CAT location relative to jet-stream core (cold/poleward side)
   - Primary vs secondary rainbow radius (42° vs 52°)
-  - Dew point invariance under heating — 3rd miss, ONLY in applied/numeric-scenario form (knows the rule abstractly, misapplies it with specific numbers). Rule of thumb: "no moisture added/removed" ⇒ dew point is the number that does NOT move.
+  - Mixing ratio vs RH conservation on ascent — RELAPSED (previously cleared, now missed again with a new "both stay constant" distractor)
+  - METAR negative dew point rounding (M00, not M01, for −0.5°C) (new)
+  - Fog-timing calculation — formula application error (stated spread, forgot to divide by rate) (new)
   - Latent heat of vaporisation magnitude (>5x rule)
   - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
   - NE Monsoon season/character (winter, cool, dry — not summer/wet)
@@ -267,3 +269,13 @@ history:
     weak_topics:
       - Dew point invariance under heating (3rd miss, applied/numeric form only)
     notes: 3rd Humidity session. RH formula direction cleared. Dew point invariance identified as a specific abstract-vs-applied gap — correctly states the rule but misapplies it with concrete numbers. Needs numeric-scenario drilling, not more definition questions.
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity, DGCA-model)
+    questions: 5
+    correct: 2
+    accuracy: 0.40
+    weak_topics:
+      - Mixing ratio vs RH on ascent (relapsed)
+      - METAR negative dew point rounding (M00 vs M01)
+      - Fog-timing calculation (formula application)
+    notes: 4th Humidity session. Good news — dew point invariance (3-time recurring weak topic) finally cleared with a correct numeric-scenario answer. But mixing ratio/RH relapsed, and two new formula-application slips appeared (METAR rounding, fog-timing division).

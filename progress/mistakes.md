@@ -273,4 +273,22 @@ existing entries if the same topic keeps recurring. Format:
 **Q:** A parcel is heated with no moisture added/removed — what happens to its dew point?
 **Your answer:** A (Rises with temperature) — **Correct:** C (Stays exactly the same)
 **Why:** notes/Thermodynamics.md: dew point changes only with water-vapour content, not temperature. Warming/cooling with no moisture change alters RH but not dew point.
-**Seen before:** yes, count 2. Missed a 3rd time on 2026-08-16 in concrete numeric-scenario form ("parcel cools 25°C→18°C, dew point started at 15°C — what's the dew point now?" — answered 18°C instead of 15°C), despite correctly stating the abstract rule ("dew point changes only with water-vapour content") in the very same session. Pattern: knows the rule abstractly, misapplies it when given specific numbers. Needs numeric-scenario drilling specifically, not more definition-recall questions.
+**Seen before:** yes, count 2. Missed a 3rd time on 2026-08-16 in concrete numeric-scenario form ("parcel cools 25°C→18°C, dew point started at 15°C — what's the dew point now?" — answered 18°C instead of 15°C), despite correctly stating the abstract rule ("dew point changes only with water-vapour content") in the very same session. CLEARED on 2026-08-16 — answered a near-identical numeric scenario (22°C→16°C, dew point 14°C) correctly in the very next session.
+
+## 2026-08-16 — Mixing ratio vs RH on ascent (relapse)
+**Q:** Which stays constant for an unsaturated rising parcel — mixing ratio or RH?
+**Your answer:** C (Both remain constant) — **Correct:** B (Mixing ratio only)
+**Why:** notes/Thermodynamics.md: mixing ratio is conserved; RH rises as the parcel cools toward saturation, even while unsaturated. This concept was previously cleared but relapsed with a new wrong distractor ("both").
+**Seen before:** yes — previously cleared, now relapsed. Watch for "both X and Y stay constant" as a recurring trap phrasing across topics.
+
+## 2026-08-16 — METAR negative dew point rounding (M00 vs M01)
+**Q:** Dry bulb −0.5°C, dew point −9.0°C — correct METAR encoding?
+**Your answer:** C (M01/M09) — **Correct:** B (M00/M09)
+**Why:** notes/MetInformation.md: −0.5°C rounds to 00 in magnitude (not up to 01), but still carries the M prefix since the actual value was negative. The M prefix and the rounding are separate steps.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Fog-timing calculation (formula application)
+**Q:** Temp 30°C, dew point 20°C, cooling rate 2°C/hr — hours until fog?
+**Your answer:** 10 — **Correct:** 5 hours (spread 10°C ÷ rate 2°C/hr)
+**Why:** notes/Thermodynamics.md / notes/Fog.md: time to saturation = spread ÷ cooling rate. Student stated the spread (10) without completing the division.
+**Seen before:** no, count 1
