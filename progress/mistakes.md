@@ -208,3 +208,27 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (Equal — virtual temp only applies to dry air) — **Correct:** B (Higher — reflects that it behaves like less-dense/warmer dry air)
 **Why:** notes/Atmosphere.md: virtual temperature is the temperature dry air would need to match the density of the actual moist parcel. Moist air is less dense than dry air at the same real temperature, so the equivalent dry-air (virtual) temperature must be higher to produce that same lower density.
 **Seen before:** no, count 1
+
+## 2026-08-16 — Equatorial tropopause paradox (height + cold, together)
+**Q:** Why is the equatorial tropopause both higher AND colder than the polar tropopause?
+**Your answer:** C (Only higher in summer) — **Correct:** B (Stronger convection pushes it higher; falling temperature through that longer ascent makes it colder BECAUSE it's higher)
+**Why:** notes/Atmosphere.md: this is a year-round latitude effect (convective intensity), not a seasonal one. Missed twice now with different wrong distractors each time — genuinely sticky concept.
+**Seen before:** yes, count 2 — recurring, needs dedicated re-read.
+
+## 2026-08-16 — True altitude in warmer-than-ISA air
+**Q:** Aircraft at constant indicated altitude flies into air warmer than ISA — what happens to true altitude?
+**Your answer:** A (Lower than indicated) — **Correct:** B (Higher than indicated)
+**Why:** notes/Pressure.md: "ISA warm, true high; ISA cold, true low." Pressure levels are more vertically spread out in warm air, so the aircraft is physically higher than the altimeter (calibrated to ISA) suggests. Student correctly answered the cold-air case (Q9, same session) but reversed the warm-air case — knows one direction, not both.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Coldest point in the vertical atmospheric profile
+**Q:** At which layer boundary does temperature reach its overall minimum before rising again with height?
+**Your answer:** A (Tropopause) — **Correct:** C (Mesopause)
+**Why:** notes/Atmosphere.md: temperature falls through the troposphere, holds isothermal then rises through the stratosphere, falls again through the mesosphere to its absolute minimum at the mesopause (~85 km), then rises through the thermosphere. Tropopause is a transition to isothermal, not the true minimum.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Convection vs turbulence (thermal formation mechanism)
+**Q:** Which mechanism explains warm air rising from a sun-heated runway, forming thermals a glider can climb?
+**Your answer:** D (Turbulence — eddy redistribution only) — **Correct:** B (Convection — free convection from surface heating)
+**Why:** notes/Atmosphere.md: convection is organized rising current from surface heating (thermals); turbulence is chaotic eddy mixing without that organized structure. The two are frequently confused.
+**Seen before:** no, count 1

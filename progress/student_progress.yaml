@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.71
-questions_attempted: 118
+accuracy: 0.70
+questions_attempted: 128
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -54,7 +54,11 @@ weak_topics:
   - Latent heat of vaporisation magnitude (>5x rule)
   - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
   - NE Monsoon season/character (winter, cool, dry — not summer/wet)
-  - Virtual temperature: moist parcel's virtual temp is higher (not equal) to actual temp (new)
+  - Virtual temperature: moist parcel's virtual temp is higher (not equal) to actual temp
+  - Equatorial tropopause paradox (higher AND colder, year-round latitude effect) — 2 misses
+  - True altitude in warmer-than-ISA air (knows cold-air case, not warm-air case)
+  - Mesopause as the coldest point in the vertical atmospheric profile
+  - Convection vs turbulence (organized thermal vs chaotic eddy mixing)
 revision_due:
   - Clouds
   - Stability
@@ -200,3 +204,14 @@ history:
     weak_topics:
       - Virtual temperature (moist vs dry parcel comparison direction)
     notes: 9th Atmosphere session — tougher combined-concept questions requested. Quiz ended early at student's request after Q4 (Q3 and Q5 posed but not answered/scored). ISA isothermal cutoff and Wien's/Stefan-Boltzmann combined reasoning both correct even at higher difficulty.
+  - date: "2026-08-16"
+    chapter: Atmosphere (tough/combined-concept)
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Equatorial tropopause paradox (2nd miss)
+      - True altitude in warmer-than-ISA air
+      - Mesopause as coldest layer boundary
+      - Convection vs turbulence
+    notes: 10th Atmosphere session, full tough-difficulty round with per-question answer reveal (student requested immediate feedback after each answer). 60% at this difficulty is a fair result — reveals which concepts are solid vs merely memorized after near-perfect standard-difficulty rounds.
