@@ -202,3 +202,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** D (~0.1%) — **Correct:** C (~1%)
 **Why:** notes/Atmosphere.md: dry air is ~78% nitrogen, ~21% oxygen, ~1% argon and trace gases.
 **Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
+
+## 2026-08-16 — Virtual temperature: moist vs dry parcel comparison
+**Q:** Same actual temperature/pressure, one dry one moist parcel — how does the moist parcel's virtual temperature compare to its actual temperature?
+**Your answer:** A (Equal — virtual temp only applies to dry air) — **Correct:** B (Higher — reflects that it behaves like less-dense/warmer dry air)
+**Why:** notes/Atmosphere.md: virtual temperature is the temperature dry air would need to match the density of the actual moist parcel. Moist air is less dense than dry air at the same real temperature, so the equivalent dry-air (virtual) temperature must be higher to produce that same lower density.
+**Seen before:** no, count 1
