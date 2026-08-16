@@ -101,23 +101,23 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Thermodynamics.md: mixing ratio is conserved (no water added/removed); RH is NOT conserved — it rises as the parcel cools toward saturation. "Both" is a trap combining the two.
 **Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
-## 2026-08-16 — Mixing ratio vs absolute humidity (naming)
+## 2026-08-16 — Mixing ratio vs absolute humidity (naming) — CLEARED on 2026-08-16
 **Q:** Which quantity is mass of vapour per unit mass of dry air, unaffected by pressure/volume changes on ascent?
 **Your answer:** A (Absolute humidity) — **Correct:** C (Mixing ratio)
-**Why:** notes/Thermodynamics.md: absolute humidity is mass per unit *volume* (changes as the parcel expands on ascent); mixing ratio is mass per unit mass of *dry air* (conserved on ascent). Student answered the immediate follow-up question correctly, so the concept is understood but the label got swapped here.
-**Seen before:** no, count 1
+**Why:** notes/Thermodynamics.md: absolute humidity is mass per unit *volume* (changes as the parcel expands on ascent); mixing ratio is mass per unit mass of *dry air* (conserved on ascent).
+**Seen before:** no, count 1. Answered correctly on immediate retry 2026-08-16 — cleared.
 
-## 2026-08-16 — Saturated air T/Tw/Td relationship
+## 2026-08-16 — Saturated air T/Tw/Td relationship — CLEARED on 2026-08-16
 **Q:** For saturated air (fog, rain), what is the relationship between temperature, wet-bulb temperature, and dew point?
 **Your answer:** A (T > Tw > Td, the unsaturated relationship) — **Correct:** B (T = Tw = Td)
-**Why:** notes/Thermodynamics.md: saturated air (100% RH) has all three converge to the same value; T > Tw > Td is specifically the *unsaturated* case. Student applied the general/unsaturated rule where the saturated special case was required.
-**Seen before:** no, count 1
+**Why:** notes/Thermodynamics.md: saturated air (100% RH) has all three converge to the same value; T > Tw > Td is specifically the *unsaturated* case.
+**Seen before:** no, count 1. Answered correctly on immediate retry 2026-08-16 — cleared.
 
-## 2026-08-16 — Supercooled water droplet temperature limits
+## 2026-08-16 — Supercooled water droplet temperature limits — CLEARED on 2026-08-16
 **Q:** Down to what temperature can supercooled water persist liquid in ordinary cloud, and in a CB?
 **Your answer:** A (−10°C ordinary, −15°C in CB) — **Correct:** C (−40°C ordinary, −45°C in CB)
-**Why:** notes/Thermodynamics.md / notes/Icing.md: supercooled droplets persist liquid down to about −40°C in ordinary cloud, −45°C in a CB (stronger updraughts keep droplets airborne and liquid longer) — the physical basis for CB's deep-layer icing risk.
-**Seen before:** no, count 1
+**Why:** notes/Thermodynamics.md / notes/Icing.md: supercooled droplets persist liquid down to about −40°C in ordinary cloud, −45°C in a CB (stronger updraughts keep droplets airborne and liquid longer).
+**Seen before:** no, count 1. Answered correctly on immediate retry 2026-08-16 — cleared.
 
 ## 2026-08-16 — Primary vs secondary rainbow radius
 **Q:** Radius of the primary rainbow (red outside, violet inside)?

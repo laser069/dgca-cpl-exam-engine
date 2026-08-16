@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.70
-questions_attempted: 147
+accuracy: 0.71
+questions_attempted: 150
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -23,6 +23,9 @@ strong_topics:
   - Kelvin conversion, Bergeron-Findeisen process, SH Low rotation (clockwise)
   - Mixing ratio vs relative humidity conservation on ascent — cleared 2026-08-16
   - Dew point definition, RH-vs-temperature behavior, dew point invariance, radiation fog setup, RH formula, wet-bulb temperature definition
+  - Mixing ratio vs absolute humidity naming — cleared 2026-08-16
+  - Saturated air T/Tw/Td relationship — cleared 2026-08-16
+  - Supercooled water droplet temperature limits — cleared 2026-08-16
   - Stefan-Boltzmann Law (T⁴) — cleared 2026-08-16
   - Conduction's near-ground-only zone — cleared 2026-08-16
   - Moist vs dry air density — cleared 2026-08-16
@@ -52,9 +55,6 @@ weak_topics:
   - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal)
   - CAT location relative to jet-stream core (cold/poleward side)
   - Primary vs secondary rainbow radius (42° vs 52°)
-  - Mixing ratio vs absolute humidity (naming, not concept) (new)
-  - Saturated air T/Tw/Td relationship (T=Tw=Td, not T>Tw>Td) (new)
-  - Supercooled water droplet temperature limits (−40°C/−45°C) (new)
   - Latent heat of vaporisation magnitude (>5x rule)
   - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
   - NE Monsoon season/character (winter, cool, dry — not summer/wet)
@@ -242,3 +242,10 @@ history:
       - Saturated air T/Tw/Td relationship
       - Supercooled water droplet temperature limits
     notes: Cleared the previously-flagged "mixing ratio vs RH on ascent" weak topic. Dew point, RH formula, wet-bulb definition, and radiation fog setup all solid.
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity retry)
+    questions: 3
+    correct: 3
+    accuracy: 1.00
+    weak_topics: []
+    notes: Immediate retry of all 3 misses from the Humidity round — clean sweep, all cleared.
