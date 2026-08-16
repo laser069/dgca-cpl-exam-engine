@@ -256,3 +256,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** D (Turbulence — eddy redistribution only) — **Correct:** B (Convection — free convection from surface heating)
 **Why:** notes/Atmosphere.md: convection is organized rising current from surface heating (thermals); turbulence is chaotic eddy mixing without that organized structure.
 **Seen before:** no, count 1. Answered correctly on immediate retry 2026-08-16 — cleared.
+
+## 2026-08-16 — RH formula direction
+**Q:** Which formula correctly expresses relative humidity?
+**Your answer:** D (saturation vapour pressure ÷ actual vapour pressure × 100, inverted) — **Correct:** B (actual vapour pressure ÷ saturation vapour pressure × 100)
+**Why:** notes/Thermodynamics.md: RH(%) = (actual HMR/vapour pressure ÷ saturated HMR/vapour pressure) × 100. Student inverted the ratio.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Dew point invariance under heating (2nd miss)
+**Q:** A parcel is heated with no moisture added/removed — what happens to its dew point?
+**Your answer:** A (Rises with temperature) — **Correct:** C (Stays exactly the same)
+**Why:** notes/Thermodynamics.md: dew point changes only with water-vapour content, not temperature. Warming/cooling with no moisture change alters RH but not dew point. This is the second time this exact fact has been missed (previously as part of a broader question set) — genuinely sticky misconception that dew point tracks temperature like RH does.
+**Seen before:** yes, count 2 — recurring, needs dedicated reinforcement (dew point ≠ RH is the core distinction to drill).
