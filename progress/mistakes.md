@@ -76,3 +76,27 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** 1 (implied +1°C) — **Correct:** ≈ −1°C (15 − 1.98×8 = −0.84°C)
 **Why:** Dropped the negative sign — at 8,000 ft under ISA the air is just below freezing, not above it. Lapse-rate arithmetic was right in method, sign discipline was the error.
 **Seen before:** no, count 1
+
+## 2026-08-16 — Stability classification (ELR vs DALR/SALR)
+**Q:** ELR = 2.2°C/1000 ft, DALR ≈ 3°C/1000 ft, SALR ≈ 1.5°C/1000 ft — classify the atmosphere.
+**Your answer:** A (Absolutely stable) — **Correct:** C (Conditionally unstable)
+**Why:** notes/Stability.md: ELR between SALR and DALR = conditionally unstable (stable while dry, unstable once saturated). Absolutely stable requires ELR below the SALR entirely.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Visibility vs synoptic pressure pattern
+**Q:** Which synoptic pattern favours poor visibility — active Low with rain, or stagnant High/col?
+**Your answer:** A (Low-pressure system with rain) — **Correct:** B (Stagnant High-pressure/col)
+**Why:** notes/Visibility.md: counter-intuitively, unsettled Low-pressure weather often brings *good* visibility (rain washes out particulates, wind disperses haze); calm High-pressure/col conditions let haze/smoke/fog accumulate undisturbed — the classic DGCA reversal trap.
+**Seen before:** no, count 1
+
+## 2026-08-16 — CAT location relative to jet-stream core
+**Q:** Clear Air Turbulence is most often encountered on which side of the jet core?
+**Your answer:** A (Warm/equatorward side) — **Correct:** B (Cold/poleward side, near the core and tropopause)
+**Why:** notes/JetStreams.md: CAT concentrates on the cold (poleward) side of the jet, near the core, near the tropopause, where shear is strongest.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Mixing ratio vs relative humidity on ascent
+**Q:** Which quantity stays constant for an unsaturated parcel rising without gaining/losing moisture?
+**Your answer:** D (Both RH and mixing ratio) — **Correct:** B (Mixing ratio only)
+**Why:** notes/Thermodynamics.md: mixing ratio is conserved (no water added/removed); RH is NOT conserved — it rises as the parcel cools toward saturation. "Both" is a trap combining the two.
+**Seen before:** no, count 1

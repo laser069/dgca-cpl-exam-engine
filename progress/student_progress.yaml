@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.56
-questions_attempted: 25
+accuracy: 0.57
+questions_attempted: 35
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -14,16 +14,29 @@ strong_topics:
   - Atmosphere heated from below (radiation short-wave/long-wave)
   - Equatorial vs polar tropopause height/temperature
   - Heat vs temperature (thermosphere low heat content)
+  - Coriolis force vs latitude (zero at equator, max at poles)
+  - Radiation fog formation conditions
+  - Icing severity vs temperature band
+  - True altitude: warm vs cold air mass at fixed indicated altitude
+  - CB life-cycle staging (mature stage most hazardous)
+  - Oktas coding (FEW/SCT/BKN/OVC) — correct on 3rd attempt after 2 prior misses, watch for recurrence
 weak_topics:
-  - Oktas coding (FEW/SCT/BKN/OVC ranges) — 2nd miss
-  - Nacreous vs noctilucent cloud layers — 2nd miss, persistent swap
-  - CB anvil hail hazard outside visible cell — 2nd miss
+  - Nacreous vs noctilucent cloud layers — persistent swap, not yet retested
+  - CB anvil hail hazard outside visible cell — 2 misses, not yet retested
   - Halo vs corona: cloud source and icing-risk implication
-  - Moist vs dry air density (new)
-  - ISA lapse-rate numerical sign discipline (new)
+  - Moist vs dry air density
+  - ISA lapse-rate numerical sign discipline
+  - Stability classification (ELR vs DALR/SALR → conditionally unstable) (new)
+  - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal) (new)
+  - CAT location relative to jet-stream core (cold/poleward side) (new)
+  - Mixing ratio vs relative humidity conservation on ascent (new)
 revision_due:
   - Clouds
   - Atmosphere
+  - Stability
+  - Visibility
+  - JetStreams
+  - Thermodynamics
 last_updated: "2026-08-16"
 history:
   - date: "2026-08-15"
@@ -55,3 +68,14 @@ history:
     weak_topics:
       - Moist vs dry air density
       - ISA lapse-rate numerical sign discipline
+  - date: "2026-08-16"
+    chapter: Mixed (Wind, Fog, Stability, Icing, Fronts, Thunderstorms, Visibility, Clouds, JetStreams, Thermodynamics)
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Stability classification (ELR vs DALR/SALR)
+      - Visibility vs synoptic pattern reversal
+      - CAT location relative to jet core
+      - Mixing ratio vs relative humidity on ascent
+    notes: Oktas coding correct this round after 2 prior misses.
