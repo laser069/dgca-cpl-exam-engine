@@ -64,3 +64,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (Nil) — **Correct:** B (Present — hail can fall from the anvil well outside the visible cell)
 **Why:** notes/Clouds.md DGCA Important Facts: hail under a CB anvil is a real hazard even in apparently clear air nearby.
 **Seen before:** yes, count 2 — recurring weak topic.
+
+## 2026-08-16 — Moist vs dry air density
+**Q:** At the same pressure and temperature, how does moist air density compare to dry air density?
+**Your answer:** C (Identical — P and T alone determine density) — **Correct:** B (Moist air is less dense)
+**Why:** notes/Atmosphere.md: water vapour molecules (MW ~18) are lighter than the N₂/O₂ they displace (MW ~29), so at constant P/T moist air is less dense than dry air — density is not determined by P and T alone, composition matters too.
+**Seen before:** no, count 1
+
+## 2026-08-16 — ISA lapse rate numerical (sign error)
+**Q:** ISA temperature at 8,000 ft (sea-level 15°C)?
+**Your answer:** 1 (implied +1°C) — **Correct:** ≈ −1°C (15 − 1.98×8 = −0.84°C)
+**Why:** Dropped the negative sign — at 8,000 ft under ISA the air is just below freezing, not above it. Lapse-rate arithmetic was right in method, sign discipline was the error.
+**Seen before:** no, count 1

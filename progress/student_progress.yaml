@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.55
-questions_attempted: 20
+accuracy: 0.56
+questions_attempted: 25
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -11,13 +11,19 @@ strong_topics:
   - Nimbostratus multi-level vertical extent (base = low, extends through levels)
   - Orographic formation → lenticular/standing-wave cloud
   - CB overshooting tops into the lower stratosphere
+  - Atmosphere heated from below (radiation short-wave/long-wave)
+  - Equatorial vs polar tropopause height/temperature
+  - Heat vs temperature (thermosphere low heat content)
 weak_topics:
   - Oktas coding (FEW/SCT/BKN/OVC ranges) — 2nd miss
   - Nacreous vs noctilucent cloud layers — 2nd miss, persistent swap
   - CB anvil hail hazard outside visible cell — 2nd miss
-  - Halo vs corona: cloud source and icing-risk implication (new)
+  - Halo vs corona: cloud source and icing-risk implication
+  - Moist vs dry air density (new)
+  - ISA lapse-rate numerical sign discipline (new)
 revision_due:
   - Clouds
+  - Atmosphere
 last_updated: "2026-08-16"
 history:
   - date: "2026-08-15"
@@ -41,3 +47,11 @@ history:
       - Nacreous/noctilucent layer swap (recurring)
       - CB anvil hail hazard (recurring)
       - Halo vs corona / icing implication (new)
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 5
+    correct: 3
+    accuracy: 0.60
+    weak_topics:
+      - Moist vs dry air density
+      - ISA lapse-rate numerical sign discipline
