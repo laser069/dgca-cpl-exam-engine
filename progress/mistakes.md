@@ -106,3 +106,21 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (52°) — **Correct:** B (42°)
 **Why:** notes/Clouds.md Optical Phenomena: primary bow = 42° radius; the fainter secondary bow (colours reversed) sits outside it at 52°. Student picked the secondary bow's radius for the primary.
 **Seen before:** no, count 1
+
+## 2026-08-16 — Greenhouse gases
+**Q:** Which two gases are the atmosphere's "greenhouse gases"?
+**Your answer:** C (Argon and Ozone) — **Correct:** B (CO₂ and H₂O)
+**Why:** notes/Atmosphere.md DGCA Important Facts: CO₂ and H₂O are the greenhouse gases — they absorb outgoing long-wave terrestrial radiation. Argon is inert; ozone's key role is stratospheric UV absorption, a separate fact.
+**Seen before:** no, count 1
+
+## 2026-08-16 — ISA lapse-rate cutoff altitude
+**Q:** At what altitude does the ISA lapse rate (1.98°C/1000 ft) stop, becoming isothermal at −56.5°C?
+**Your answer:** A (18,000 ft) — **Correct:** C (36,090 ft)
+**Why:** notes/Atmosphere.md: ISA lapse rate applies up to 36,090 ft. 18,000–20,000 ft is a different fact (roughly half the atmosphere's mass lies below that level) — don't conflate the two altitude figures.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Latent heat of vaporisation magnitude
+**Q:** How much extra heat does converting boiling water to vapour need vs heating ice-cold water to boiling?
+**Your answer:** D (No additional heat needed) — **Correct:** C (More than 5× as much heat)
+**Why:** notes/Atmosphere.md: converting already-boiling water to vapour takes >5× the heat needed to bring the same ice-cold water to the boil — that "extra" heat is latent heat, the physical driver of cloud/storm energy release.
+**Seen before:** no, count 1

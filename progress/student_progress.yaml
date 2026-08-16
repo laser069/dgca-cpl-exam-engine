@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.60
-questions_attempted: 40
+accuracy: 0.62
+questions_attempted: 50
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -21,6 +21,7 @@ strong_topics:
   - CB life-cycle staging (mature stage most hazardous)
   - Oktas coding (FEW/SCT/BKN/OVC) — correct on 3rd attempt after 2 prior misses, watch for recurrence
   - Optical phenomena: halo (Cirrostratus), glory, Bishop's Ring, inferior mirage
+  - ISA MSL standard values, virtual temperature, specific heat ranking, Wien's Law, tropopause breaks/jet streams, −40°C=−40°F
 weak_topics:
   - Nacreous vs noctilucent cloud layers — persistent swap, not yet retested
   - CB anvil hail hazard outside visible cell — 2 misses, not yet retested
@@ -31,7 +32,10 @@ weak_topics:
   - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal)
   - CAT location relative to jet-stream core (cold/poleward side)
   - Mixing ratio vs relative humidity conservation on ascent
-  - Primary vs secondary rainbow radius (42° vs 52°) (new)
+  - Primary vs secondary rainbow radius (42° vs 52°)
+  - Greenhouse gases (CO₂/H₂O) (new)
+  - ISA lapse-rate cutoff altitude (36,090 ft vs half-mass ~18-20,000 ft confusion) (new)
+  - Latent heat of vaporisation magnitude (>5x rule) (new)
 revision_due:
   - Clouds
   - Atmosphere
@@ -89,3 +93,13 @@ history:
     weak_topics:
       - Primary vs secondary rainbow radius (42° vs 52°)
     notes: Strongest single-topic session — halo, glory, Bishop's Ring, inferior mirage all correct.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 7
+    accuracy: 0.70
+    weak_topics:
+      - Greenhouse gases (CO2/H2O)
+      - ISA lapse-rate cutoff altitude (36,090 ft)
+      - Latent heat of vaporisation magnitude
+    notes: Best chapter-quiz score yet. Self-corrected Q4 mid-quiz (minimum temp timing), counted as correct.
