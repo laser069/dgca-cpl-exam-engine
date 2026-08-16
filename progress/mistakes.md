@@ -173,14 +173,32 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Atmosphere.md: conduction is dominant only very near the ground; air is otherwise a poor conductor, with radiation/convection dominating away from the surface.
 **Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
-## 2026-08-16 — ISA isothermal layer upper bound
+## 2026-08-16 — ISA isothermal layer upper bound — CLEARED on 2026-08-16
 **Q:** The −56.5°C isothermal layer above 36,090 ft persists up to approximately what altitude?
 **Your answer:** A (45,000 ft) — **Correct:** C (65,000 ft)
 **Why:** notes/Atmosphere.md: ISA lapse rate 1.98°C/1000 ft up to 36,090 ft, then constant −56.5°C up to ~65,000 ft.
-**Seen before:** yes, count 2 — missed again on retest 2026-08-16 (answered 80,000 ft). Recurring weak point, needs dedicated drilling.
+**Seen before:** yes, count 2 — missed again on retest 2026-08-16 (answered 80,000 ft). Answered correctly on 3rd attempt 2026-08-16 — cleared.
 
 ## 2026-08-16 — NE Monsoon season and character
 **Q:** The NE Monsoon affecting India blows during which season and gives what conditions?
 **Your answer:** A (Summer — hot and wet) — **Correct:** B (Winter — cool and dry)
 **Why:** notes/Climatology.md: NE Monsoon blows in winter, giving cool dry conditions over most of India (exception: SE coast/Tamil Nadu gets its main rains from it). Student appears to have confused it with the SW (summer) Monsoon.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Mesosphere temperature trend — CLEARED on 2026-08-16
+**Q:** How does temperature behave with height in the mesosphere?
+**Your answer:** A (Increases) — **Correct:** C (Decreases)
+**Why:** notes/Atmosphere.md: mesosphere temperature decreases with height again — coldest layer overall.
+**Seen before:** yes, count 2 — missed again on retest 2026-08-16. Answered correctly on 3rd attempt 2026-08-16 — cleared.
+
+## 2026-08-16 — ISA lapse-rate arithmetic (persistent)
+**Q:** ISA temperature at 20,000 ft (sea-level 15°C)?
+**Your answer:** 11.2 — **Correct:** −24.6°C (15 − 1.98×20)
+**Why:** Correct method applied successfully at 5,000 ft in the same session but broke down at 20,000 ft — check the multiplication step at larger altitude-in-thousands values; sign and magnitude both went wrong here.
+**Seen before:** yes, count 3 — persistent weak point across three sessions (8,000 ft, 12,000 ft, now 20,000 ft), needs dedicated step-by-step practice.
+
+## 2026-08-16 — Argon content of dry air
+**Q:** Approximate argon content of dry air by volume?
+**Your answer:** D (~0.1%) — **Correct:** C (~1%)
+**Why:** notes/Atmosphere.md: dry air is ~78% nitrogen, ~21% oxygen, ~1% argon and trace gases.
 **Seen before:** no, count 1
