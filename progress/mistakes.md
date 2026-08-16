@@ -296,8 +296,8 @@ existing entries if the same topic keeps recurring. Format:
 ## 2026-08-16 — Mixing ratio vs RH on ascent — RE-CLEARED on 2026-08-16
 **Note:** Relapsed earlier in the session, answered correctly again on immediate retest — re-cleared.
 
-## 2026-08-16 — METAR negative dew point rounding, small magnitude (2nd miss)
+## 2026-08-16 — METAR negative dew point rounding, small magnitude — CLEARED on 2026-08-16
 **Q:** Dry bulb −0.3°C, dew point −8.0°C — correct METAR encoding?
 **Your answer:** C (M01/M08) — **Correct:** B (M00/M08)
-**Why:** notes/MetInformation.md: round the magnitude first (0.3 rounds to 0), then reattach the M prefix since the original value was negative → M00. Same rounding-up error as the −0.5°C case earlier — specifically affects small negative values close to zero. Correctly handled the small-*positive* case (0.2°C → 00, no M) in the same session, so the error is isolated to the negative-magnitude-rounding step specifically.
-**Seen before:** yes, count 2 — recurring on this specific sub-case (small negative magnitudes), needs targeted drilling with several examples near zero.
+**Why:** notes/MetInformation.md: round the magnitude first, then reattach the M prefix if the original was negative. The dividing line is 0.5°C: values with magnitude <0.5 round DOWN to 00 (e.g. −0.2, −0.3, −0.4 → M00); values ≥0.5 round UP to 01 (e.g. −0.5, −0.6, −0.7 → M01).
+**Seen before:** yes, count 2. Cleared on 2026-08-16 after a dedicated 4-question drill spanning both sides of the 0.5°C dividing line (−0.4→M00, −0.2→M00, −0.6→M01, −0.5→M01) — all correct once the rounding boundary was made explicit.

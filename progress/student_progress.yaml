@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.70
-questions_attempted: 175
+questions_attempted: 179
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -55,7 +55,6 @@ weak_topics:
   - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal)
   - CAT location relative to jet-stream core (cold/poleward side)
   - Primary vs secondary rainbow radius (42° vs 52°)
-  - METAR negative dew point rounding, small magnitudes (−0.3°C → M00, not M01) — 2nd miss, needs targeted drilling
   - Latent heat of vaporisation magnitude (>5x rule)
   - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
   - NE Monsoon season/character (winter, cool, dry — not summer/wet)
@@ -285,3 +284,10 @@ history:
     weak_topics:
       - METAR negative dew point rounding, small magnitudes (2nd miss)
     notes: 5th Humidity session. Mixing ratio/RH re-cleared, fog-timing formula fully cleared (2 correct). Only remaining gap: rounding small negative dew-point values (−0.3°C type cases) in METAR encoding.
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity — METAR rounding drill)
+    questions: 4
+    correct: 4
+    accuracy: 1.00
+    weak_topics: []
+    notes: 6th Humidity session. Dedicated drill on METAR negative-dew-point rounding across the 0.5°C dividing line — 4/4 correct, including the trickiest exact-0.5°C case. This clears the last outstanding Humidity gap. Humidity chapter is now fully clean.
