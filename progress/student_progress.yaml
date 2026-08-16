@@ -1,0 +1,31 @@
+student: Student  # edit this
+subject: Meteorology
+accuracy: 0.50
+questions_attempted: 10
+strong_topics:
+  - Cloud base numerical calculation (T-Td method)
+  - CB hazard combination (icing/turbulence/hail/lightning)
+  - Nimbostratus and frontal precipitation
+  - Medium-level cloud height band
+  - Drizzle-Stratus association
+weak_topics:
+  - Oktas coding (FEW/SCT/BKN/OVC ranges)
+  - Nacreous vs noctilucent cloud layers
+  - Nimbostratus multi-level vertical extent
+  - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
+  - CB anvil hail hazard outside visible cell
+revision_due:
+  - Clouds
+last_updated: "2026-08-15"
+history:
+  - date: "2026-08-15"
+    chapter: Clouds
+    questions: 10
+    correct: 5
+    accuracy: 0.50
+    weak_topics:
+      - Oktas coding
+      - Nacreous/noctilucent layer swap
+      - Nimbostratus vertical extent
+      - Orographic formation → lenticular cloud
+      - CB anvil hail hazard
