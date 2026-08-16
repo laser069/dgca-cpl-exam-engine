@@ -1,47 +1,9 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.30
-questions_attempted: 20
-strong_topics:
-  - Drizzle-Stratus association
-weak_topics:
-  - Oktas coding (FEW/SCT/BKN/OVC ranges) — missed twice
-  - Nacreous vs noctilucent cloud layers — missed twice
-  - Nimbostratus and CB vertical extent facts — missed twice
-  - CB hazard combination (icing/turbulence/hail/lightning)
-  - Optical phenomena: halo vs corona (cause, radius, icing implication)
-  - Medium-level cloud height band / genera
-  - Cloud base numerical calculation (T-Td method)
-  - Precipitation type to cloud family association
-  - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
-  - CB anvil hail hazard outside visible cell
-revision_due:
-  - Clouds
+accuracy: null
+questions_attempted: 0
+strong_topics: []
+weak_topics: []
+revision_due: []
 last_updated: "2026-08-16"
-history:
-  - date: "2026-08-15"
-    chapter: Clouds
-    questions: 10
-    correct: 5
-    accuracy: 0.50
-    weak_topics:
-      - Oktas coding
-      - Nacreous/noctilucent layer swap
-      - Nimbostratus vertical extent
-      - Orographic formation → lenticular cloud
-      - CB anvil hail hazard
-  - date: "2026-08-16"
-    chapter: Clouds
-    questions: 10
-    correct: 1
-    accuracy: 0.10
-    weak_topics:
-      - CB hazard combination
-      - Halo vs corona
-      - Nacreous/noctilucent layer swap
-      - Medium-level cloud genera
-      - Cloud base numerical formula
-      - Precipitation type to cloud family
-      - Corona/Altostratus icing indicator
-      - Oktas coding
-      - NS/CB vertical extent
+history: []
