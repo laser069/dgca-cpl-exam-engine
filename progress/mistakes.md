@@ -172,3 +172,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (45,000 ft) — **Correct:** C (65,000 ft)
 **Why:** notes/Atmosphere.md: ISA lapse rate 1.98°C/1000 ft up to 36,090 ft, then constant −56.5°C up to ~65,000 ft.
 **Seen before:** no, count 1
+
+## 2026-08-16 — NE Monsoon season and character
+**Q:** The NE Monsoon affecting India blows during which season and gives what conditions?
+**Your answer:** A (Summer — hot and wet) — **Correct:** B (Winter — cool and dry)
+**Why:** notes/Climatology.md: NE Monsoon blows in winter, giving cool dry conditions over most of India (exception: SE coast/Tamil Nadu gets its main rains from it). Student appears to have confused it with the SW (summer) Monsoon.
+**Seen before:** no, count 1
