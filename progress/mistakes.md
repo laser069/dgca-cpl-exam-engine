@@ -195,10 +195,10 @@ existing entries if the same topic keeps recurring. Format:
 **Q:** ISA temperature at 20,000 ft (sea-level 15°C)?
 **Your answer:** 11.2 — **Correct:** −24.6°C (15 − 1.98×20)
 **Why:** Correct method applied successfully at 5,000 ft in the same session but broke down at 20,000 ft — check the multiplication step at larger altitude-in-thousands values; sign and magnitude both went wrong here.
-**Seen before:** yes, count 3 — persistent weak point across three sessions (8,000 ft, 12,000 ft, now 20,000 ft), needs dedicated step-by-step practice.
+**Seen before:** yes, count 3 — persistent weak point across three sessions (8,000 ft, 12,000 ft, now 20,000 ft). CLEARED on 2026-08-16 after 3 consecutive correct calculations (15,000 / 25,000 / 3,000 ft) in a dedicated drill round.
 
-## 2026-08-16 — Argon content of dry air
+## 2026-08-16 — Argon content of dry air — CLEARED on 2026-08-16
 **Q:** Approximate argon content of dry air by volume?
 **Your answer:** D (~0.1%) — **Correct:** C (~1%)
 **Why:** notes/Atmosphere.md: dry air is ~78% nitrogen, ~21% oxygen, ~1% argon and trace gases.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
