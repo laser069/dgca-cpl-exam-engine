@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.70
-questions_attempted: 137
+questions_attempted: 147
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -21,6 +21,8 @@ strong_topics:
   - Pressure decreasing with altitude (faster at low levels)
   - CO2/H2O greenhouse mechanism (absorb outgoing long-wave radiation)
   - Kelvin conversion, Bergeron-Findeisen process, SH Low rotation (clockwise)
+  - Mixing ratio vs relative humidity conservation on ascent — cleared 2026-08-16
+  - Dew point definition, RH-vs-temperature behavior, dew point invariance, radiation fog setup, RH formula, wet-bulb temperature definition
   - Stefan-Boltzmann Law (T⁴) — cleared 2026-08-16
   - Conduction's near-ground-only zone — cleared 2026-08-16
   - Moist vs dry air density — cleared 2026-08-16
@@ -49,8 +51,10 @@ weak_topics:
   - Stability classification (ELR vs DALR/SALR → conditionally unstable)
   - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal)
   - CAT location relative to jet-stream core (cold/poleward side)
-  - Mixing ratio vs relative humidity conservation on ascent
   - Primary vs secondary rainbow radius (42° vs 52°)
+  - Mixing ratio vs absolute humidity (naming, not concept) (new)
+  - Saturated air T/Tw/Td relationship (T=Tw=Td, not T>Tw>Td) (new)
+  - Supercooled water droplet temperature limits (−40°C/−45°C) (new)
   - Latent heat of vaporisation magnitude (>5x rule)
   - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
   - NE Monsoon season/character (winter, cool, dry — not summer/wet)
@@ -228,3 +232,13 @@ history:
       - Virtual temperature direction (3rd miss)
       - Equatorial tropopause height+temperature pairing (3rd miss)
     notes: 12th Atmosphere session, focused drill on the two remaining gaps. Both remain unresolved despite student correctly explaining the underlying mechanism/purpose for each when asked separately — the direct combined-fact recall is the sticking point. Gave memory anchor for virtual temperature: "moist air acts warmer than it really is."
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity)
+    questions: 10
+    correct: 7
+    accuracy: 0.70
+    weak_topics:
+      - Mixing ratio vs absolute humidity naming
+      - Saturated air T/Tw/Td relationship
+      - Supercooled water droplet temperature limits
+    notes: Cleared the previously-flagged "mixing ratio vs RH on ascent" weak topic. Dew point, RH formula, wet-bulb definition, and radiation fog setup all solid.
