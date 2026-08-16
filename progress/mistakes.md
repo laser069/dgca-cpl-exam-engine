@@ -65,11 +65,11 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Clouds.md DGCA Important Facts: hail under a CB anvil is a real hazard even in apparently clear air nearby.
 **Seen before:** yes, count 2 — recurring weak topic.
 
-## 2026-08-16 — Moist vs dry air density
+## 2026-08-16 — Moist vs dry air density — CLEARED on 2026-08-16
 **Q:** At the same pressure and temperature, how does moist air density compare to dry air density?
 **Your answer:** C (Identical — P and T alone determine density) — **Correct:** B (Moist air is less dense)
 **Why:** notes/Atmosphere.md: water vapour molecules (MW ~18) are lighter than the N₂/O₂ they displace (MW ~29), so at constant P/T moist air is less dense than dry air — density is not determined by P and T alone, composition matters too.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — ISA lapse rate numerical (sign error)
 **Q:** ISA temperature at 8,000 ft (sea-level 15°C)?
@@ -107,11 +107,11 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Clouds.md Optical Phenomena: primary bow = 42° radius; the fainter secondary bow (colours reversed) sits outside it at 52°. Student picked the secondary bow's radius for the primary.
 **Seen before:** no, count 1
 
-## 2026-08-16 — Greenhouse gases
+## 2026-08-16 — Greenhouse gases — CLEARED on 2026-08-16
 **Q:** Which two gases are the atmosphere's "greenhouse gases"?
 **Your answer:** C (Argon and Ozone) — **Correct:** B (CO₂ and H₂O)
 **Why:** notes/Atmosphere.md DGCA Important Facts: CO₂ and H₂O are the greenhouse gases — they absorb outgoing long-wave terrestrial radiation. Argon is inert; ozone's key role is stratospheric UV absorption, a separate fact.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — ISA lapse-rate cutoff altitude
 **Q:** At what altitude does the ISA lapse rate (1.98°C/1000 ft) stop, becoming isothermal at −56.5°C?
@@ -125,23 +125,29 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Atmosphere.md: converting already-boiling water to vapour takes >5× the heat needed to bring the same ice-cold water to the boil — that "extra" heat is latent heat, the physical driver of cloud/storm energy release.
 **Seen before:** no, count 1
 
-## 2026-08-16 — Ideal gas law form
+## 2026-08-16 — Ideal gas law form — CLEARED on 2026-08-16
 **Q:** Which equation correctly links pressure, density, and temperature for air as an ideal gas?
 **Your answer:** B (p = ρ/RT) — **Correct:** A (p = ρRT)
 **Why:** notes/Atmosphere.md: pressure is directly proportional to density and temperature (p = ρRT), not inversely related.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
-## 2026-08-16 — Troposphere's share of atmospheric mass
+## 2026-08-16 — Troposphere's share of atmospheric mass — CLEARED on 2026-08-16
 **Q:** Approximately what fraction of the atmosphere's total mass is in the troposphere?
 **Your answer:** D (~95%) — **Correct:** C (~75%)
 **Why:** notes/Atmosphere.md: troposphere contains ~75% of atmospheric mass and nearly all weather/water vapour. Don't confuse with the separate "~half of atmospheric mass below ~18-20,000 ft" fact from notes/Fronts.md.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — Mesosphere temperature trend
 **Q:** How does temperature behave with height in the mesosphere?
 **Your answer:** A (Increases) — **Correct:** C (Decreases)
 **Why:** notes/Atmosphere.md: mesosphere temperature decreases with height again (between the warming stratosphere below and warming thermosphere above) — coldest layer overall, where noctilucent clouds form.
-**Seen before:** no, count 1
+**Seen before:** yes, count 2 — missed again on retest 2026-08-16. Recurring weak point, needs dedicated drilling.
+
+## 2026-08-16 — ISA lapse-rate numerical arithmetic
+**Q:** ISA temperature at 12,000 ft (sea-level 15°C)?
+**Your answer:** −63°C — **Correct:** ≈ −9°C (15 − 1.98×12 = −8.76°C)
+**Why:** Large-magnitude arithmetic error, distinct from the earlier sign-only slip at 8,000 ft — recheck the multiplication method (1.98 × altitude-in-thousands-of-ft, not × altitude-in-ft).
+**Seen before:** no, count 1 (related to a prior sign-only miss on a different altitude, but this is a distinct magnitude error)
 
 ## 2026-08-16 — Dominant atmospheric heat-transfer mechanism
 **Q:** Which heat-transfer mechanism is dominant overall in the atmosphere?
@@ -155,23 +161,23 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** °C = (°F − 32) × 5/9 = (86−32) × 5/9 = 54 × 5/9 = 30°C. Apparent formula/arithmetic mix-up.
 **Seen before:** no, count 1
 
-## 2026-08-16 — Stefan-Boltzmann Law
+## 2026-08-16 — Stefan-Boltzmann Law — CLEARED on 2026-08-16
 **Q:** Radiated energy is proportional to which power of temperature?
 **Your answer:** B (T²) — **Correct:** C (T⁴)
 **Why:** notes/Atmosphere.md: Stefan-Boltzmann Law — radiated energy ∝ T⁴. Small temperature differences produce large radiated-energy differences (why the sun radiates so much more intensely than Earth).
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
-## 2026-08-16 — Conduction's zone of significance
+## 2026-08-16 — Conduction's zone of significance — CLEARED on 2026-08-16
 **Q:** Where is conduction (molecular contact) significant as a heat-transfer mechanism in the atmosphere?
 **Your answer:** A (Throughout the troposphere equally) — **Correct:** B (Only very near the ground)
 **Why:** notes/Atmosphere.md: conduction is dominant only very near the ground; air is otherwise a poor conductor, with radiation/convection dominating away from the surface.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — ISA isothermal layer upper bound
 **Q:** The −56.5°C isothermal layer above 36,090 ft persists up to approximately what altitude?
 **Your answer:** A (45,000 ft) — **Correct:** C (65,000 ft)
 **Why:** notes/Atmosphere.md: ISA lapse rate 1.98°C/1000 ft up to 36,090 ft, then constant −56.5°C up to ~65,000 ft.
-**Seen before:** no, count 1
+**Seen before:** yes, count 2 — missed again on retest 2026-08-16 (answered 80,000 ft). Recurring weak point, needs dedicated drilling.
 
 ## 2026-08-16 — NE Monsoon season and character
 **Q:** The NE Monsoon affecting India blows during which season and gives what conditions?

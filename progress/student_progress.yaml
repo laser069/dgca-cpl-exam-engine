@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.66
-questions_attempted: 83
+accuracy: 0.67
+questions_attempted: 93
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -21,6 +21,13 @@ strong_topics:
   - Pressure decreasing with altitude (faster at low levels)
   - CO2/H2O greenhouse mechanism (absorb outgoing long-wave radiation)
   - Kelvin conversion, Bergeron-Findeisen process, SH Low rotation (clockwise)
+  - Stefan-Boltzmann Law (T⁴) — cleared 2026-08-16
+  - Conduction's near-ground-only zone — cleared 2026-08-16
+  - Moist vs dry air density — cleared 2026-08-16
+  - Greenhouse gases (CO₂/H₂O) — cleared 2026-08-16
+  - Troposphere mass share (~75%) — cleared 2026-08-16
+  - Ideal gas law form (p = ρRT) — cleared 2026-08-16
+  - Fahrenheit to Celsius conversion — cleared 2026-08-16
   - Coriolis force vs latitude (zero at equator, max at poles)
   - Radiation fog formation conditions
   - Icing severity vs temperature band
@@ -33,25 +40,17 @@ weak_topics:
   - Nacreous vs noctilucent cloud layers — persistent swap, not yet retested
   - CB anvil hail hazard outside visible cell — 2 misses, not yet retested
   - Halo vs corona: cloud source and icing-risk implication
-  - Moist vs dry air density
-  - ISA lapse-rate numerical sign discipline
   - Stability classification (ELR vs DALR/SALR → conditionally unstable)
   - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal)
   - CAT location relative to jet-stream core (cold/poleward side)
   - Mixing ratio vs relative humidity conservation on ascent
   - Primary vs secondary rainbow radius (42° vs 52°)
-  - Greenhouse gases (CO₂/H₂O)
-  - ISA lapse-rate cutoff altitude (36,090 ft vs half-mass ~18-20,000 ft confusion)
   - Latent heat of vaporisation magnitude (>5x rule)
-  - Ideal gas law form (p = ρRT)
-  - Troposphere's share of atmospheric mass (~75%, not ~95%)
-  - Mesosphere temperature trend (decreases with height)
   - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
-  - Fahrenheit to Celsius conversion arithmetic
-  - Stefan-Boltzmann Law (T⁴, not T²)
-  - Conduction's limited zone (near-ground only)
-  - ISA isothermal layer upper bound (~65,000 ft)
-  - NE Monsoon season/character (winter, cool, dry — not summer/wet) (new)
+  - ISA isothermal layer upper bound (~65,000 ft) — 2 misses, still weak
+  - Mesosphere temperature trend (decreases with height) — 2 misses, still weak
+  - ISA lapse-rate numerical arithmetic (sign and magnitude errors)
+  - NE Monsoon season/character (winter, cool, dry — not summer/wet)
 revision_due:
   - Clouds
   - Stability
@@ -156,3 +155,13 @@ history:
     accuracy: 1.00
     weak_topics: []
     notes: Perfect round — 5th Atmosphere session, 45 Atmosphere questions attempted total. New facts (tropopause heights, advection/turbulence, specific heat, latent heat direction, pressure-altitude, greenhouse mechanism, Kelvin) all landed correctly.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 7
+    accuracy: 0.70
+    weak_topics:
+      - ISA isothermal layer upper bound (2nd miss)
+      - ISA lapse-rate numerical arithmetic
+      - Mesosphere temperature trend (2nd miss)
+    notes: 6th Atmosphere session, retested prior weak spots — cleared Stefan-Boltzmann Law, conduction zone, moist/dry density, greenhouse gases, troposphere mass share, ideal gas law, and Fahrenheit conversion (all correct twice in a row now). ISA isothermal bound and mesosphere trend remain persistently weak.
