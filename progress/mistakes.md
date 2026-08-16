@@ -40,3 +40,27 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (Severe icing) — **Correct:** B (Hail)
 **Why:** notes/Clouds.md DGCA Important Facts: hail under a CB anvil is a real hazard even in apparently clear air nearby.
 **Seen before:** no, count 1
+
+## 2026-08-16 — Oktas coding
+**Q:** METAR sky coverage of 6 oktas — which abbreviation?
+**Your answer:** B (SCT) — **Correct:** C (BKN)
+**Why:** FEW=1-2 oktas, SCT=3-4, BKN=5-7, OVC=8. 6 oktas falls in the BKN range.
+**Seen before:** yes, count 2 — recurring weak topic, still swapping SCT/BKN boundary.
+
+## 2026-08-16 — Nacreous vs noctilucent layer
+**Q:** Noctilucent clouds occur in which atmospheric layer?
+**Your answer:** B (Stratosphere) — **Correct:** C (Mesosphere)
+**Why:** Noctilucent = mesosphere (~80 km); Nacreous (mother-of-pearl) = upper stratosphere. This is the same swap trap as 2026-08-15, just asked from the other direction.
+**Seen before:** yes, count 2 — persistent confusion, needs dedicated drilling.
+
+## 2026-08-16 — Corona and Altostratus icing indication
+**Q:** A small-radius (<5°) coloured ring around the sun/moon, duller than a halo — cause and icing implication?
+**Your answer:** A (Cirrostratus — negligible icing) — **Correct:** B (Altostratus — moderate icing risk if above freezing level)
+**Why:** Corona = diffraction by small water droplets/ice particles in Altostratus, indicating supercooled water → moderate icing risk. Halo (not corona) = refraction through ice crystals in Cirrostratus → negligible icing. Student conflated halo and corona.
+**Seen before:** no, count 1
+
+## 2026-08-16 — CB anvil hail hazard
+**Q:** Pilot flying in visually clear air under a CB anvil, away from the visible cell — hail hazard?
+**Your answer:** A (Nil) — **Correct:** B (Present — hail can fall from the anvil well outside the visible cell)
+**Why:** notes/Clouds.md DGCA Important Facts: hail under a CB anvil is a real hazard even in apparently clear air nearby.
+**Seen before:** yes, count 2 — recurring weak topic.
