@@ -263,8 +263,14 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Thermodynamics.md: RH(%) = (actual HMR/vapour pressure ÷ saturated HMR/vapour pressure) × 100. Student inverted the ratio.
 **Seen before:** no, count 1
 
-## 2026-08-16 — Dew point invariance under heating (2nd miss)
+## 2026-08-16 — RH formula direction — CLEARED on 2026-08-16
+**Q:** Which formula correctly expresses relative humidity?
+**Your answer:** D (inverted) — **Correct:** B (actual ÷ saturation vapour pressure × 100)
+**Why:** notes/Thermodynamics.md: RH(%) = (actual vapour pressure ÷ saturation vapour pressure) × 100.
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
+
+## 2026-08-16 — Dew point invariance under heating (3rd miss — applied/scenario form only)
 **Q:** A parcel is heated with no moisture added/removed — what happens to its dew point?
 **Your answer:** A (Rises with temperature) — **Correct:** C (Stays exactly the same)
-**Why:** notes/Thermodynamics.md: dew point changes only with water-vapour content, not temperature. Warming/cooling with no moisture change alters RH but not dew point. This is the second time this exact fact has been missed (previously as part of a broader question set) — genuinely sticky misconception that dew point tracks temperature like RH does.
-**Seen before:** yes, count 2 — recurring, needs dedicated reinforcement (dew point ≠ RH is the core distinction to drill).
+**Why:** notes/Thermodynamics.md: dew point changes only with water-vapour content, not temperature. Warming/cooling with no moisture change alters RH but not dew point.
+**Seen before:** yes, count 2. Missed a 3rd time on 2026-08-16 in concrete numeric-scenario form ("parcel cools 25°C→18°C, dew point started at 15°C — what's the dew point now?" — answered 18°C instead of 15°C), despite correctly stating the abstract rule ("dew point changes only with water-vapour content") in the very same session. Pattern: knows the rule abstractly, misapplies it when given specific numbers. Needs numeric-scenario drilling specifically, not more definition-recall questions.

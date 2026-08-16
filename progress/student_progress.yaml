@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.71
-questions_attempted: 160
+questions_attempted: 165
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -55,8 +55,7 @@ weak_topics:
   - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal)
   - CAT location relative to jet-stream core (cold/poleward side)
   - Primary vs secondary rainbow radius (42° vs 52°)
-  - RH formula direction (actual ÷ saturation, not inverted) (new)
-  - Dew point invariance under heating — inconsistent across framings, needs reinforcement (new)
+  - Dew point invariance under heating — 3rd miss, ONLY in applied/numeric-scenario form (knows the rule abstractly, misapplies it with specific numbers). Rule of thumb: "no moisture added/removed" ⇒ dew point is the number that does NOT move.
   - Latent heat of vaporisation magnitude (>5x rule)
   - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
   - NE Monsoon season/character (winter, cool, dry — not summer/wet)
@@ -260,3 +259,11 @@ history:
       - RH formula direction
       - Dew point invariance under heating
     notes: 2nd Humidity session. Latent heat/SALR link, fog-timing estimation, absolute humidity, cloud base formula, mixing ratio vs RH distinction, unsaturated T/Tw/Td, and latent-heat-powers-storms all solid.
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - Dew point invariance under heating (3rd miss, applied/numeric form only)
+    notes: 3rd Humidity session. RH formula direction cleared. Dew point invariance identified as a specific abstract-vs-applied gap — correctly states the rule but misapplies it with concrete numbers. Needs numeric-scenario drilling, not more definition questions.
