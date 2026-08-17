@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.79
-questions_attempted: 382
+questions_attempted: 391
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -445,3 +445,11 @@ history:
     weak_topics:
       - QFF vs QNH direction with warm-than-ISA temperature
     notes: All-new question set per student's no-repeat instruction. Mountain-wave altimeter error, gale/squall, cold occlusion, TRS temperature threshold, hoar frost vs glazed ice, dust storm visibility, jet streaks, Tc air mass origin, and SIGMET/AIRMET distinction all correct.
+  - date: "2026-08-16"
+    chapter: Thunderstorms (deep dive — life cycle, electricity)
+    questions: 9
+    correct: 8
+    accuracy: 0.89
+    weak_topics:
+      - Air-mass thunderstorm characteristics (confused with frontal/squall-line organization)
+    notes: 2nd Thunderstorms session, all-new facts. Three ingredients, full CB life cycle (cumulus/dissipating stages, mature already known), downbursts, fine-weather charge, storm charge polarity, cloud discharge, and St Elmo's Fire all correct. Q10 (ball lightning) was posed but not answered/scored.

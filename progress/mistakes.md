@@ -433,3 +433,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (QFF equals QNH) — **Correct:** B (QFF lower than QNH)
 **Why:** notes/Pressure.md: QNH always uses ISA temperature for MSL reduction; QFF uses actual temperature. Warmer-than-ISA air "weighs less" per unit height in the QFF calc, so QFF ends up lower than QNH. Reason through the sign rather than memorising a fixed number.
 **Seen before:** no, count 1
+
+## 2026-08-16 — Air-mass thunderstorm characteristics (squall-line confusion)
+**Q:** Which best characterizes an air-mass (thermal) thunderstorm?
+**Your answer:** B (Always organized into squall lines) — **Correct:** A (Isolated, daytime-heating-driven, short-lived, afternoon over land)
+**Why:** notes/Thunderstorms.md: air-mass thunderstorms are isolated and thermally driven. Organizing into squall lines is characteristic of frontal thunderstorms instead — a different classification.
+**Seen before:** no, count 1
