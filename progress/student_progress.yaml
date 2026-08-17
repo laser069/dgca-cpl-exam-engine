@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.79
-questions_attempted: 391
+accuracy: 0.80
+questions_attempted: 401
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -58,8 +58,9 @@ strong_topics:
 weak_topics:
   - "Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"
   - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
-  - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea) (new)
-  - STJ vs TJ seasonal timing (STJ=winter, TJ=monsoon — inconsistent, correct once, reversed once) (new)
+  - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea)
+  - STJ vs TJ seasonal timing (STJ=winter, TJ=monsoon — inconsistent, correct once, reversed once)
+  - QFF vs QNH direction with warm-than-ISA temperature
 revision_due:
   - Clouds
   - Stability
@@ -453,3 +454,10 @@ history:
     weak_topics:
       - Air-mass thunderstorm characteristics (confused with frontal/squall-line organization)
     notes: 2nd Thunderstorms session, all-new facts. Three ingredients, full CB life cycle (cumulus/dissipating stages, mature already known), downbursts, fine-weather charge, storm charge polarity, cloud discharge, and St Elmo's Fire all correct. Q10 (ball lightning) was posed but not answered/scored.
+  - date: "2026-08-16"
+    chapter: Thunderstorms (immediate repeat, incl. Q10)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+    notes: Perfect repeat at student's explicit request (overriding the standing no-repeat instruction for this one round). Cleared air-mass thunderstorm characteristics; completed and correctly answered ball lightning (Q10), left unscored last round.
