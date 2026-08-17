@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.77
-questions_attempted: 352
+accuracy: 0.79
+questions_attempted: 372
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -430,3 +430,10 @@ history:
       - Snow albedo (relapse)
       - Nimbostratus/continuous precipitation (relapse)
     notes: Logged to quiz_history/2026-08-16-mock50-partial.md. Strong 87% across 8 chapters (Atmosphere, Pressure, Wind, Thermodynamics, Clouds, Fog, Precipitation, Stability) before student switched to a new 20-question mixed request. Interesting pattern — all 3 misses were facts previously cleared in isolated sessions, relapsing specifically under mixed mock-exam conditions. Worth another full mock later to see if this is fatigue or a real retention gap.
+  - date: "2026-08-16"
+    chapter: Comprehensive mixed (15 chapters/topics)
+    questions: 20
+    correct: 20
+    accuracy: 1.00
+    weak_topics: []
+    notes: PERFECT SCORE across 15 chapters (Thunderstorms, Fronts, PressureSystems, JetStreams, Icing, Visibility, MetInformation, Wind, Density, Thermodynamics, Precipitation, Climatology, Stability). Re-cleared all 3 items that relapsed in the earlier mock exam (mixing ratio/RH, Nimbostratus, snow albedo) — strong evidence the mock relapse was a one-off fatigue/context slip, not a real retention gap. Best mixed-quiz result in the repo's history.
