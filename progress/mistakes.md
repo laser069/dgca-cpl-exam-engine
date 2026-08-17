@@ -397,3 +397,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (STJ = monsoon; TJ = winter) — **Correct:** B (STJ = non-monsoon/winter; TJ = monsoon)
 **Why:** notes/JetStreams.md: STJ present over India Oct–May (non-monsoon/winter), TJ present during monsoon (Jun–Sep) — seasonal opposites. Student answered this correctly in the earlier comprehensive review but reversed it here.
 **Seen before:** no, count 1
+
+## 2026-08-16 — Carburettor icing RH threshold
+**Q:** Below approximately what RH does carburettor icing become unlikely?
+**Your answer:** B (40%) — **Correct:** C (60%)
+**Why:** notes/Icing.md: carburettor icing is unlikely when RH < 60% (and negligible below −10°C ambient unless liquid water present).
+**Seen before:** no, count 1
+
+## 2026-08-16 — Airframe icing effects (stalling speed direction)
+**Q:** Beyond lift/drag/weight, what other documented effect does airframe icing have?
+**Your answer:** C (Decreased stalling speed) — **Correct:** A (Erroneous ASI readings via pitot icing; can jam aileron/elevator/trim-tab hinges)
+**Why:** notes/Icing.md: icing INCREASES stalling speed appreciably (not decreases it) — a dangerous, frequently tested fact. It also causes erroneous ASI readings via pitot icing and can jam control-surface hinges. Radio communication is degraded, not improved, by ice on aerials.
+**Seen before:** no, count 1
