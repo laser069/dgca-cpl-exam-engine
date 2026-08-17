@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.70
-questions_attempted: 179
+questions_attempted: 188
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -67,6 +67,7 @@ revision_due:
   - JetStreams
   - Thermodynamics
   - Climatology (new — NE Monsoon season confusion)
+revision_due_addendum: Density (new gaps — density vs temperature relationship, density altitude definition)
 last_updated: "2026-08-16"
 history:
   - date: "2026-08-15"
@@ -291,3 +292,12 @@ history:
     accuracy: 1.00
     weak_topics: []
     notes: 6th Humidity session. Dedicated drill on METAR negative-dew-point rounding across the 0.5°C dividing line — 4/4 correct, including the trickiest exact-0.5°C case. This clears the last outstanding Humidity gap. Humidity chapter is now fully clean.
+  - date: "2026-08-16"
+    chapter: Density (Atmosphere/Pressure cross-topic)
+    questions: 9
+    correct: 7
+    accuracy: 0.78
+    weak_topics:
+      - Density vs temperature at fixed pressure (inverse relationship)
+      - Density altitude definition
+    notes: Quiz ended early at 9/10 — student switched topics before answering Q10, so it was not scored. Gas law, moist/dry density, ISA density value, altitude effect, and pressure-density relationship all solid.

@@ -301,3 +301,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (M01/M08) — **Correct:** B (M00/M08)
 **Why:** notes/MetInformation.md: round the magnitude first, then reattach the M prefix if the original was negative. The dividing line is 0.5°C: values with magnitude <0.5 round DOWN to 00 (e.g. −0.2, −0.3, −0.4 → M00); values ≥0.5 round UP to 01 (e.g. −0.5, −0.6, −0.7 → M01).
 **Seen before:** yes, count 2. Cleared on 2026-08-16 after a dedicated 4-question drill spanning both sides of the 0.5°C dividing line (−0.4→M00, −0.2→M00, −0.6→M01, −0.5→M01) — all correct once the rounding boundary was made explicit.
+
+## 2026-08-16 — Density vs temperature at fixed pressure
+**Q:** For fixed pressure, as temperature increases, air density does what?
+**Your answer:** C (Unchanged) — **Correct:** B (Decreases)
+**Why:** Gas law p = ρRT: at fixed p, ρ and T are inversely related — warmer air expands and becomes less dense. Directly follows from the ideal gas law form the student correctly identified earlier in the same quiz (Q1).
+**Seen before:** no, count 1
+
+## 2026-08-16 — Density altitude definition
+**Q:** What is density altitude?
+**Your answer:** C (Altitude where density = 1225 g/m³ everywhere) — **Correct:** B (Pressure altitude corrected for non-standard temperature)
+**Why:** Density altitude = pressure altitude adjusted for temperature deviation from ISA — not a fixed density value or altitude.
+**Seen before:** no, count 1
