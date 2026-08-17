@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.50
-questions_attempted: 10
+accuracy: 0.38
+questions_attempted: 13
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -14,9 +14,14 @@ weak_topics:
   - Nimbostratus multi-level vertical extent
   - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
   - CB anvil hail hazard outside visible cell
+  - Pressure/temperature effect on true altitude (ISA-deviation sign errors)
+  - Halo vs corona cloud-type and icing mapping
+  - CB life cycle stage-by-stage hazard profile (mature stage updraught+downdraught)
 revision_due:
   - Clouds
-last_updated: "2026-08-15"
+  - Pressure
+  - Thunderstorms
+last_updated: "2026-08-17"
 history:
   - date: "2026-08-15"
     chapter: Clouds
@@ -29,3 +34,12 @@ history:
       - Nimbostratus vertical extent
       - Orographic formation → lenticular cloud
       - CB anvil hail hazard
+  - date: "2026-08-17"
+    chapter: Mixed (Pressure, Clouds, Thunderstorms)
+    questions: 3
+    correct: 0
+    accuracy: 0.00
+    weak_topics:
+      - Pressure/temperature effect on true altitude
+      - Halo vs corona / cloud-icing mapping
+      - CB life cycle most-hazardous stage

@@ -40,3 +40,21 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (Severe icing) — **Correct:** B (Hail)
 **Why:** notes/Clouds.md DGCA Important Facts: hail under a CB anvil is a real hazard even in apparently clear air nearby.
 **Seen before:** no, count 1
+
+## 2026-08-17 — Pressure/temperature effect on true altitude
+**Q:** Flying at constant indicated altitude (QNH set) with outside air significantly colder than ISA — how does true altitude compare to indicated?
+**Your answer:** C (Equal, since QNH compensates for temperature) — **Correct:** B (Lower than indicated)
+**Why:** QNH reduction uses ISA temperature only, never actual temperature. Colder-than-ISA air means true altitude is below indicated ("ISA cold, true low"). Classic sign-error trap flagged in notes/Pressure.md Common Mistakes.
+**Seen before:** no, count 1
+
+## 2026-08-17 — Halo vs corona / cloud-icing mapping
+**Q:** 22° radius ring around the sun, little color separation — cloud type and icing implication?
+**Your answer:** D (Nimbostratus — moderate icing, continuous rain) — **Correct:** B (Cirrostratus — negligible icing, ice crystals)
+**Why:** A 22° low-color ring is a halo (refraction through ice crystals in Cirrostratus), indicating negligible icing risk. Corona (not halo) is the Altostratus/moderate-icing phenomenon. notes/Clouds.md Supplementary — Optical Phenomena.
+**Seen before:** no, count 1
+
+## 2026-08-17 — CB life cycle, most hazardous stage
+**Q:** Which CB life-cycle stage is most hazardous, and why?
+**Your answer:** A (Cumulus stage — updraught only) — **Correct:** B (Mature stage — updraught+downdraught coexist)
+**Why:** The mature stage's coexisting updraught and downdraught produce simultaneous heavy rain, hail, lightning, and severe turbulence — the peak-hazard stage. Cumulus stage has no precipitation reaching ground yet. notes/Thunderstorms.md Formation.
+**Seen before:** no, count 1
