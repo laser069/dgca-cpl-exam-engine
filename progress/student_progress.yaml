@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.74
-questions_attempted: 258
+accuracy: 0.75
+questions_attempted: 268
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -55,8 +55,8 @@ strong_topics:
   - Visibility vs synoptic pattern, CAT location relative to jet core, primary vs secondary rainbow radius, NE Monsoon season/character — cleared 2026-08-16
   - Stability classification (conditionally unstable) — cleared 2026-08-16 after 4 total misses, confirmed with 2 correct answers including a fresh-numbers cold test
   - Density vs temperature relationship, density altitude definition, westerlies direction — cleared 2026-08-16
-weak_topics:
-  - Nimbostratus as the continuous-precipitation cloud (not Cirrus) (new)
+weak_topics: []
+  # No open items — all cleared as of 2026-08-16.
 revision_due:
   - Clouds
   - Stability
@@ -353,3 +353,10 @@ history:
     weak_topics:
       - Nimbostratus as the continuous-precipitation cloud
     notes: 2nd Precipitation session. Cleared hail-vs-virga from last round. Droplet size ranges, no-precipitation cloud list, tropical/coastal rainfall timing, IMD rainy-day definition, cloud seeding mechanism and downwind tradeoff all correct.
+  - date: "2026-08-16"
+    chapter: Precipitation (immediate repeat of previous 10)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+    notes: Student requested the same 10 questions repeated immediately. Perfect score, including the Nimbostratus/continuous-precipitation fact missed in the prior round — now cleared via repetition.

@@ -356,8 +356,8 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Precipitation.md / notes/Clouds.md: hail is exclusively a CB (convective) product and can fall from the anvil well outside the visible storm cell — a real, DGCA-tested hazard.
 **Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
-## 2026-08-16 — Nimbostratus as continuous-precipitation cloud
+## 2026-08-16 — Nimbostratus as continuous-precipitation cloud — CLEARED on 2026-08-16
 **Q:** Which cloud type is associated with continuous precipitation?
 **Your answer:** C (Cirrus) — **Correct:** B (Nimbostratus)
 **Why:** notes/Precipitation.md cloud→precipitation table: NS = continuous precipitation. Cirrus is a high-level ice-crystal cloud producing no precipitation at all.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on immediate repeat-retest 2026-08-16 — cleared.
