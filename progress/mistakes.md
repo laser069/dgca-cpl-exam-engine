@@ -409,3 +409,21 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (Decreased stalling speed) — **Correct:** A (Erroneous ASI readings via pitot icing; can jam aileron/elevator/trim-tab hinges)
 **Why:** notes/Icing.md: icing INCREASES stalling speed appreciably (not decreases it) — a dangerous, frequently tested fact.
 **Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
+
+## 2026-08-16 — Mixing ratio vs RH on ascent (mock relapse)
+**Q:** Which stays constant for an unsaturated rising parcel?
+**Your answer:** D (Both) — **Correct:** B (Mixing ratio only)
+**Why:** notes/Thermodynamics.md: mixing ratio conserved; RH rises as parcel cools toward saturation. This concept has been cleared before but relapsed under mixed 50-question mock conditions.
+**Seen before:** yes — previously cleared, relapsed once more under mock-exam pressure. Watch for "both stay constant" as a recurring trap.
+
+## 2026-08-16 — Snow albedo under mock conditions
+**Q:** Fresh snow cover reflects approximately what fraction of solar radiation?
+**Your answer:** B (~50%) — **Correct:** C (~80–90%)
+**Why:** notes/Precipitation.md: fresh snow albedo ~80-90%. Previously answered correctly in an isolated Precipitation session; slipped under mixed mock conditions.
+**Seen before:** no in mistakes log, but previously correct in a dedicated quiz — likely fatigue/mixed-context slip rather than a fresh gap.
+
+## 2026-08-16 — Nimbostratus/continuous precipitation (mock relapse)
+**Q:** Which cloud is associated with continuous precipitation?
+**Your answer:** C (Cirrus) — **Correct:** B (Nimbostratus)
+**Why:** notes/Precipitation.md cloud→precipitation table. Previously cleared via repetition in a dedicated Precipitation session; relapsed under mixed 50-question mock conditions.
+**Seen before:** yes — previously cleared, relapsed under mock pressure.

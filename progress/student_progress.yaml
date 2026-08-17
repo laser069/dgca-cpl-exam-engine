@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.77
-questions_attempted: 329
+questions_attempted: 352
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -420,3 +420,13 @@ history:
     accuracy: 1.00
     weak_topics: []
     notes: Immediate retry — both cleared, including the safety-relevant stalling-speed direction misconception.
+  - date: "2026-08-16"
+    chapter: Mock exam (50-question, ended early at 23)
+    questions: 23
+    correct: 20
+    accuracy: 0.87
+    weak_topics:
+      - Mixing ratio vs RH on ascent (relapse under mock conditions)
+      - Snow albedo (relapse)
+      - Nimbostratus/continuous precipitation (relapse)
+    notes: Logged to quiz_history/2026-08-16-mock50-partial.md. Strong 87% across 8 chapters (Atmosphere, Pressure, Wind, Thermodynamics, Clouds, Fog, Precipitation, Stability) before student switched to a new 20-question mixed request. Interesting pattern — all 3 misses were facts previously cleared in isolated sessions, relapsing specifically under mixed mock-exam conditions. Worth another full mock later to see if this is fatigue or a real retention gap.
