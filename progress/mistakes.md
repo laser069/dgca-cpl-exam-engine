@@ -314,8 +314,8 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** Density altitude = pressure altitude adjusted for temperature deviation from ISA — not a fixed density value or altitude.
 **Seen before:** no, count 1
 
-## 2026-08-16 — Horse latitudes as source of trade winds/westerlies
+## 2026-08-16 — Horse latitudes as source of trade winds/westerlies — CLEARED on 2026-08-16
 **Q:** Which feature is the source region driving both the trade winds (equatorward) and westerlies (poleward)?
 **Your answer:** A (ITCZ) — **Correct:** B (Horse latitudes — subtropical high belt)
 **Why:** notes/Climatology.md: horse latitudes (~30°N/S) are where descending dry air diverges, feeding trade winds toward the ITCZ and westerlies toward the polar front. ITCZ is where trade winds converge, not where either wind belt originates.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Cleared on 2026-08-16 after a dedicated 5-question drill (divergence, ITCZ distinction, trade wind origin, westerlies origin, Hadley cell) — 5/5 correct.
