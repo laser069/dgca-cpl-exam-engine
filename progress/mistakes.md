@@ -361,3 +361,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (Cirrus) — **Correct:** B (Nimbostratus)
 **Why:** notes/Precipitation.md cloud→precipitation table: NS = continuous precipitation. Cirrus is a high-level ice-crystal cloud producing no precipitation at all.
 **Seen before:** no, count 1. Answered correctly on immediate repeat-retest 2026-08-16 — cleared.
+
+## 2026-08-16 — "Cold Day" definition (plains)
+**Q:** When is a "Cold Day" declared in the plains?
+**Your answer:** A (Minimum temp below 0°C) — **Correct:** B (Maximum temp ≤16°C)
+**Why:** notes/Climatology.md: Cold Day = maximum temperature ≤16°C in the plains, distinct from "Cold Wave" (minimum at least 4.0°C below normal). Student conflated the two related-but-distinct winter definitions.
+**Seen before:** no, count 1
