@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.76
-questions_attempted: 327
+accuracy: 0.77
+questions_attempted: 329
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -60,8 +60,6 @@ weak_topics:
   - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
   - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea) (new)
   - STJ vs TJ seasonal timing (STJ=winter, TJ=monsoon — inconsistent, correct once, reversed once) (new)
-  - Carburettor icing RH threshold (60%, not 40%) (new)
-  - Airframe icing increases stalling speed (not decreases it) (new)
 revision_due:
   - Clouds
   - Stability
@@ -415,3 +413,10 @@ history:
       - Carburettor icing RH threshold
       - Airframe icing increases stalling speed
     notes: 2nd Icing session. Severity band, impact icing, and carburettor clear-air temperature limit correct. Missed the RH threshold and — importantly — got the stalling-speed direction backwards (thought icing decreases it; it actually increases it), a safety-relevant misconception worth flagging.
+  - date: "2026-08-16"
+    chapter: Icing (retry of 2 misses)
+    questions: 2
+    correct: 2
+    accuracy: 1.00
+    weak_topics: []
+    notes: Immediate retry — both cleared, including the safety-relevant stalling-speed direction misconception.
