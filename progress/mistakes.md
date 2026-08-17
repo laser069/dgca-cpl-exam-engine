@@ -374,14 +374,26 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/MetInformation.md: CAVOK requires all three criteria together — visibility, cloud, and weather — not just a visibility threshold with no fog. Classic trap where only the visibility figure is remembered.
 **Seen before:** no, count 1
 
-## 2026-08-16 — "Monsoon" word etymology
+## 2026-08-16 — "Monsoon" word etymology — CLEARED on 2026-08-16
 **Q:** The word "monsoon" derives from an Arabic word meaning what?
 **Your answer:** A (Rain) — **Correct:** B (Season)
 **Why:** notes/Climatology.md: "monsoon" derives from Arabic *mausim* ("season") — referring to the seasonal wind/rainfall reversal itself, not the rain specifically.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
-## 2026-08-16 — Advection fog lift time (winter, coastal India)
+## 2026-08-16 — Advection fog lift time (winter, coastal India) — CLEARED on 2026-08-16
 **Q:** When does winter advection fog over coastal areas/large water bodies typically lift?
 **Your answer:** A (0600–0700 IST) — **Correct:** B (1000–1100 IST)
-**Why:** notes/Climatology.md: advection fog over coastal/water areas lifts around 1000–1100 IST — later than the student's answer. Keep distinct from the separate "haze partially clears around noon" fact tested correctly in the same session.
+**Why:** notes/Climatology.md: advection fog over coastal/water areas lifts around 1000–1100 IST.
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
+
+## 2026-08-16 — Monsoon depression source region
+**Q:** India's monsoon depressions form mainly over which region?
+**Your answer:** B (Arabian Sea exclusively) — **Correct:** A (North Bay of Bengal)
+**Why:** notes/PressureSystems.md: monsoon depressions form mainly over the North Bay of Bengal, also over the Arabian Sea and land (land depressions mostly NE India) as secondary sources. Bay of Bengal is the primary DGCA answer.
+**Seen before:** no, count 1
+
+## 2026-08-16 — STJ vs TJ seasonal timing
+**Q:** Which season does the STJ correspond to, and which does the TJ correspond to, over India?
+**Your answer:** A (STJ = monsoon; TJ = winter) — **Correct:** B (STJ = non-monsoon/winter; TJ = monsoon)
+**Why:** notes/JetStreams.md: STJ present over India Oct–May (non-monsoon/winter), TJ present during monsoon (Jun–Sep) — seasonal opposites. Student answered this correctly in the earlier comprehensive review but reversed it here.
 **Seen before:** no, count 1

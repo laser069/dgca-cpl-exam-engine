@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.76
-questions_attempted: 308
+questions_attempted: 318
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -58,8 +58,8 @@ strong_topics:
 weak_topics:
   - "Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"
   - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
-  - "Monsoon" word etymology (season, not rain) (new)
-  - Advection fog lift time, winter coastal India (1000–1100 IST, not 0600–0700) (new)
+  - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea) (new)
+  - STJ vs TJ seasonal timing (STJ=winter, TJ=monsoon — inconsistent, correct once, reversed once) (new)
 revision_due:
   - Clouds
   - Stability
@@ -388,3 +388,12 @@ history:
       - "Monsoon" word etymology
       - Advection fog lift time (winter, coastal)
     notes: IMD season months, driest region, Norwesters, winter upper wind pattern, WD frequency, winter CAT/STJ link, lowered freezing level, and noon-haze-clearing all correct.
+  - date: "2026-08-16"
+    chapter: Climatology (DGCA-style, monsoon depression & jets)
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - Monsoon depression source region (Bay of Bengal vs Arabian Sea)
+      - STJ vs TJ seasonal timing
+    notes: Cleared monsoon etymology and advection fog lift time from last round. New minor gaps on monsoon depression source region and STJ/TJ seasonal pairing (inconsistent — correct in an earlier session, reversed here).
