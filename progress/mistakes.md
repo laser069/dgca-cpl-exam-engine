@@ -373,3 +373,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** D (Visibility ≥5000 m and no fog) — **Correct:** B (Visibility ≥10 km, no cloud below 5000 ft/MSA, no CB, no significant weather)
 **Why:** notes/MetInformation.md: CAVOK requires all three criteria together — visibility, cloud, and weather — not just a visibility threshold with no fog. Classic trap where only the visibility figure is remembered.
 **Seen before:** no, count 1
+
+## 2026-08-16 — "Monsoon" word etymology
+**Q:** The word "monsoon" derives from an Arabic word meaning what?
+**Your answer:** A (Rain) — **Correct:** B (Season)
+**Why:** notes/Climatology.md: "monsoon" derives from Arabic *mausim* ("season") — referring to the seasonal wind/rainfall reversal itself, not the rain specifically.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Advection fog lift time (winter, coastal India)
+**Q:** When does winter advection fog over coastal areas/large water bodies typically lift?
+**Your answer:** A (0600–0700 IST) — **Correct:** B (1000–1100 IST)
+**Why:** notes/Climatology.md: advection fog over coastal/water areas lifts around 1000–1100 IST — later than the student's answer. Keep distinct from the separate "haze partially clears around noon" fact tested correctly in the same session.
+**Seen before:** no, count 1

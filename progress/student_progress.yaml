@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.76
-questions_attempted: 298
+questions_attempted: 308
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -57,7 +57,9 @@ strong_topics:
   - Density vs temperature relationship, density altitude definition, westerlies direction — cleared 2026-08-16
 weak_topics:
   - "Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"
-  - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone) (new)
+  - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
+  - "Monsoon" word etymology (season, not rain) (new)
+  - Advection fog lift time, winter coastal India (1000–1100 IST, not 0600–0700) (new)
 revision_due:
   - Clouds
   - Stability
@@ -377,3 +379,12 @@ history:
     weak_topics:
       - CAVOK full three-part criteria
     notes: Best comprehensive result yet — one question per chapter/topic (Atmosphere, Pressure, Wind, Humidity, Clouds, Fog, Precipitation, Stability, Thunderstorms, Fronts, PressureSystems, JetStreams, Icing, Visibility, Climatology x2, Density, Optical Phenomena). Only CAVOK missed. Strong evidence the repo-wide weak-topic clearing effort has paid off — even previously 5x-persistent facts (virtual temperature, stability classification, CAT location) landed correctly here.
+  - date: "2026-08-16"
+    chapter: Climatology (winter aviation hazards & regional detail)
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - "Monsoon" word etymology
+      - Advection fog lift time (winter, coastal)
+    notes: IMD season months, driest region, Norwesters, winter upper wind pattern, WD frequency, winter CAT/STJ link, lowered freezing level, and noon-haze-clearing all correct.
