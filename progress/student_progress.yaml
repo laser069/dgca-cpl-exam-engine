@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.70
-questions_attempted: 188
+accuracy: 0.71
+questions_attempted: 198
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -67,7 +67,7 @@ revision_due:
   - JetStreams
   - Thermodynamics
   - Climatology (new — NE Monsoon season confusion)
-revision_due_addendum: Density (new gaps — density vs temperature relationship, density altitude definition)
+revision_due_addendum: Density (new gaps — density vs temperature relationship, density altitude definition); General Circulation (horse latitudes as source region)
 last_updated: "2026-08-16"
 history:
   - date: "2026-08-15"
@@ -301,3 +301,11 @@ history:
       - Density vs temperature at fixed pressure (inverse relationship)
       - Density altitude definition
     notes: Quiz ended early at 9/10 — student switched topics before answering Q10, so it was not scored. Gas law, moist/dry density, ISA density value, altitude effect, and pressure-density relationship all solid.
+  - date: "2026-08-16"
+    chapter: Climatology (General Circulation)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Horse latitudes as source region for trade winds/westerlies
+    notes: First General Circulation session. Strong pass — ITCZ, horse latitudes, trade winds, westerlies, seasonal ITCZ shift, tropical frontlessness, ITCZ identification method, and equator-to-pole circulation sequence all correct.
