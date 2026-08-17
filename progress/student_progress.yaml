@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.74
-questions_attempted: 248
+questions_attempted: 258
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -56,7 +56,7 @@ strong_topics:
   - Stability classification (conditionally unstable) — cleared 2026-08-16 after 4 total misses, confirmed with 2 correct answers including a fresh-numbers cold test
   - Density vs temperature relationship, density altitude definition, westerlies direction — cleared 2026-08-16
 weak_topics:
-  - Hail vs virga: hazard occurring outside CB's visible boundary (new)
+  - Nimbostratus as the continuous-precipitation cloud (not Cirrus) (new)
 revision_due:
   - Clouds
   - Stability
@@ -345,3 +345,11 @@ history:
     weak_topics:
       - Hail vs virga (hazard outside CB's visible boundary)
     notes: First Precipitation session. Strong pass — Bergeron-Findeisen process, hail formation, snow albedo, drizzle-Stratus association, rainy-day runway length, giant nucleus theory, IMD rainfall bands, whole-column temperature-profile rule, and NW India winter Western Disturbance link all correct.
+  - date: "2026-08-16"
+    chapter: Precipitation
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Nimbostratus as the continuous-precipitation cloud
+    notes: 2nd Precipitation session. Cleared hail-vs-virga from last round. Droplet size ranges, no-precipitation cloud list, tropical/coastal rainfall timing, IMD rainy-day definition, cloud seeding mechanism and downwind tradeoff all correct.

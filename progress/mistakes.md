@@ -350,8 +350,14 @@ existing entries if the same topic keeps recurring. Format:
 ## 2026-08-16 — Density altitude definition — CLEARED on 2026-08-16
 **Note:** Answered correctly on retest 2026-08-16 — cleared.
 
-## 2026-08-16 — Hail vs virga: hazard outside CB's visible boundary
+## 2026-08-16 — Hail vs virga: hazard outside CB's visible boundary — CLEARED on 2026-08-16
 **Q:** Which hazard can occur well outside a CB's visible boundary, including under its anvil?
 **Your answer:** D (Virga) — **Correct:** C (Hail)
-**Why:** notes/Precipitation.md / notes/Clouds.md: hail is exclusively a CB (convective) product and can fall from the anvil well outside the visible storm cell — a real, DGCA-tested hazard. Virga is precipitation evaporating before reaching the ground, a different phenomenon not specifically tied to the "outside the visible cell" hazard framing.
+**Why:** notes/Precipitation.md / notes/Clouds.md: hail is exclusively a CB (convective) product and can fall from the anvil well outside the visible storm cell — a real, DGCA-tested hazard.
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
+
+## 2026-08-16 — Nimbostratus as continuous-precipitation cloud
+**Q:** Which cloud type is associated with continuous precipitation?
+**Your answer:** C (Cirrus) — **Correct:** B (Nimbostratus)
+**Why:** notes/Precipitation.md cloud→precipitation table: NS = continuous precipitation. Cirrus is a high-level ice-crystal cloud producing no precipitation at all.
 **Seen before:** no, count 1
