@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.73
-questions_attempted: 223
+questions_attempted: 233
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -49,17 +49,15 @@ strong_topics:
   - Oktas coding (FEW/SCT/BKN/OVC) — correct on 3rd attempt after 2 prior misses, watch for recurrence
   - Optical phenomena: halo (Cirrostratus), glory, Bishop's Ring, inferior mirage
   - ISA MSL standard values, virtual temperature, specific heat ranking, Wien's Law, tropopause breaks/jet streams, −40°C=−40°F
+  - Virtual temperature direction (moist > actual) — cleared 2026-08-16 after 5 total misses
+  - Equatorial tropopause height+temperature pairing — cleared 2026-08-16 after 5 total misses
+  - Halo vs corona, latent heat of vaporisation magnitude, dominant heat-transfer mechanism (radiation) — cleared 2026-08-16
+  - Visibility vs synoptic pattern, CAT location relative to jet core, primary vs secondary rainbow radius, NE Monsoon season/character — cleared 2026-08-16
 weak_topics:
-  - Halo vs corona: cloud source and icing-risk implication
-  - Stability classification (ELR vs DALR/SALR → conditionally unstable)
-  - Visibility vs synoptic pattern (Low=better/High=worse visibility reversal)
-  - CAT location relative to jet-stream core (cold/poleward side)
-  - Primary vs secondary rainbow radius (42° vs 52°)
-  - Latent heat of vaporisation magnitude (>5x rule)
-  - Dominant atmospheric heat-transfer mechanism (radiation, not convection)
-  - NE Monsoon season/character (winter, cool, dry — not summer/wet)
-  - Virtual temperature direction (moist > actual, always) — persistent, 3 misses. Anchor: "moist air acts warmer than it really is"
-  - Equatorial tropopause height+temperature pairing (higher AND colder together) — persistent, 3 misses; knows the mechanism but not the combined fact
+  - Stability classification (ELR vs DALR/SALR → conditionally unstable) — PRIORITY, missed 3 times on the identical scenario (ELR 2.2, DALR 3, SALR 1.5 → always answered "absolutely stable" instead of "conditionally unstable"). Needs a worked-example revision pass, not another MCQ repeat.
+  - Density vs temperature at fixed pressure (inverse relationship)
+  - Density altitude definition
+  - Westerlies direction (from horse latitudes toward polar front, not toward ITCZ)
 revision_due:
   - Clouds
   - Stability
@@ -67,7 +65,7 @@ revision_due:
   - JetStreams
   - Thermodynamics
   - Climatology (new — NE Monsoon season confusion)
-revision_due_addendum: Density (new gaps — density vs temperature relationship, density altitude definition). PRIORITY — Atmosphere: virtual temperature direction and equatorial tropopause pairing are now confirmed persistent (4+ misses each) — recommend a written revision sheet with diagrams rather than more MCQs.
+revision_due_addendum: PRIORITY — Stability: conditional instability classification, missed identically 3 times, needs a worked-example revision pass. Also open — Density (temperature/pressure relationship, density altitude definition).
 last_updated: "2026-08-16"
 history:
   - date: "2026-08-15"
@@ -326,3 +324,11 @@ history:
       - Equatorial tropopause height+temperature pairing (persistent, 4th+ miss)
       - Westerlies direction (from horse latitudes toward polar front)
     notes: Strong combined paper. General Circulation nearly perfect (7/8). The two persistent Atmosphere gaps resurfaced yet again despite many prior drilling rounds — flagged as priority for a written revision sheet rather than further MCQ repetition.
+  - date: "2026-08-16"
+    chapter: Weighted weak-topics review (Atmosphere, Clouds, Stability, Visibility, JetStreams, Climatology)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Stability classification (3rd identical miss — now the single most persistent unresolved gap)
+    notes: Outstanding round. Cleared virtual temperature direction and equatorial tropopause pairing (both after 5 total misses each) plus halo/corona, visibility reversal, CAT location, rainbow radius, latent heat magnitude, dominant heat-transfer mechanism, and NE Monsoon — all in one sweep. Only Stability classification remains, having now been missed identically 3 times on the same scenario.

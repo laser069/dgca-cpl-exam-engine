@@ -53,11 +53,11 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** Noctilucent = mesosphere (~80 km); Nacreous (mother-of-pearl) = upper stratosphere. This is the same swap trap as 2026-08-15, just asked from the other direction.
 **Seen before:** yes, count 2 — persistent confusion, needs dedicated drilling.
 
-## 2026-08-16 — Corona and Altostratus icing indication
+## 2026-08-16 — Corona and Altostratus icing indication — CLEARED on 2026-08-16
 **Q:** A small-radius (<5°) coloured ring around the sun/moon, duller than a halo — cause and icing implication?
 **Your answer:** A (Cirrostratus — negligible icing) — **Correct:** B (Altostratus — moderate icing risk if above freezing level)
-**Why:** Corona = diffraction by small water droplets/ice particles in Altostratus, indicating supercooled water → moderate icing risk. Halo (not corona) = refraction through ice crystals in Cirrostratus → negligible icing. Student conflated halo and corona.
-**Seen before:** no, count 1
+**Why:** Corona = diffraction by small water droplets/ice particles in Altostratus, indicating supercooled water → moderate icing risk. Halo (not corona) = refraction through ice crystals in Cirrostratus → negligible icing.
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — CB anvil hail hazard
 **Q:** Pilot flying in visually clear air under a CB anvil, away from the visible cell — hail hazard?
@@ -83,17 +83,17 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Stability.md: ELR between SALR and DALR = conditionally unstable (stable while dry, unstable once saturated). Absolutely stable requires ELR below the SALR entirely.
 **Seen before:** no, count 1
 
-## 2026-08-16 — Visibility vs synoptic pressure pattern
+## 2026-08-16 — Visibility vs synoptic pressure pattern — CLEARED on 2026-08-16
 **Q:** Which synoptic pattern favours poor visibility — active Low with rain, or stagnant High/col?
 **Your answer:** A (Low-pressure system with rain) — **Correct:** B (Stagnant High-pressure/col)
 **Why:** notes/Visibility.md: counter-intuitively, unsettled Low-pressure weather often brings *good* visibility (rain washes out particulates, wind disperses haze); calm High-pressure/col conditions let haze/smoke/fog accumulate undisturbed — the classic DGCA reversal trap.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
-## 2026-08-16 — CAT location relative to jet-stream core
+## 2026-08-16 — CAT location relative to jet-stream core — CLEARED on 2026-08-16
 **Q:** Clear Air Turbulence is most often encountered on which side of the jet core?
 **Your answer:** A (Warm/equatorward side) — **Correct:** B (Cold/poleward side, near the core and tropopause)
 **Why:** notes/JetStreams.md: CAT concentrates on the cold (poleward) side of the jet, near the core, near the tropopause, where shear is strongest.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — Mixing ratio vs relative humidity on ascent — CLEARED on 2026-08-16
 **Q:** Which quantity stays constant for an unsaturated parcel rising without gaining/losing moisture?
@@ -119,11 +119,11 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Thermodynamics.md / notes/Icing.md: supercooled droplets persist liquid down to about −40°C in ordinary cloud, −45°C in a CB (stronger updraughts keep droplets airborne and liquid longer).
 **Seen before:** no, count 1. Answered correctly on immediate retry 2026-08-16 — cleared.
 
-## 2026-08-16 — Primary vs secondary rainbow radius
+## 2026-08-16 — Primary vs secondary rainbow radius — CLEARED on 2026-08-16
 **Q:** Radius of the primary rainbow (red outside, violet inside)?
 **Your answer:** C (52°) — **Correct:** B (42°)
 **Why:** notes/Clouds.md Optical Phenomena: primary bow = 42° radius; the fainter secondary bow (colours reversed) sits outside it at 52°. Student picked the secondary bow's radius for the primary.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — Greenhouse gases — CLEARED on 2026-08-16
 **Q:** Which two gases are the atmosphere's "greenhouse gases"?
@@ -137,11 +137,11 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Atmosphere.md: ISA lapse rate applies up to 36,090 ft. 18,000–20,000 ft is a different fact (roughly half the atmosphere's mass lies below that level) — don't conflate the two altitude figures.
 **Seen before:** no, count 1
 
-## 2026-08-16 — Latent heat of vaporisation magnitude
+## 2026-08-16 — Latent heat of vaporisation magnitude — CLEARED on 2026-08-16
 **Q:** How much extra heat does converting boiling water to vapour need vs heating ice-cold water to boiling?
 **Your answer:** D (No additional heat needed) — **Correct:** C (More than 5× as much heat)
 **Why:** notes/Atmosphere.md: converting already-boiling water to vapour takes >5× the heat needed to bring the same ice-cold water to the boil — that "extra" heat is latent heat, the physical driver of cloud/storm energy release.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — Ideal gas law form — CLEARED on 2026-08-16
 **Q:** Which equation correctly links pressure, density, and temperature for air as an ideal gas?
@@ -167,11 +167,11 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** Large-magnitude arithmetic error, distinct from the earlier sign-only slip at 8,000 ft — recheck the multiplication method (1.98 × altitude-in-thousands-of-ft, not × altitude-in-ft).
 **Seen before:** no, count 1 (related to a prior sign-only miss on a different altitude, but this is a distinct magnitude error)
 
-## 2026-08-16 — Dominant atmospheric heat-transfer mechanism
+## 2026-08-16 — Dominant atmospheric heat-transfer mechanism — CLEARED on 2026-08-16
 **Q:** Which heat-transfer mechanism is dominant overall in the atmosphere?
 **Your answer:** B (Convection) — **Correct:** C (Radiation)
 **Why:** notes/Atmosphere.md: radiation needs no medium and drives the fundamental short-wave-in/long-wave-out energy balance — the dominant mechanism overall. Conduction matters only very near the ground; convection is important but secondary to radiation.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — Fahrenheit to Celsius conversion
 **Q:** Convert 86°F to Celsius.
@@ -197,11 +197,11 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Atmosphere.md: ISA lapse rate 1.98°C/1000 ft up to 36,090 ft, then constant −56.5°C up to ~65,000 ft.
 **Seen before:** yes, count 2 — missed again on retest 2026-08-16 (answered 80,000 ft). Answered correctly on 3rd attempt 2026-08-16 — cleared.
 
-## 2026-08-16 — NE Monsoon season and character
+## 2026-08-16 — NE Monsoon season and character — CLEARED on 2026-08-16
 **Q:** The NE Monsoon affecting India blows during which season and gives what conditions?
 **Your answer:** A (Summer — hot and wet) — **Correct:** B (Winter — cool and dry)
 **Why:** notes/Climatology.md: NE Monsoon blows in winter, giving cool dry conditions over most of India (exception: SE coast/Tamil Nadu gets its main rains from it). Student appears to have confused it with the SW (summer) Monsoon.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
 
 ## 2026-08-16 — Mesosphere temperature trend — CLEARED on 2026-08-16
 **Q:** How does temperature behave with height in the mesosphere?
@@ -320,17 +320,23 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Climatology.md: horse latitudes (~30°N/S) are where descending dry air diverges, feeding trade winds toward the ITCZ and westerlies toward the polar front. ITCZ is where trade winds converge, not where either wind belt originates.
 **Seen before:** no, count 1. Cleared on 2026-08-16 after a dedicated 5-question drill (divergence, ITCZ distinction, trade wind origin, westerlies origin, Hadley cell) — 5/5 correct.
 
-## 2026-08-16 — Virtual temperature direction (persistent, 4th+ miss)
+## 2026-08-16 — Virtual temperature direction (persistent, 4th+ miss) — CLEARED on 2026-08-16
 **Q:** Moist parcel's virtual temperature vs actual temperature, same P/T as a dry parcel?
 **Your answer:** A (Equal) — **Correct:** B (Higher)
-**Why:** Virtual temperature is the temperature dry air needs to match the moist parcel's density; moist air is less dense, so virtual temp is always higher. Anchor: "moist air acts warmer than it really is." This concept has now been missed repeatedly across many sessions despite correct isolated explanations of its purpose.
-**Seen before:** yes, count 4+. Genuinely persistent — recommend a written revision sheet with a density/temperature diagram rather than further MCQ drilling alone.
+**Why:** Virtual temperature is the temperature dry air needs to match the moist parcel's density; moist air is less dense, so virtual temp is always higher. Anchor: "moist air acts warmer than it really is."
+**Seen before:** yes, count 4+. Answered correctly on retest 2026-08-16 (targeted weak-topics round) — cleared after 5 total misses.
 
-## 2026-08-16 — Equatorial tropopause height+temperature pairing (persistent, 4th+ miss)
+## 2026-08-16 — Equatorial tropopause height+temperature pairing (persistent, 4th+ miss) — CLEARED on 2026-08-16
 **Q:** Equatorial tropopause vs polar tropopause — height and temperature together?
 **Your answer:** B (Higher and warmer) — **Correct:** C (Higher and colder)
 **Why:** Stronger equatorial convection drives greater height; falling temperature through that longer ascent makes it colder BECAUSE it's higher, not despite it.
-**Seen before:** yes, count 4+. Genuinely persistent alongside virtual temperature — same recommendation: a written revision sheet with a diagram.
+**Seen before:** yes, count 4+. Answered correctly on retest 2026-08-16 (targeted weak-topics round) — cleared after 5 total misses.
+
+## 2026-08-16 — Stability classification (persistent, now 3rd miss on the SAME scenario)
+**Q:** ELR = 2.2°C/1000 ft, DALR ≈ 3°C/1000 ft, SALR ≈ 1.5°C/1000 ft — classify.
+**Your answer:** A (Absolutely stable) — **Correct:** C (Conditionally unstable)
+**Why:** notes/Stability.md: ELR between SALR and DALR = conditionally unstable. Student has now answered "absolutely stable" for this identical scenario on every attempt (3 total), suggesting a specific misrule: likely conflating "ELR below DALR" with "absolutely stable," when the three-way DALR/SALR comparison is what actually determines the classification (below SALR = absolutely stable; above DALR = absolutely unstable; between = conditionally unstable).
+**Seen before:** yes, count 3 — now the single most persistent unresolved weak topic in the whole repo. Needs a dedicated worked-example revision pass, not another MCQ repeat of the same question.
 
 ## 2026-08-16 — Westerlies direction (from horse latitudes)
 **Q:** Which direction do the westerlies flow?
