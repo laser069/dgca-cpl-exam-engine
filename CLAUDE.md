@@ -34,6 +34,9 @@ the student is preparing for the DGCA CPL Meteorology written paper.
 - `Explain every incorrect answer in detail.`
 - `Update my progress after this quiz.`
 
+Progress files auto-commit after every scoring interaction (`SYSTEM_PROMPT.md` Rule 12) — expect
+a git commit per quiz/mock/revision session, not just on request.
+
 ## Provenance
 Built from `Source/` (60 PDFs, 7 exact duplicates). Extraction/parsing pipeline lives in
 `../build/` (scripts + intermediate JSONL) — not part of the study repo itself, kept for

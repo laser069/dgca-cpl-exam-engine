@@ -14,5 +14,4 @@ Use for: `Generate 10 DGCA-level questions from <Chapter>.`
 4. If a `previous_questions` record used as inspiration was `confidence: unresolved`, work the
    answer out with the student rather than asserting it as fact — say so.
 5. At the end: score, explanation of each wrong answer, weak sub-topics within the chapter,
-   revision advice. Append misses to `progress/mistakes.md` and update
-   `progress/student_progress.yaml` (accuracy, questions_attempted, weak_topics).
+   revision advice, then update progress and commit per `SYSTEM_PROMPT.md` Rule 12.

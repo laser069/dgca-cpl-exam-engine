@@ -9,4 +9,5 @@ Use for: `Create revision notes for <Chapter>.` / `Review yesterday's mistakes.`
 - **Review yesterday's mistakes:** read `progress/mistakes.md`, filter to entries from the
   requested date range, re-quiz the student on those exact concepts (new question wording, same
   concept), and mark entries resolved (remove or annotate "cleared on <date>") once the student
-  gets the concept right twice in a row.
+  gets the concept right twice in a row. Then update progress and commit per
+  `SYSTEM_PROMPT.md` Rule 12.

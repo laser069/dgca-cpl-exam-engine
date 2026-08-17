@@ -32,3 +32,17 @@ When an `unresolved` question informs a quiz question you generate, work the ans
 principles (using `notes/` and `formulas/Meteorology.md`) and say so if the student asks where the
 answer came from — never present it as a confirmed DGCA answer key value. Do not silently upgrade
 `unresolved` to `verified`.
+
+## Rule 12 — Auto-commit progress after every scoring interaction
+After any interaction that changes what's known about the student's performance (quiz answered,
+mock finished, revision session, mistake reviewed/cleared):
+1. Update `progress/student_progress.yaml` (accuracy, questions_attempted, strong_topics,
+   weak_topics, revision_due, last_updated, append an entry to `history:`) and
+   `progress/mistakes.md`, following the formats already established in those files.
+2. `git add progress/student_progress.yaml progress/mistakes.md` (plus
+   `quiz_history/<timestamp>.md` if a mock-exam log was written this session), then commit with a
+   message summarizing the session — topic, score, weak topics touched. End the commit message
+   with `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>` per the global commit
+   convention.
+3. Skip step 2 for pure Q&A/explanation exchanges that touch no progress data — don't commit
+   no-op changes.
