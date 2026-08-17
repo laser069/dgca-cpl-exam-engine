@@ -367,3 +367,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (Minimum temp below 0°C) — **Correct:** B (Maximum temp ≤16°C)
 **Why:** notes/Climatology.md: Cold Day = maximum temperature ≤16°C in the plains, distinct from "Cold Wave" (minimum at least 4.0°C below normal). Student conflated the two related-but-distinct winter definitions.
 **Seen before:** no, count 1
+
+## 2026-08-16 — CAVOK criteria (full three-part definition)
+**Q:** What conditions must be met for CAVOK?
+**Your answer:** D (Visibility ≥5000 m and no fog) — **Correct:** B (Visibility ≥10 km, no cloud below 5000 ft/MSA, no CB, no significant weather)
+**Why:** notes/MetInformation.md: CAVOK requires all three criteria together — visibility, cloud, and weather — not just a visibility threshold with no fog. Classic trap where only the visibility figure is remembered.
+**Seen before:** no, count 1

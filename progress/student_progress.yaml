@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.75
-questions_attempted: 278
+accuracy: 0.76
+questions_attempted: 298
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -56,7 +56,8 @@ strong_topics:
   - Stability classification (conditionally unstable) — cleared 2026-08-16 after 4 total misses, confirmed with 2 correct answers including a fresh-numbers cold test
   - Density vs temperature relationship, density altitude definition, westerlies direction — cleared 2026-08-16
 weak_topics:
-  - "Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave" (new)
+  - "Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"
+  - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone) (new)
 revision_due:
   - Clouds
   - Stability
@@ -368,3 +369,11 @@ history:
     weak_topics:
       - "Cold Day" definition (max ≤16°C, confused with Cold Wave)
     notes: First Indian-regional-climatology session (separate from General Circulation, already cleared). SW Monsoon driver, NE Monsoon SE-coast exception, break monsoon, Mawsynram rainfall record, 75%-in-4-months figure, Cold Wave definition, Western Disturbance origin/track, and WD weather sequence all correct.
+  - date: "2026-08-16"
+    chapter: Comprehensive review (all 17 chapters/topics covered so far)
+    questions: 20
+    correct: 19
+    accuracy: 0.95
+    weak_topics:
+      - CAVOK full three-part criteria
+    notes: Best comprehensive result yet — one question per chapter/topic (Atmosphere, Pressure, Wind, Humidity, Clouds, Fog, Precipitation, Stability, Thunderstorms, Fronts, PressureSystems, JetStreams, Icing, Visibility, Climatology x2, Density, Optical Phenomena). Only CAVOK missed. Strong evidence the repo-wide weak-topic clearing effort has paid off — even previously 5x-persistent facts (virtual temperature, stability classification, CAT location) landed correctly here.
