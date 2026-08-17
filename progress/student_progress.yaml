@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.72
-questions_attempted: 203
+accuracy: 0.73
+questions_attempted: 223
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -67,7 +67,7 @@ revision_due:
   - JetStreams
   - Thermodynamics
   - Climatology (new — NE Monsoon season confusion)
-revision_due_addendum: Density (new gaps — density vs temperature relationship, density altitude definition)
+revision_due_addendum: Density (new gaps — density vs temperature relationship, density altitude definition). PRIORITY — Atmosphere: virtual temperature direction and equatorial tropopause pairing are now confirmed persistent (4+ misses each) — recommend a written revision sheet with diagrams rather than more MCQs.
 last_updated: "2026-08-16"
 history:
   - date: "2026-08-15"
@@ -316,3 +316,13 @@ history:
     accuracy: 1.00
     weak_topics: []
     notes: Dedicated retest of the horse-latitudes weak spot from multiple angles — perfect score, fully cleared.
+  - date: "2026-08-16"
+    chapter: Combined 20-mark paper (Atmosphere + General Circulation)
+    questions: 20
+    correct: 17
+    accuracy: 0.85
+    weak_topics:
+      - Virtual temperature direction (persistent, 4th+ miss)
+      - Equatorial tropopause height+temperature pairing (persistent, 4th+ miss)
+      - Westerlies direction (from horse latitudes toward polar front)
+    notes: Strong combined paper. General Circulation nearly perfect (7/8). The two persistent Atmosphere gaps resurfaced yet again despite many prior drilling rounds — flagged as priority for a written revision sheet rather than further MCQ repetition.

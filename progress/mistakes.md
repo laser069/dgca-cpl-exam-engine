@@ -319,3 +319,21 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (ITCZ) — **Correct:** B (Horse latitudes — subtropical high belt)
 **Why:** notes/Climatology.md: horse latitudes (~30°N/S) are where descending dry air diverges, feeding trade winds toward the ITCZ and westerlies toward the polar front. ITCZ is where trade winds converge, not where either wind belt originates.
 **Seen before:** no, count 1. Cleared on 2026-08-16 after a dedicated 5-question drill (divergence, ITCZ distinction, trade wind origin, westerlies origin, Hadley cell) — 5/5 correct.
+
+## 2026-08-16 — Virtual temperature direction (persistent, 4th+ miss)
+**Q:** Moist parcel's virtual temperature vs actual temperature, same P/T as a dry parcel?
+**Your answer:** A (Equal) — **Correct:** B (Higher)
+**Why:** Virtual temperature is the temperature dry air needs to match the moist parcel's density; moist air is less dense, so virtual temp is always higher. Anchor: "moist air acts warmer than it really is." This concept has now been missed repeatedly across many sessions despite correct isolated explanations of its purpose.
+**Seen before:** yes, count 4+. Genuinely persistent — recommend a written revision sheet with a density/temperature diagram rather than further MCQ drilling alone.
+
+## 2026-08-16 — Equatorial tropopause height+temperature pairing (persistent, 4th+ miss)
+**Q:** Equatorial tropopause vs polar tropopause — height and temperature together?
+**Your answer:** B (Higher and warmer) — **Correct:** C (Higher and colder)
+**Why:** Stronger equatorial convection drives greater height; falling temperature through that longer ascent makes it colder BECAUSE it's higher, not despite it.
+**Seen before:** yes, count 4+. Genuinely persistent alongside virtual temperature — same recommendation: a written revision sheet with a diagram.
+
+## 2026-08-16 — Westerlies direction (from horse latitudes)
+**Q:** Which direction do the westerlies flow?
+**Your answer:** A (Horse latitudes → ITCZ) — **Correct:** B (Horse latitudes → polar front)
+**Why:** notes/Climatology.md: horse latitudes feed both the trade winds (equatorward, toward ITCZ) and the westerlies (poleward, toward the polar front). Student correctly named horse latitudes as the source just 10 questions earlier in the same paper but reversed westerlies' specific direction here.
+**Seen before:** no, count 1
