@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.76
-questions_attempted: 318
+accuracy: 0.77
+questions_attempted: 322
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -397,3 +397,10 @@ history:
       - Monsoon depression source region (Bay of Bengal vs Arabian Sea)
       - STJ vs TJ seasonal timing
     notes: Cleared monsoon etymology and advection fog lift time from last round. New minor gaps on monsoon depression source region and STJ/TJ seasonal pairing (inconsistent — correct in an earlier session, reversed here).
+  - date: "2026-08-16"
+    chapter: Icing (ice accretion types)
+    questions: 4
+    correct: 4
+    accuracy: 1.00
+    weak_topics: []
+    notes: First dedicated Icing session (accretion types). Quiz ended early at student's request after Q4 — perfect score on structural icing requirements, rime vs clear ice, and hoar frost's ground-hazard distinction. Q5 (CB icing severity) posed but not answered/scored.
