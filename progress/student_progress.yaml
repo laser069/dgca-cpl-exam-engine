@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.79
-questions_attempted: 372
+questions_attempted: 382
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -437,3 +437,11 @@ history:
     accuracy: 1.00
     weak_topics: []
     notes: PERFECT SCORE across 15 chapters (Thunderstorms, Fronts, PressureSystems, JetStreams, Icing, Visibility, MetInformation, Wind, Density, Thermodynamics, Precipitation, Climatology, Stability). Re-cleared all 3 items that relapsed in the earlier mock exam (mixing ratio/RH, Nimbostratus, snow albedo) — strong evidence the mock relapse was a one-off fatigue/context slip, not a real retention gap. Best mixed-quiz result in the repo's history.
+  - date: "2026-08-16"
+    chapter: Mock test (10 fresh questions, 9 chapters)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - QFF vs QNH direction with warm-than-ISA temperature
+    notes: All-new question set per student's no-repeat instruction. Mountain-wave altimeter error, gale/squall, cold occlusion, TRS temperature threshold, hoar frost vs glazed ice, dust storm visibility, jet streaks, Tc air mass origin, and SIGMET/AIRMET distinction all correct.

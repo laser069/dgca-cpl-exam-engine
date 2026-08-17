@@ -427,3 +427,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (Cirrus) — **Correct:** B (Nimbostratus)
 **Why:** notes/Precipitation.md cloud→precipitation table. Previously cleared via repetition in a dedicated Precipitation session; relapsed under mixed 50-question mock conditions.
 **Seen before:** yes — previously cleared, relapsed under mock pressure. Re-cleared same day with a correct answer in a follow-up 20-question mixed round.
+
+## 2026-08-16 — QFF vs QNH direction with warm-than-ISA temperature
+**Q:** QNH known, actual temperature warmer than ISA — how does QFF compare to QNH?
+**Your answer:** C (QFF equals QNH) — **Correct:** B (QFF lower than QNH)
+**Why:** notes/Pressure.md: QNH always uses ISA temperature for MSL reduction; QFF uses actual temperature. Warmer-than-ISA air "weighs less" per unit height in the QFF calc, so QFF ends up lower than QNH. Reason through the sign rather than memorising a fixed number.
+**Seen before:** no, count 1
