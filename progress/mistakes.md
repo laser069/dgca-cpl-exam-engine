@@ -336,10 +336,16 @@ existing entries if the same topic keeps recurring. Format:
 **Q:** ELR = 2.2°C/1000 ft, DALR ≈ 3°C/1000 ft, SALR ≈ 1.5°C/1000 ft — classify.
 **Your answer:** A (Absolutely stable) — **Correct:** C (Conditionally unstable)
 **Why:** notes/Stability.md: ELR between SALR and DALR = conditionally unstable. Student has now answered "absolutely stable" for this identical scenario on every attempt (3 total), suggesting a specific misrule: likely conflating "ELR below DALR" with "absolutely stable," when the three-way DALR/SALR comparison is what actually determines the classification (below SALR = absolutely stable; above DALR = absolutely unstable; between = conditionally unstable).
-**Seen before:** yes, count 3 — now the single most persistent unresolved weak topic in the whole repo. Needs a dedicated worked-example revision pass, not another MCQ repeat of the same question.
+**Seen before:** yes, count 3. CLEARED on 2026-08-16 — answered correctly twice in a dedicated revision round: once with a full reasoning walkthrough, once cold on fresh numbers (ELR 2.0 vs the original 2.2°C/1000 ft scenario). Strong evidence the concept is genuinely understood now, not pattern-matched to one question.
 
-## 2026-08-16 — Westerlies direction (from horse latitudes)
+## 2026-08-16 — Westerlies direction (from horse latitudes) — CLEARED on 2026-08-16
 **Q:** Which direction do the westerlies flow?
 **Your answer:** A (Horse latitudes → ITCZ) — **Correct:** B (Horse latitudes → polar front)
 **Why:** notes/Climatology.md: horse latitudes feed both the trade winds (equatorward, toward ITCZ) and the westerlies (poleward, toward the polar front). Student correctly named horse latitudes as the source just 10 questions earlier in the same paper but reversed westerlies' specific direction here.
-**Seen before:** no, count 1
+**Seen before:** no, count 1. Answered correctly on retest 2026-08-16 — cleared.
+
+## 2026-08-16 — Density vs temperature at fixed pressure — CLEARED on 2026-08-16
+**Note:** Answered correctly on retest 2026-08-16 — cleared.
+
+## 2026-08-16 — Density altitude definition — CLEARED on 2026-08-16
+**Note:** Answered correctly on retest 2026-08-16 — cleared.
