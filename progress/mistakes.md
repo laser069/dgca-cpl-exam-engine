@@ -439,3 +439,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** B (Always organized into squall lines) — **Correct:** A (Isolated, daytime-heating-driven, short-lived, afternoon over land)
 **Why:** notes/Thunderstorms.md: air-mass thunderstorms are isolated and thermally driven. Organizing into squall lines is characteristic of frontal thunderstorms instead — a different classification.
 **Seen before:** no, count 1. Answered correctly on immediate repeat-retest 2026-08-16 — cleared.
+
+## 2026-08-16 — Cold Wave air mass source (Pc, not Em)
+**Q:** Which air mass incursion post-Western-Disturbance brings Cold Wave conditions to N. India?
+**Your answer:** B (Em — Equatorial Maritime) — **Correct:** A (Pc — Polar Continental)
+**Why:** notes/Fronts.md air mass table: Pc (Polar Continental, cold/dry, sub-polar/Arctic land origin) drives Cold Wave conditions. Em is the hot, humid monsoon air mass — essentially opposite character.
+**Seen before:** no, count 1

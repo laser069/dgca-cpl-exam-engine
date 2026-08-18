@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.80
-questions_attempted: 401
+questions_attempted: 411
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -61,6 +61,7 @@ weak_topics:
   - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea)
   - STJ vs TJ seasonal timing (STJ=winter, TJ=monsoon — inconsistent, correct once, reversed once)
   - QFF vs QNH direction with warm-than-ISA temperature
+  - Cold Wave air mass source (Pc, not Em) (new)
 revision_due:
   - Clouds
   - Stability
@@ -468,3 +469,11 @@ history:
     accuracy: 1.00
     weak_topics: []
     notes: Student flagged stray tool-call artifacts (empty Bash calls) in prior rounds as disruptive/confusing during their test session. Acknowledged the issue, dropped the pointless tool calls, and redid this round cleanly in plain text only. Perfect score, fully trustworthy record. This entry supersedes the previous cluttered Thunderstorms repeat round as the reliable one.
+  - date: "2026-08-16"
+    chapter: Air Masses (Fronts supplementary)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Cold Wave air mass source (Pc, not Em)
+    notes: First dedicated Air Masses session. Classification axes, Tc/Tm/Em/Pm/Arctic characteristics, Monsoon Trough formation, Western Disturbance's role in drawing Tm air, and frontolysis all correct.
