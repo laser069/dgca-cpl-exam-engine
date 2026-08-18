@@ -477,3 +477,11 @@ history:
     weak_topics:
       - Cold Wave air mass source (Pc, not Em)
     notes: First dedicated Air Masses session. Classification axes, Tc/Tm/Em/Pm/Arctic characteristics, Monsoon Trough formation, Western Disturbance's role in drawing Tm air, and frontolysis all correct.
+  - date: "2026-08-16"
+    chapter: Air Masses (clean redo, zero tool calls during quiz)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Cold Wave air mass source (Pc, not Em) — 2nd consecutive miss on this exact fact
+    notes: Student requested a clean redo after flagging stray tool-call clutter as undermining trust in the scoring. This run had zero tool calls during the Q&A flow and produced the identical result (9/10, same single miss) — confirms the original score was accurate. Cold Wave/Pc-vs-Em is now a genuine, confirmed weak point (missed twice in a row) rather than a one-off slip.

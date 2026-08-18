@@ -444,4 +444,4 @@ existing entries if the same topic keeps recurring. Format:
 **Q:** Which air mass incursion post-Western-Disturbance brings Cold Wave conditions to N. India?
 **Your answer:** B (Em — Equatorial Maritime) — **Correct:** A (Pc — Polar Continental)
 **Why:** notes/Fronts.md air mass table: Pc (Polar Continental, cold/dry, sub-polar/Arctic land origin) drives Cold Wave conditions. Em is the hot, humid monsoon air mass — essentially opposite character.
-**Seen before:** no, count 1
+**Seen before:** yes, count 2 — missed identically on both the original Air Masses quiz and a clean redo. Confirmed genuine weak point, not a one-off slip. Anchor: Pc = cold/dry/Cold-Wave source; Em = hot/humid monsoon air — opposite characters, easy to swap under pressure.
