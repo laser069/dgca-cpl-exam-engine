@@ -1,29 +1,38 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.50
-questions_attempted: 16
+accuracy: 0.76
+questions_attempted: 66
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
-  - Nimbostratus and frontal precipitation
   - Medium-level cloud height band
   - Drizzle-Stratus association
   - CAT position relative to jet core (cold side, near tropopause)
   - STJ vs TJ seasonal/geographic distinction over India
   - Jet core threshold and jet streak definition
+  - Thunderstorm life cycle, gale/squall, Norwesters, anvil hail (4/4 on mock)
+  - Icing: temperature band, rime/clear, CB severity, carburettor icing (4/4 on mock)
+  - Fog, Precipitation, Thermodynamics/Humidity, Visibility, Climatology, Met Info basics (100% each on mock)
 weak_topics:
   - Oktas coding (FEW/SCT/BKN/OVC ranges)
   - Nacreous vs noctilucent cloud layers
-  - Nimbostratus multi-level vertical extent
+  - Nimbostratus multi-level vertical extent (recurring — missed again 2026-08-18, count 2)
   - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
-  - CB anvil hail hazard outside visible cell
-  - Pressure/temperature effect on true altitude (ISA-deviation sign errors)
   - Halo vs corona cloud-type and icing mapping
-  - CB life cycle stage-by-stage hazard profile (mature stage updraught+downdraught)
+  - Fronts: cold vs warm occlusion air-mass temperature logic
+  - Fronts: Indian air-mass classification (Tc vs Tm vs Em)
+  - Stability: inversion effect on vertical mixing
+  - Atmosphere: equatorial vs polar tropopause height/temperature
+  - Pressure: layer thickness in warm vs cold air
+  - Wind: friction effect (backing + slowing) on surface wind
+  - Pressure Systems: TRS energy source (latent heat, not solar)
 revision_due:
-  - Clouds
+  - Fronts
+  - Stability
+  - Atmosphere
   - Pressure
-  - Thunderstorms
+  - Clouds
+  - PressureSystems
 last_updated: "2026-08-18"
 history:
   - date: "2026-08-15"
@@ -52,3 +61,12 @@ history:
     correct: 3
     accuracy: 1.00
     weak_topics: []
+  - date: "2026-08-18"
+    chapter: Mixed 50-question mock (all 16 chapters)
+    questions: 50
+    correct: 42
+    accuracy: 0.84
+    weak_topics:
+      - Fronts (occlusion logic, Indian air-mass classification) — 2/4
+      - Stability (inversion effect) — 1/2
+      - Atmosphere, Pressure, Clouds, PressureSystems — 3/4 each, isolated sign-error misses

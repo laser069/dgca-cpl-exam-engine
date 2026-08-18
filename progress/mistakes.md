@@ -58,3 +58,51 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (Cumulus stage — updraught only) — **Correct:** B (Mature stage — updraught+downdraught coexist)
 **Why:** The mature stage's coexisting updraught and downdraught produce simultaneous heavy rain, hail, lightning, and severe turbulence — the peak-hazard stage. Cumulus stage has no precipitation reaching ground yet. notes/Thunderstorms.md Formation.
 **Seen before:** no, count 1
+
+## 2026-08-18 — Equatorial vs polar tropopause height/temperature
+**Q:** The tropopause is higher and ___ at the equator than at the poles?
+**Your answer:** A (Lower and warmer) — **Correct:** B (Higher and colder)
+**Why:** Equatorial tropopause is both higher (16-18 km) and colder than the polar tropopause — "higher" does not imply "warmer." notes/Atmosphere.md Common Mistakes.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Layer thickness, warm vs cold air
+**Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
+**Your answer:** A (Cold air) — **Correct:** B (Warm air)
+**Why:** Warm air is less dense, so a given pressure change spans more height — thickness is greater in warm air. notes/Pressure.md / notes/Fronts.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Friction effect on surface wind
+**Q:** Compared to gradient wind aloft, surface wind due to friction (NH)?
+**Your answer:** A (Backs and increases in speed) — **Correct:** C (Backs and decreases in speed)
+**Why:** Friction backs AND slows surface wind relative to the gradient wind aloft — speed decreases, not increases. notes/Wind.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Nimbostratus multi-level classification (recurrence)
+**Q:** Which cloud genus is classified low-level by base but extends through medium/high levels?
+**Your answer:** D (Stratocumulus) — **Correct:** B (Nimbostratus)
+**Why:** Same trap as 2026-08-15 entry — Nimbostratus, not Stratocumulus, extends vertically through multiple levels despite a low base classification.
+**Seen before:** yes, count 2
+
+## 2026-08-18 — Inversion effect on vertical mixing
+**Q:** A temperature inversion is associated with?
+**Your answer:** A (Strong convective cloud development) — **Correct:** B (Suppressed vertical mixing, trapping fog/haze below)
+**Why:** Inversions are extremely stable and suppress vertical mixing — they trap pollutants/fog beneath them rather than encouraging convection. notes/Stability.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Cold occlusion air-mass temperature logic
+**Q:** In a cold occlusion, which air mass is colder — behind or ahead of the front?
+**Your answer:** B (Air behind is warmer, warm-front characteristics dominate) — **Correct:** A (Air behind is colder, cold-front characteristics dominate)
+**Why:** By definition, a *cold* occlusion has colder air behind the front than ahead of it, so cold-front weather dominates at the surface. notes/Fronts.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — India's dominant winter air mass
+**Q:** Which air mass, originating from the Siberian high, dominates over India in winter (cold, dry, hazy)?
+**Your answer:** B (Tropical Maritime, Tm) — **Correct:** C (Tropical Continental, Tc)
+**Why:** Tc (Tropical Continental) is India's dominant winter air mass, sourced from the Siberian high. Tm (Tropical Maritime) is the moist, SE-Asia-sourced monsoon-season air mass instead. notes/Fronts.md Supplementary.
+**Seen before:** no, count 1
+
+## 2026-08-18 — TRS energy source
+**Q:** The primary energy source for a Tropical Revolving Storm is?
+**Your answer:** A (Direct solar heating of cloud tops) — **Correct:** B (Latent heat release from condensation over warm ocean water)
+**Why:** TRS draws energy from latent heat released as moist air condenses over warm (>26-27°C) ocean water, not from direct solar heating. notes/PressureSystems.md.
+**Seen before:** no, count 1
