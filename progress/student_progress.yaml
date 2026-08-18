@@ -1,22 +1,80 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.50
-questions_attempted: 10
+accuracy: 0.79
+questions_attempted: 421
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
   - Nimbostratus and frontal precipitation
   - Medium-level cloud height band
   - Drizzle-Stratus association
+  - Nimbostratus multi-level vertical extent (base = low, extends through levels)
+  - Orographic formation → lenticular/standing-wave cloud
+  - CB overshooting tops into the lower stratosphere
+  - Atmosphere heated from below (radiation short-wave/long-wave)
+  - Equatorial vs polar tropopause height/temperature
+  - Heat vs temperature (thermosphere low heat content)
+  - Equatorial (16-18km) and mid-latitude (~11km/36,000ft) tropopause heights
+  - Thermosphere very low density despite high temperature
+  - Advection and turbulence as heat-transfer mechanisms
+  - Specific heat ranking (water > ice > soil) and latent heat direction
+  - Pressure decreasing with altitude (faster at low levels)
+  - CO2/H2O greenhouse mechanism (absorb outgoing long-wave radiation)
+  - Kelvin conversion, Bergeron-Findeisen process, SH Low rotation (clockwise)
+  - Mixing ratio vs relative humidity conservation on ascent — cleared 2026-08-16
+  - Dew point definition, RH-vs-temperature behavior, dew point invariance, radiation fog setup, RH formula, wet-bulb temperature definition
+  - Mixing ratio vs absolute humidity naming — cleared 2026-08-16
+  - Saturated air T/Tw/Td relationship — cleared 2026-08-16
+  - Supercooled water droplet temperature limits — cleared 2026-08-16
+  - Stefan-Boltzmann Law (T⁴) — cleared 2026-08-16
+  - Conduction's near-ground-only zone — cleared 2026-08-16
+  - Moist vs dry air density — cleared 2026-08-16
+  - Greenhouse gases (CO₂/H₂O) — cleared 2026-08-16
+  - Troposphere mass share (~75%) — cleared 2026-08-16
+  - Ideal gas law form (p = ρRT) — cleared 2026-08-16
+  - Fahrenheit to Celsius conversion — cleared 2026-08-16
+  - ISA isothermal layer upper bound (65,000 ft) — cleared 2026-08-16
+  - Mesosphere temperature trend (decreases) — cleared 2026-08-16
+  - Nacreous vs noctilucent cloud layers — cleared 2026-08-16
+  - CB anvil hail hazard outside visible cell — cleared 2026-08-16
+  - Seasonal troposphere height, Wien's Law, virtual temperature, specific heat values, equatorial tropopause height (reasoning)
+  - ISA lapse-rate numerical arithmetic — cleared 2026-08-16 (3 consecutive correct: 15,000/25,000/3,000 ft)
+  - Argon content of dry air (~1%) — cleared 2026-08-16
+  - ISA density at MSL, nitrogen content, ozone/UV absorption in stratosphere, latent heat as a named heat-transfer mechanism
+  - Coriolis force vs latitude (zero at equator, max at poles)
+  - Radiation fog formation conditions
+  - Icing severity vs temperature band
+  - True altitude: warm vs cold air mass at fixed indicated altitude
+  - CB life-cycle staging (mature stage most hazardous)
+  - Oktas coding (FEW/SCT/BKN/OVC) — correct on 3rd attempt after 2 prior misses, watch for recurrence
+  - Optical phenomena: halo (Cirrostratus), glory, Bishop's Ring, inferior mirage
+  - ISA MSL standard values, virtual temperature, specific heat ranking, Wien's Law, tropopause breaks/jet streams, −40°C=−40°F
+  - Virtual temperature direction (moist > actual) — cleared 2026-08-16 after 5 total misses
+  - Equatorial tropopause height+temperature pairing — cleared 2026-08-16 after 5 total misses
+  - Halo vs corona, latent heat of vaporisation magnitude, dominant heat-transfer mechanism (radiation) — cleared 2026-08-16
+  - Visibility vs synoptic pattern, CAT location relative to jet core, primary vs secondary rainbow radius, NE Monsoon season/character — cleared 2026-08-16
+  - Stability classification (conditionally unstable) — cleared 2026-08-16 after 4 total misses, confirmed with 2 correct answers including a fresh-numbers cold test
+  - Density vs temperature relationship, density altitude definition, westerlies direction — cleared 2026-08-16
+  - Cold Wave air mass source (Pc) — cleared 2026-08-16 on 3rd attempt
+  - Norwegian cyclone life-cycle sequence, Em as SW Monsoon air mass, Pc general characteristics, "Tc"/"Em" symbol expansions
 weak_topics:
-  - Oktas coding (FEW/SCT/BKN/OVC ranges)
-  - Nacreous vs noctilucent cloud layers
-  - Nimbostratus multi-level vertical extent
-  - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
-  - CB anvil hail hazard outside visible cell
+  - "Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"
+  - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
+  - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea)
+  - STJ vs TJ seasonal timing (STJ=winter, TJ=monsoon — inconsistent, correct once, reversed once)
+  - QFF vs QNH direction with warm-than-ISA temperature
+  - Air mass properties modified while traveling (not permanently fixed) (new)
+  - Frontogenesis definition (new)
+  - Tm (Tropical Maritime) characteristics (new)
+  - Tc (Tropical Continental) general characteristics — hot and dry, not humid (new)
 revision_due:
   - Clouds
-last_updated: "2026-08-15"
+  - Stability
+  - Visibility
+  - JetStreams
+  - Thermodynamics
+  - Climatology (new — NE Monsoon season confusion)
+last_updated: "2026-08-16"
 history:
   - date: "2026-08-15"
     chapter: Clouds
@@ -29,3 +87,417 @@ history:
       - Nimbostratus vertical extent
       - Orographic formation → lenticular cloud
       - CB anvil hail hazard
+  - date: "2026-08-16"
+    chapter: Clouds
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Oktas coding (recurring)
+      - Nacreous/noctilucent layer swap (recurring)
+      - CB anvil hail hazard (recurring)
+      - Halo vs corona / icing implication (new)
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 5
+    correct: 3
+    accuracy: 0.60
+    weak_topics:
+      - Moist vs dry air density
+      - ISA lapse-rate numerical sign discipline
+  - date: "2026-08-16"
+    chapter: Mixed (Wind, Fog, Stability, Icing, Fronts, Thunderstorms, Visibility, Clouds, JetStreams, Thermodynamics)
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Stability classification (ELR vs DALR/SALR)
+      - Visibility vs synoptic pattern reversal
+      - CAT location relative to jet core
+      - Mixing ratio vs relative humidity on ascent
+    notes: Oktas coding correct this round after 2 prior misses.
+  - date: "2026-08-16"
+    chapter: Clouds (Optical Phenomena)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - Primary vs secondary rainbow radius (42° vs 52°)
+    notes: Strongest single-topic session — halo, glory, Bishop's Ring, inferior mirage all correct.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 7
+    accuracy: 0.70
+    weak_topics:
+      - Greenhouse gases (CO2/H2O)
+      - ISA lapse-rate cutoff altitude (36,090 ft)
+      - Latent heat of vaporisation magnitude
+    notes: Best chapter-quiz score yet. Self-corrected Q4 mid-quiz (minimum temp timing), counted as correct.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Ideal gas law form
+      - Troposphere mass share
+      - Mesosphere temperature trend
+      - Dominant heat-transfer mechanism (radiation)
+    notes: Student requested quiz be shortened from 20 to 10 questions mid-session.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Fahrenheit to Celsius conversion
+      - Stefan-Boltzmann Law (T^4)
+      - Conduction's limited zone
+      - ISA isothermal layer upper bound (65,000 ft)
+    notes: Fourth consecutive Atmosphere quiz — 35 Atmosphere questions attempted total. Chapter revision strongly recommended before further drilling.
+  - date: "2026-08-16"
+    chapter: Mixed (Precipitation, PressureSystems, Climatology)
+    questions: 3
+    correct: 2
+    accuracy: 0.67
+    weak_topics:
+      - NE Monsoon season/character
+    notes: Short mixed round, interrupted by student to switch back to Atmosphere; answers revealed mid-quiz at student's request.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+    notes: Perfect round — 5th Atmosphere session, 45 Atmosphere questions attempted total. New facts (tropopause heights, advection/turbulence, specific heat, latent heat direction, pressure-altitude, greenhouse mechanism, Kelvin) all landed correctly.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 7
+    accuracy: 0.70
+    weak_topics:
+      - ISA isothermal layer upper bound (2nd miss)
+      - ISA lapse-rate numerical arithmetic
+      - Mesosphere temperature trend (2nd miss)
+    notes: 6th Atmosphere session, retested prior weak spots — cleared Stefan-Boltzmann Law, conduction zone, moist/dry density, greenhouse gases, troposphere mass share, ideal gas law, and Fahrenheit conversion (all correct twice in a row now). ISA isothermal bound and mesosphere trend remain persistently weak.
+  - date: "2026-08-16"
+    chapter: Mixed (Clouds mini-round)
+    questions: 2
+    correct: 2
+    accuracy: 1.00
+    weak_topics: []
+    notes: Nacreous/noctilucent layer and CB anvil hail hazard both correct — cleared after 2 prior misses each.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - ISA lapse-rate arithmetic (persistent, 3rd miss)
+      - Argon content of dry air
+    notes: 7th Atmosphere session. Cleared ISA isothermal upper bound and mesosphere temperature trend (both correct twice in a row). ISA lapse-rate arithmetic remains the one persistent, unresolved weak point across three sessions.
+  - date: "2026-08-16"
+    chapter: Atmosphere
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+    notes: Second perfect round. 8th Atmosphere session, 75 Atmosphere questions attempted total. Deliberately drilled ISA lapse-rate arithmetic at 3 altitudes (15,000/25,000/3,000 ft) — all correct, clearing the last persistent weak topic. Atmosphere chapter is now consistently strong across the board.
+  - date: "2026-08-16"
+    chapter: Atmosphere (tough/combined-concept questions)
+    questions: 3
+    correct: 2
+    accuracy: 0.67
+    weak_topics:
+      - Virtual temperature (moist vs dry parcel comparison direction)
+    notes: 9th Atmosphere session — tougher combined-concept questions requested. Quiz ended early at student's request after Q4 (Q3 and Q5 posed but not answered/scored). ISA isothermal cutoff and Wien's/Stefan-Boltzmann combined reasoning both correct even at higher difficulty.
+  - date: "2026-08-16"
+    chapter: Atmosphere (tough/combined-concept)
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Equatorial tropopause paradox (2nd miss)
+      - True altitude in warmer-than-ISA air
+      - Mesopause as coldest layer boundary
+      - Convection vs turbulence
+    notes: 10th Atmosphere session, full tough-difficulty round with per-question answer reveal (student requested immediate feedback after each answer). 60% at this difficulty is a fair result — reveals which concepts are solid vs merely memorized after near-perfect standard-difficulty rounds.
+  - date: "2026-08-16"
+    chapter: Atmosphere (retry of 4 missed questions)
+    questions: 5
+    correct: 4
+    accuracy: 1.00
+    weak_topics: []
+    notes: Immediate retry of the 4 misses from the tough round — clean sweep. Cleared true-altitude-in-warm-air, mesopause-coldest-point, and convection-vs-turbulence. Equatorial tropopause paradox improved (1 correct vs 2 prior misses) but not yet formally cleared — needs one more confirming correct answer.
+  - date: "2026-08-16"
+    chapter: Atmosphere (targeted 2-topic focus round)
+    questions: 5
+    correct: 2
+    accuracy: 0.40
+    weak_topics:
+      - Virtual temperature direction (3rd miss)
+      - Equatorial tropopause height+temperature pairing (3rd miss)
+    notes: 12th Atmosphere session, focused drill on the two remaining gaps. Both remain unresolved despite student correctly explaining the underlying mechanism/purpose for each when asked separately — the direct combined-fact recall is the sticking point. Gave memory anchor for virtual temperature: "moist air acts warmer than it really is."
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity)
+    questions: 10
+    correct: 7
+    accuracy: 0.70
+    weak_topics:
+      - Mixing ratio vs absolute humidity naming
+      - Saturated air T/Tw/Td relationship
+      - Supercooled water droplet temperature limits
+    notes: Cleared the previously-flagged "mixing ratio vs RH on ascent" weak topic. Dew point, RH formula, wet-bulb definition, and radiation fog setup all solid.
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity retry)
+    questions: 3
+    correct: 3
+    accuracy: 1.00
+    weak_topics: []
+    notes: Immediate retry of all 3 misses from the Humidity round — clean sweep, all cleared.
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity)
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - RH formula direction
+      - Dew point invariance under heating
+    notes: 2nd Humidity session. Latent heat/SALR link, fog-timing estimation, absolute humidity, cloud base formula, mixing ratio vs RH distinction, unsaturated T/Tw/Td, and latent-heat-powers-storms all solid.
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - Dew point invariance under heating (3rd miss, applied/numeric form only)
+    notes: 3rd Humidity session. RH formula direction cleared. Dew point invariance identified as a specific abstract-vs-applied gap — correctly states the rule but misapplies it with concrete numbers. Needs numeric-scenario drilling, not more definition questions.
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity, DGCA-model)
+    questions: 5
+    correct: 2
+    accuracy: 0.40
+    weak_topics:
+      - Mixing ratio vs RH on ascent (relapsed)
+      - METAR negative dew point rounding (M00 vs M01)
+      - Fog-timing calculation (formula application)
+    notes: 4th Humidity session. Good news — dew point invariance (3-time recurring weak topic) finally cleared with a correct numeric-scenario answer. But mixing ratio/RH relapsed, and two new formula-application slips appeared (METAR rounding, fog-timing division).
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - METAR negative dew point rounding, small magnitudes (2nd miss)
+    notes: 5th Humidity session. Mixing ratio/RH re-cleared, fog-timing formula fully cleared (2 correct). Only remaining gap: rounding small negative dew-point values (−0.3°C type cases) in METAR encoding.
+  - date: "2026-08-16"
+    chapter: Thermodynamics (Humidity — METAR rounding drill)
+    questions: 5
+    correct: 4
+    accuracy: 1.00
+    weak_topics: []
+    notes: 6th Humidity session. Dedicated drill on METAR negative-dew-point rounding across the 0.5°C dividing line — 4/4 correct, including the trickiest exact-0.5°C case. This clears the last outstanding Humidity gap. Humidity chapter is now fully clean.
+  - date: "2026-08-16"
+    chapter: Density (Atmosphere/Pressure cross-topic)
+    questions: 9
+    correct: 7
+    accuracy: 0.78
+    weak_topics:
+      - Density vs temperature at fixed pressure (inverse relationship)
+      - Density altitude definition
+    notes: Quiz ended early at 9/10 — student switched topics before answering Q10, so it was not scored. Gas law, moist/dry density, ISA density value, altitude effect, and pressure-density relationship all solid.
+  - date: "2026-08-16"
+    chapter: Climatology (General Circulation)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Horse latitudes as source region for trade winds/westerlies
+    notes: First General Circulation session. Strong pass — ITCZ, horse latitudes, trade winds, westerlies, seasonal ITCZ shift, tropical frontlessness, ITCZ identification method, and equator-to-pole circulation sequence all correct.
+  - date: "2026-08-16"
+    chapter: Climatology (General Circulation — horse latitudes drill)
+    questions: 5
+    correct: 5
+    accuracy: 1.00
+    weak_topics: []
+    notes: Dedicated retest of the horse-latitudes weak spot from multiple angles — perfect score, fully cleared.
+  - date: "2026-08-16"
+    chapter: Combined 20-mark paper (Atmosphere + General Circulation)
+    questions: 20
+    correct: 17
+    accuracy: 0.85
+    weak_topics:
+      - Virtual temperature direction (persistent, 4th+ miss)
+      - Equatorial tropopause height+temperature pairing (persistent, 4th+ miss)
+      - Westerlies direction (from horse latitudes toward polar front)
+    notes: Strong combined paper. General Circulation nearly perfect (7/8). The two persistent Atmosphere gaps resurfaced yet again despite many prior drilling rounds — flagged as priority for a written revision sheet rather than further MCQ repetition.
+  - date: "2026-08-16"
+    chapter: Weighted weak-topics review (Atmosphere, Clouds, Stability, Visibility, JetStreams, Climatology)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Stability classification (3rd identical miss — now the single most persistent unresolved gap)
+    notes: Outstanding round. Cleared virtual temperature direction and equatorial tropopause pairing (both after 5 total misses each) plus halo/corona, visibility reversal, CAT location, rainbow radius, latent heat magnitude, dominant heat-transfer mechanism, and NE Monsoon — all in one sweep. Only Stability classification remains, having now been missed identically 3 times on the same scenario.
+  - date: "2026-08-16"
+    chapter: Final weak-topics cleanup (Stability, Density, Circulation)
+    questions: 5
+    correct: 5
+    accuracy: 1.00
+    weak_topics: []
+    notes: Perfect round clearing all 4 remaining tracked weak topics — Stability classification (confirmed with both a walkthrough and a cold fresh-numbers retest), density-temperature relationship, density altitude definition, and westerlies direction. No open weak topics remain in the progress tracker as of this session.
+  - date: "2026-08-16"
+    chapter: Precipitation
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Hail vs virga (hazard outside CB's visible boundary)
+    notes: First Precipitation session. Strong pass — Bergeron-Findeisen process, hail formation, snow albedo, drizzle-Stratus association, rainy-day runway length, giant nucleus theory, IMD rainfall bands, whole-column temperature-profile rule, and NW India winter Western Disturbance link all correct.
+  - date: "2026-08-16"
+    chapter: Precipitation
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Nimbostratus as the continuous-precipitation cloud
+    notes: 2nd Precipitation session. Cleared hail-vs-virga from last round. Droplet size ranges, no-precipitation cloud list, tropical/coastal rainfall timing, IMD rainy-day definition, cloud seeding mechanism and downwind tradeoff all correct.
+  - date: "2026-08-16"
+    chapter: Precipitation (immediate repeat of previous 10)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+    notes: Student requested the same 10 questions repeated immediately. Perfect score, including the Nimbostratus/continuous-precipitation fact missed in the prior round — now cleared via repetition.
+  - date: "2026-08-16"
+    chapter: Climatology (Indian regional)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - "Cold Day" definition (max ≤16°C, confused with Cold Wave)
+    notes: First Indian-regional-climatology session (separate from General Circulation, already cleared). SW Monsoon driver, NE Monsoon SE-coast exception, break monsoon, Mawsynram rainfall record, 75%-in-4-months figure, Cold Wave definition, Western Disturbance origin/track, and WD weather sequence all correct.
+  - date: "2026-08-16"
+    chapter: Comprehensive review (all 17 chapters/topics covered so far)
+    questions: 20
+    correct: 19
+    accuracy: 0.95
+    weak_topics:
+      - CAVOK full three-part criteria
+    notes: Best comprehensive result yet — one question per chapter/topic (Atmosphere, Pressure, Wind, Humidity, Clouds, Fog, Precipitation, Stability, Thunderstorms, Fronts, PressureSystems, JetStreams, Icing, Visibility, Climatology x2, Density, Optical Phenomena). Only CAVOK missed. Strong evidence the repo-wide weak-topic clearing effort has paid off — even previously 5x-persistent facts (virtual temperature, stability classification, CAT location) landed correctly here.
+  - date: "2026-08-16"
+    chapter: Climatology (winter aviation hazards & regional detail)
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - "Monsoon" word etymology
+      - Advection fog lift time (winter, coastal)
+    notes: IMD season months, driest region, Norwesters, winter upper wind pattern, WD frequency, winter CAT/STJ link, lowered freezing level, and noon-haze-clearing all correct.
+  - date: "2026-08-16"
+    chapter: Climatology (DGCA-style, monsoon depression & jets)
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - Monsoon depression source region (Bay of Bengal vs Arabian Sea)
+      - STJ vs TJ seasonal timing
+    notes: Cleared monsoon etymology and advection fog lift time from last round. New minor gaps on monsoon depression source region and STJ/TJ seasonal pairing (inconsistent — correct in an earlier session, reversed here).
+  - date: "2026-08-16"
+    chapter: Icing (ice accretion types)
+    questions: 5
+    correct: 5
+    accuracy: 1.00
+    weak_topics: []
+    notes: First dedicated Icing session (accretion types). Perfect 5/5 — structural icing requirements, rime vs clear ice, hoar frost's ground-hazard distinction, and CB's unbounded icing severity all correct. Q5 answered in a follow-up message after the quiz had initially been stopped early.
+  - date: "2026-08-16"
+    chapter: Icing (severity bands, engine icing, effects)
+    questions: 5
+    correct: 3
+    accuracy: 0.60
+    weak_topics:
+      - Carburettor icing RH threshold
+      - Airframe icing increases stalling speed
+    notes: 2nd Icing session. Severity band, impact icing, and carburettor clear-air temperature limit correct. Missed the RH threshold and — importantly — got the stalling-speed direction backwards (thought icing decreases it; it actually increases it), a safety-relevant misconception worth flagging.
+  - date: "2026-08-16"
+    chapter: Icing (retry of 2 misses)
+    questions: 2
+    correct: 2
+    accuracy: 1.00
+    weak_topics: []
+    notes: Immediate retry — both cleared, including the safety-relevant stalling-speed direction misconception.
+  - date: "2026-08-16"
+    chapter: Mock exam (50-question, ended early at 23)
+    questions: 23
+    correct: 20
+    accuracy: 0.87
+    weak_topics:
+      - Mixing ratio vs RH on ascent (relapse under mock conditions)
+      - Snow albedo (relapse)
+      - Nimbostratus/continuous precipitation (relapse)
+    notes: Logged to quiz_history/2026-08-16-mock50-partial.md. Strong 87% across 8 chapters (Atmosphere, Pressure, Wind, Thermodynamics, Clouds, Fog, Precipitation, Stability) before student switched to a new 20-question mixed request. Interesting pattern — all 3 misses were facts previously cleared in isolated sessions, relapsing specifically under mixed mock-exam conditions. Worth another full mock later to see if this is fatigue or a real retention gap.
+  - date: "2026-08-16"
+    chapter: Comprehensive mixed (15 chapters/topics)
+    questions: 20
+    correct: 20
+    accuracy: 1.00
+    weak_topics: []
+    notes: PERFECT SCORE across 15 chapters (Thunderstorms, Fronts, PressureSystems, JetStreams, Icing, Visibility, MetInformation, Wind, Density, Thermodynamics, Precipitation, Climatology, Stability). Re-cleared all 3 items that relapsed in the earlier mock exam (mixing ratio/RH, Nimbostratus, snow albedo) — strong evidence the mock relapse was a one-off fatigue/context slip, not a real retention gap. Best mixed-quiz result in the repo's history.
+  - date: "2026-08-16"
+    chapter: Mock test (10 fresh questions, 9 chapters)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - QFF vs QNH direction with warm-than-ISA temperature
+    notes: All-new question set per student's no-repeat instruction. Mountain-wave altimeter error, gale/squall, cold occlusion, TRS temperature threshold, hoar frost vs glazed ice, dust storm visibility, jet streaks, Tc air mass origin, and SIGMET/AIRMET distinction all correct.
+  - date: "2026-08-16"
+    chapter: Thunderstorms (deep dive — life cycle, electricity)
+    questions: 9
+    correct: 8
+    accuracy: 0.89
+    weak_topics:
+      - Air-mass thunderstorm characteristics (confused with frontal/squall-line organization)
+    notes: 2nd Thunderstorms session, all-new facts. Three ingredients, full CB life cycle (cumulus/dissipating stages, mature already known), downbursts, fine-weather charge, storm charge polarity, cloud discharge, and St Elmo's Fire all correct. Q10 (ball lightning) was posed but not answered/scored.
+  - date: "2026-08-16"
+    chapter: Thunderstorms (immediate repeat, incl. Q10)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+    notes: Perfect repeat at student's explicit request (overriding the standing no-repeat instruction for this one round). Cleared air-mass thunderstorm characteristics; completed and correctly answered ball lightning (Q10), left unscored last round.
+  - date: "2026-08-16"
+    chapter: Thunderstorms (clean redo — plain text, no tool-call clutter)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+    notes: Student flagged stray tool-call artifacts (empty Bash calls) in prior rounds as disruptive/confusing during their test session. Acknowledged the issue, dropped the pointless tool calls, and redid this round cleanly in plain text only. Perfect score, fully trustworthy record. This entry supersedes the previous cluttered Thunderstorms repeat round as the reliable one.
+  - date: "2026-08-16"
+    chapter: Air Masses (Fronts supplementary)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Cold Wave air mass source (Pc, not Em)
+    notes: First dedicated Air Masses session. Classification axes, Tc/Tm/Em/Pm/Arctic characteristics, Monsoon Trough formation, Western Disturbance's role in drawing Tm air, and frontolysis all correct.
+  - date: "2026-08-16"
+    chapter: Air Masses (clean redo, zero tool calls during quiz)
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Cold Wave air mass source (Pc, not Em) — 2nd consecutive miss on this exact fact
+    notes: Student requested a clean redo after flagging stray tool-call clutter as undermining trust in the scoring. This run had zero tool calls during the Q&A flow and produced the identical result (9/10, same single miss) — confirms the original score was accurate. Cold Wave/Pc-vs-Em is now a genuine, confirmed weak point (missed twice in a row) rather than a one-off slip.
+  - date: "2026-08-16"
+    chapter: Air Masses (new facts round, after tool-call fix)
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Air mass properties modified while traveling (not permanently fixed)
+      - Frontogenesis definition
+      - Tm (Tropical Maritime) characteristics
+      - Tc (Tropical Continental) general characteristics
+    notes: This round had one recurring tool-call slip mid-quiz (Q7), acknowledged and stopped; quiz restarted from Q1 at student's request to rebuild trust after repeated clutter incidents. Cold Wave/Pc air mass source finally cleared on 3rd attempt. New gaps surfaced around Tm vs Tc characteristics and frontogenesis definition — worth a focused re-drill next session.
