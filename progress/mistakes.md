@@ -440,8 +440,32 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** notes/Thunderstorms.md: air-mass thunderstorms are isolated and thermally driven. Organizing into squall lines is characteristic of frontal thunderstorms instead — a different classification.
 **Seen before:** no, count 1. Answered correctly on immediate repeat-retest 2026-08-16 — cleared.
 
-## 2026-08-16 — Cold Wave air mass source (Pc, not Em)
+## 2026-08-16 — Cold Wave air mass source (Pc, not Em) — CLEARED on 2026-08-16
 **Q:** Which air mass incursion post-Western-Disturbance brings Cold Wave conditions to N. India?
 **Your answer:** B (Em — Equatorial Maritime) — **Correct:** A (Pc — Polar Continental)
 **Why:** notes/Fronts.md air mass table: Pc (Polar Continental, cold/dry, sub-polar/Arctic land origin) drives Cold Wave conditions. Em is the hot, humid monsoon air mass — essentially opposite character.
-**Seen before:** yes, count 2 — missed identically on both the original Air Masses quiz and a clean redo. Confirmed genuine weak point, not a one-off slip. Anchor: Pc = cold/dry/Cold-Wave source; Em = hot/humid monsoon air — opposite characters, easy to swap under pressure.
+**Seen before:** yes, count 2 — missed identically on both the original Air Masses quiz and a clean redo. Answered correctly on 3rd attempt 2026-08-16 — cleared.
+
+## 2026-08-16 — Air mass properties modified while traveling
+**Q:** Are air mass temperature/moisture properties fixed forever, or modified as the air mass travels?
+**Your answer:** A (Permanently fixed) — **Correct:** B (Modified as it travels away from source)
+**Why:** notes/Fronts.md: air masses take on source-region properties but these are modified as the mass travels — not permanently fixed.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Frontogenesis definition
+**Q:** Frontogenesis occurs where?
+**Your answer:** C (Air masses become identical) — **Correct:** B (Converging airflow sharpens a pre-existing temperature gradient, typically along the polar front)
+**Why:** notes/Fronts.md: frontogenesis is the sharpening of a temperature gradient via converging airflow — the opposite of air masses becoming identical (which would weaken/erase a front, closer to frontolysis).
+**Seen before:** no, count 1
+
+## 2026-08-16 — Tm (Tropical Maritime) characteristics
+**Q:** What characterizes the Tropical Maritime (Tm) air mass?
+**Your answer:** B (Low humidity, poor visibility) — **Correct:** A (High temp/humidity/dew point, good visibility, notable diurnal range)
+**Why:** notes/Fronts.md: Tm is warm, humid, high dew point, with good visibility — student's answer describes a dry continental air mass instead.
+**Seen before:** no, count 1
+
+## 2026-08-16 — Tc (Tropical Continental) general characteristics
+**Q:** What characterizes Tc air in general (not India-specific)?
+**Your answer:** D (Hot and very humid) — **Correct:** B (Hot and dry)
+**Why:** notes/Fronts.md: Tc is hot and DRY (continental source, low moisture) — "hot and very humid" describes Em instead. Easy to swap the two hot air masses if only "hot" is remembered without the moisture qualifier.
+**Seen before:** no, count 1

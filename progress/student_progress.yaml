@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.80
-questions_attempted: 411
+accuracy: 0.79
+questions_attempted: 421
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -55,13 +55,18 @@ strong_topics:
   - Visibility vs synoptic pattern, CAT location relative to jet core, primary vs secondary rainbow radius, NE Monsoon season/character — cleared 2026-08-16
   - Stability classification (conditionally unstable) — cleared 2026-08-16 after 4 total misses, confirmed with 2 correct answers including a fresh-numbers cold test
   - Density vs temperature relationship, density altitude definition, westerlies direction — cleared 2026-08-16
+  - Cold Wave air mass source (Pc) — cleared 2026-08-16 on 3rd attempt
+  - Norwegian cyclone life-cycle sequence, Em as SW Monsoon air mass, Pc general characteristics, "Tc"/"Em" symbol expansions
 weak_topics:
   - "Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"
   - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
   - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea)
   - STJ vs TJ seasonal timing (STJ=winter, TJ=monsoon — inconsistent, correct once, reversed once)
   - QFF vs QNH direction with warm-than-ISA temperature
-  - Cold Wave air mass source (Pc, not Em) (new)
+  - Air mass properties modified while traveling (not permanently fixed) (new)
+  - Frontogenesis definition (new)
+  - Tm (Tropical Maritime) characteristics (new)
+  - Tc (Tropical Continental) general characteristics — hot and dry, not humid (new)
 revision_due:
   - Clouds
   - Stability
@@ -485,3 +490,14 @@ history:
     weak_topics:
       - Cold Wave air mass source (Pc, not Em) — 2nd consecutive miss on this exact fact
     notes: Student requested a clean redo after flagging stray tool-call clutter as undermining trust in the scoring. This run had zero tool calls during the Q&A flow and produced the identical result (9/10, same single miss) — confirms the original score was accurate. Cold Wave/Pc-vs-Em is now a genuine, confirmed weak point (missed twice in a row) rather than a one-off slip.
+  - date: "2026-08-16"
+    chapter: Air Masses (new facts round, after tool-call fix)
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Air mass properties modified while traveling (not permanently fixed)
+      - Frontogenesis definition
+      - Tm (Tropical Maritime) characteristics
+      - Tc (Tropical Continental) general characteristics
+    notes: This round had one recurring tool-call slip mid-quiz (Q7), acknowledged and stopped; quiz restarted from Q1 at student's request to rebuild trust after repeated clutter incidents. Cold Wave/Pc air mass source finally cleared on 3rd attempt. New gaps surfaced around Tm vs Tc characteristics and frontogenesis definition — worth a focused re-drill next session.
