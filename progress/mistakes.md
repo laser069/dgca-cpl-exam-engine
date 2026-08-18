@@ -65,6 +65,12 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** Equatorial tropopause is both higher (16-18 km) and colder than the polar tropopause — "higher" does not imply "warmer." notes/Atmosphere.md Common Mistakes.
 **Seen before:** no, count 1
 
+## 2026-08-18 — Equatorial vs polar tropopause height/temperature (retest, still missed)
+**Q:** Compared to the tropopause at the poles, the tropopause at the equator is (retest wording)?
+**Your answer:** B (Higher and warmer) — **Correct:** C (Higher and colder)
+**Why:** Same trap as above, missed again on immediate retest after revision sheet — needs a third confirmed-correct attempt before considered cleared.
+**Seen before:** yes, count 2
+
 ## 2026-08-18 — Layer thickness, warm vs cold air
 **Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
 **Your answer:** A (Cold air) — **Correct:** B (Warm air)

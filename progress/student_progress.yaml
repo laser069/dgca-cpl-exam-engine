@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.76
-questions_attempted: 66
+questions_attempted: 71
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -13,26 +13,24 @@ strong_topics:
   - Thunderstorm life cycle, gale/squall, Norwesters, anvil hail (4/4 on mock)
   - Icing: temperature band, rime/clear, CB severity, carburettor icing (4/4 on mock)
   - Fog, Precipitation, Thermodynamics/Humidity, Visibility, Climatology, Met Info basics (100% each on mock)
+  - Fronts: cold vs warm occlusion air-mass temperature logic (correct on retest, confirm once more)
+  - Fronts: Indian air-mass classification, Tc vs Tm vs Em (correct on retest, confirm once more)
+  - Stability: inversion effect on vertical mixing (correct on retest, confirm once more)
+  - Pressure Systems: TRS energy source (correct on retest, confirm once more)
 weak_topics:
   - Oktas coding (FEW/SCT/BKN/OVC ranges)
   - Nacreous vs noctilucent cloud layers
   - Nimbostratus multi-level vertical extent (recurring — missed again 2026-08-18, count 2)
   - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
   - Halo vs corona cloud-type and icing mapping
-  - Fronts: cold vs warm occlusion air-mass temperature logic
-  - Fronts: Indian air-mass classification (Tc vs Tm vs Em)
-  - Stability: inversion effect on vertical mixing
-  - Atmosphere: equatorial vs polar tropopause height/temperature
+  - Atmosphere: equatorial vs polar tropopause height/temperature (recurring — missed twice, 2026-08-18, count 2)
   - Pressure: layer thickness in warm vs cold air
   - Wind: friction effect (backing + slowing) on surface wind
-  - Pressure Systems: TRS energy source (latent heat, not solar)
 revision_due:
-  - Fronts
-  - Stability
-  - Atmosphere
-  - Pressure
+  - Atmosphere (priority — tropopause height/temp trap missed twice)
   - Clouds
-  - PressureSystems
+  - Pressure
+  - Wind
 last_updated: "2026-08-18"
 history:
   - date: "2026-08-15"
@@ -70,3 +68,10 @@ history:
       - Fronts (occlusion logic, Indian air-mass classification) — 2/4
       - Stability (inversion effect) — 1/2
       - Atmosphere, Pressure, Clouds, PressureSystems — 3/4 each, isolated sign-error misses
+  - date: "2026-08-18"
+    chapter: Revision retest (5 missed concepts from mock)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - Atmosphere: equatorial vs polar tropopause height/temperature (missed again, recurring)
