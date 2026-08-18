@@ -43,6 +43,9 @@ mock finished, revision session, mistake reviewed/cleared):
    `quiz_history/<timestamp>.md` if a mock-exam log was written this session), then commit with a
    message summarizing the session — topic, score, weak topics touched. End the commit message
    with `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>` per the global commit
-   convention.
+   convention. Then `git push origin main` so the commit reaches the remote immediately — never
+   leave commits local-only. If the push fails (e.g. remote diverged), `git pull --rebase origin
+   main` and retry once; if it still fails, report the failure to the student instead of silently
+   dropping it.
 3. Skip step 2 for pure Q&A/explanation exchanges that touch no progress data — don't commit
    no-op changes.
