@@ -113,6 +113,12 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** ACARS is the datalink system; VOLMET is the continuous *voice* broadcast of METARs/TAFs. Both deliver weather data to aircraft, but the mechanism (datalink vs voice) is the distinguishing fact. dgca_documents/METAR_TAF.md.
 **Seen before:** no, count 1
 
+## 2026-08-18 — BC (patches) qualifier
+**Q:** What does the BC qualifier mean in a group like BCFG?
+**Your answer:** C (Before — occurred just prior to observation) — **Correct:** B (Patches — irregular, patchy coverage of the phenomenon)
+**Why:** BC is a coverage/distribution qualifier (patches), not a timing indicator. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
 ## 2026-08-18 — Layer thickness, warm vs cold air
 **Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
 **Your answer:** A (Cold air) — **Correct:** B (Warm air)
