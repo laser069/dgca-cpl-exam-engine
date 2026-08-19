@@ -32,3 +32,11 @@ When an `unresolved` question informs a quiz question you generate, work the ans
 principles (using `notes/` and `formulas/Meteorology.md`) and say so if the student asks where the
 answer came from — never present it as a confirmed DGCA answer key value. Do not silently upgrade
 `unresolved` to `verified`.
+
+## Rule 12 — No repeated questions
+Never ask a question with the same wording/scenario as one already asked earlier in this
+conversation or a prior session (check `quiz_history/`, and the current conversation, before
+writing each new question). This applies even when deliberately re-testing a weak/recurring
+concept from `progress/mistakes.md` — vary the scenario, numbers, phrasing, or angle each time
+so the student can't pattern-match to a memorised question instead of demonstrating the
+underlying understanding.
