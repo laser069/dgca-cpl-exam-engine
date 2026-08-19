@@ -119,6 +119,18 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** BC is a coverage/distribution qualifier (patches), not a timing indicator. dgca_documents/METAR_TAF.md.
 **Seen before:** no, count 1
 
+## 2026-08-18 — Horse latitudes vs westerlies latitude band
+**Q:** The westerlies wind belt is commonly cited around which latitude?
+**Your answer:** B (30° latitude) — **Correct:** C (~50-60° latitude)
+**Why:** Horse latitudes (~30°N/S) are the subtropical-high source region; westerlies are the distinct mid-latitude wind belt (~50-60°) that flows poleward from there toward the polar front. notes/Climatology.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Gradient wind curvature effect direction
+**Q:** Compared to geostrophic wind, how does gradient wind behave around a Low vs a High?
+**Your answer:** B (always equal, no curvature effect) — **Correct:** A (slightly slower around a Low, slightly faster around a High)
+**Why:** Cyclonic curvature (around a Low) slows the gradient wind below geostrophic; anticyclonic curvature (around a High) speeds it up above geostrophic. notes/Wind.md.
+**Seen before:** no, count 1
+
 ## 2026-08-18 — Layer thickness, warm vs cold air
 **Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
 **Your answer:** A (Cold air) — **Correct:** B (Warm air)

@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.81
-questions_attempted: 131
+questions_attempted: 141
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -35,14 +35,18 @@ strong_topics:
   - Atmosphere: equatorial vs polar tropopause height/temperature — correct twice in a row, fully cleared
   - Atmosphere: ISA isothermal layer, atmospheric composition, moist/dry density, heating-from-below, virtual temperature, specific heat (land/sea), dominant heat-transfer mechanism, Wien's Law, minimum-temperature timing — clean 10/10
   - Density (cross-chapter): gas law, ISA MSL density, moist/dry density, temperature/altitude effects, density altitude definition and performance impact, thermosphere heat-vs-temperature, atmospheric mass distribution — clean 10/10
+  - Circulations: ITCZ, trade wind direction, horse latitudes, hemisphere circulation direction (High/Low), Buys Ballot's Law, monsoon driver, geostrophic wind — 8/10
 weak_topics:
   - Nacreous vs noctilucent cloud layers
   - Nimbostratus multi-level vertical extent (recurring — missed 2026-08-15 and 2026-08-18, count 2)
   - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
   - Fronts: cold vs warm occlusion — correct final answer but wrong first instinct (2026-08-18), needs more reps
+  - Circulations: horse latitudes (~30°) vs westerlies (~50-60°) latitude band confusion
+  - Circulations: gradient wind curvature effect direction (cyclonic slows, anticyclonic speeds up)
 revision_due:
   - Fronts (occlusion first-instinct reliability)
   - Clouds (Nimbostratus, formation mapping)
+  - Circulations (westerlies latitude, gradient wind curvature)
 last_updated: "2026-08-18"
 history:
   - date: "2026-08-15"
@@ -144,3 +148,11 @@ history:
     correct: 10
     accuracy: 1.00
     weak_topics: []
+  - date: "2026-08-18"
+    chapter: Circulations (global + wind circulation, cross-chapter)
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - Horse latitudes vs westerlies latitude band
+      - Gradient wind curvature effect direction
