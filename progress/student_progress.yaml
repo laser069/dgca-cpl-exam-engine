@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.76
-questions_attempted: 91
+questions_attempted: 96
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -22,20 +22,20 @@ strong_topics:
   - Jet Streams: CAT position relative to jet core (confirmed again)
   - Icing: temperature band for max icing risk (confirmed again)
   - Atmosphere: equatorial vs polar tropopause height/temperature (correct after 2 misses — confirm once more before fully clearing)
+  - MetInformation: RVR trend-indicator letters (U/D/N) — correct twice, cleared
+  - MetInformation: wind variable-direction group decode — correct twice, cleared
+  - MetInformation: TAF validity-period day/hour arithmetic — correct on retry, cleared
+  - MetInformation: SNOWTAM purpose — correct twice, cleared
 weak_topics:
   - Nacreous vs noctilucent cloud layers
   - Nimbostratus multi-level vertical extent (recurring — missed 2026-08-15 and 2026-08-18, count 2)
   - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
   - Fronts: cold vs warm occlusion — correct final answer but wrong first instinct (2026-08-18), needs more reps
-  - MetInformation: RVR trend-indicator letters (U/D/N)
-  - MetInformation: wind variable-direction group (040V110-style) vs variable-speed
-  - MetInformation: TAF validity-period arithmetic (day/hour math)
-  - MetInformation: SIGMET vs AIRMET distinction
-  - MetInformation: SNOWTAM purpose (runway contamination report)
+  - MetInformation: SIGMET vs AIRMET distinction (recurring — missed twice, 2026-08-18, count 2)
 revision_due:
+  - MetInformation (priority — SIGMET vs AIRMET missed twice)
   - Fronts (occlusion first-instinct reliability)
   - Clouds (Nimbostratus, formation mapping)
-  - MetInformation (METAR/TAF decode mechanics — RVR trend, wind variable-direction, validity math, product-name matrix)
 last_updated: "2026-08-18"
 history:
   - date: "2026-08-15"
@@ -98,3 +98,10 @@ history:
       - TAF validity-period day/hour arithmetic
       - SIGMET vs AIRMET distinction
       - SNOWTAM purpose
+  - date: "2026-08-18"
+    chapter: METAR/TAF decode retest (5 missed concepts, fresh wording)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - SIGMET vs AIRMET distinction (missed again, now recurring)

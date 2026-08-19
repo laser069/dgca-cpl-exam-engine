@@ -101,6 +101,12 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** SNOWTAM is specifically a runway-condition report, unrelated to wind forecasts. dgca_documents/METAR_TAF.md.
 **Seen before:** no, count 1
 
+## 2026-08-18 — SIGMET vs AIRMET (retest, still missed)
+**Q:** Moderate turbulence below FL100, mainly for GA traffic, lower severity than a full en-route hazard warning — which product?
+**Your answer:** A (SIGMET) — **Correct:** B (AIRMET)
+**Why:** Same trap as the first attempt — AIRMET is specifically the lower-severity, altitude-capped, GA-relevant product; SIGMET is for severe hazards affecting all traffic. This is now the clearest single recurring gap in METAR/TAF.
+**Seen before:** yes, count 2
+
 ## 2026-08-18 — Layer thickness, warm vs cold air
 **Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
 **Your answer:** A (Cold air) — **Correct:** B (Warm air)
