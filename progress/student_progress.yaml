@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.79
-questions_attempted: 81
+accuracy: 0.76
+questions_attempted: 91
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -27,9 +27,15 @@ weak_topics:
   - Nimbostratus multi-level vertical extent (recurring — missed 2026-08-15 and 2026-08-18, count 2)
   - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
   - Fronts: cold vs warm occlusion — correct final answer but wrong first instinct (2026-08-18), needs more reps
+  - MetInformation: RVR trend-indicator letters (U/D/N)
+  - MetInformation: wind variable-direction group (040V110-style) vs variable-speed
+  - MetInformation: TAF validity-period arithmetic (day/hour math)
+  - MetInformation: SIGMET vs AIRMET distinction
+  - MetInformation: SNOWTAM purpose (runway contamination report)
 revision_due:
   - Fronts (occlusion first-instinct reliability)
   - Clouds (Nimbostratus, formation mapping)
+  - MetInformation (METAR/TAF decode mechanics — RVR trend, wind variable-direction, validity math, product-name matrix)
 last_updated: "2026-08-18"
 history:
   - date: "2026-08-15"
@@ -81,3 +87,14 @@ history:
     accuracy: 1.00
     weak_topics:
       - Fronts: warm occlusion — correct final answer but wrong first instinct, needs more reps
+  - date: "2026-08-18"
+    chapter: METAR/TAF decode
+    questions: 10
+    correct: 5
+    accuracy: 0.50
+    weak_topics:
+      - RVR trend-indicator letters (U/D/N)
+      - Wind variable-direction group decode
+      - TAF validity-period day/hour arithmetic
+      - SIGMET vs AIRMET distinction
+      - SNOWTAM purpose
