@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.76
-questions_attempted: 96
+questions_attempted: 101
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -26,14 +26,16 @@ strong_topics:
   - MetInformation: wind variable-direction group decode — correct twice, cleared
   - MetInformation: TAF validity-period day/hour arithmetic — correct on retry, cleared
   - MetInformation: SNOWTAM purpose — correct twice, cleared
+  - MetInformation: FZ prefix, VC qualifier, CAVOK criteria — correct on first attempt
+  - MetInformation: SIGMET vs AIRMET distinction (correct after 2 misses — confirm once more to fully clear)
 weak_topics:
   - Nacreous vs noctilucent cloud layers
   - Nimbostratus multi-level vertical extent (recurring — missed 2026-08-15 and 2026-08-18, count 2)
   - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
   - Fronts: cold vs warm occlusion — correct final answer but wrong first instinct (2026-08-18), needs more reps
-  - MetInformation: SIGMET vs AIRMET distinction (recurring — missed twice, 2026-08-18, count 2)
+  - MetInformation: ACARS vs VOLMET distinction (datalink vs voice broadcast)
 revision_due:
-  - MetInformation (priority — SIGMET vs AIRMET missed twice)
+  - MetInformation (ACARS vs VOLMET; confirm SIGMET/AIRMET once more)
   - Fronts (occlusion first-instinct reliability)
   - Clouds (Nimbostratus, formation mapping)
 last_updated: "2026-08-18"
@@ -105,3 +107,10 @@ history:
     accuracy: 0.80
     weak_topics:
       - SIGMET vs AIRMET distinction (missed again, now recurring)
+  - date: "2026-08-18"
+    chapter: METAR/TAF decode, round 3 (fresh angles + SIGMET/AIRMET recheck)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - ACARS vs VOLMET distinction (datalink vs voice broadcast)

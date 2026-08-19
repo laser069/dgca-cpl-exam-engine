@@ -107,6 +107,12 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** Same trap as the first attempt — AIRMET is specifically the lower-severity, altitude-capped, GA-relevant product; SIGMET is for severe hazards affecting all traffic. This is now the clearest single recurring gap in METAR/TAF.
 **Seen before:** yes, count 2
 
+## 2026-08-18 — ACARS vs VOLMET distinction
+**Q:** Which delivery system is a datalink service delivering met data to the cockpit without voice communication?
+**Your answer:** B (VOLMET) — **Correct:** C (ACARS)
+**Why:** ACARS is the datalink system; VOLMET is the continuous *voice* broadcast of METARs/TAFs. Both deliver weather data to aircraft, but the mechanism (datalink vs voice) is the distinguishing fact. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
 ## 2026-08-18 — Layer thickness, warm vs cold air
 **Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
 **Your answer:** A (Cold air) — **Correct:** B (Warm air)
