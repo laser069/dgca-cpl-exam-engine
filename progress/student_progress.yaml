@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.76
-questions_attempted: 71
+accuracy: 0.79
+questions_attempted: 81
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -13,24 +13,23 @@ strong_topics:
   - Thunderstorm life cycle, gale/squall, Norwesters, anvil hail (4/4 on mock)
   - Icing: temperature band, rime/clear, CB severity, carburettor icing (4/4 on mock)
   - Fog, Precipitation, Thermodynamics/Humidity, Visibility, Climatology, Met Info basics (100% each on mock)
-  - Fronts: cold vs warm occlusion air-mass temperature logic (correct on retest, confirm once more)
   - Fronts: Indian air-mass classification, Tc vs Tm vs Em (correct on retest, confirm once more)
-  - Stability: inversion effect on vertical mixing (correct on retest, confirm once more)
-  - Pressure Systems: TRS energy source (correct on retest, confirm once more)
+  - Stability: inversion effect, conditional instability classification (correct twice now — cleared)
+  - Pressure Systems: TRS energy source (correct twice now — cleared)
+  - Pressure: layer thickness in warm vs cold air (correct twice now — cleared)
+  - Wind: friction effect (backing + slowing) on surface wind (correct twice now — cleared)
+  - Clouds: oktas coding, halo vs corona (correct on 2026-08-18 quiz — confirm once more)
+  - Jet Streams: CAT position relative to jet core (confirmed again)
+  - Icing: temperature band for max icing risk (confirmed again)
+  - Atmosphere: equatorial vs polar tropopause height/temperature (correct after 2 misses — confirm once more before fully clearing)
 weak_topics:
-  - Oktas coding (FEW/SCT/BKN/OVC ranges)
   - Nacreous vs noctilucent cloud layers
-  - Nimbostratus multi-level vertical extent (recurring — missed again 2026-08-18, count 2)
+  - Nimbostratus multi-level vertical extent (recurring — missed 2026-08-15 and 2026-08-18, count 2)
   - Formation mechanism to cloud type mapping (orographic/lenticular vs convective)
-  - Halo vs corona cloud-type and icing mapping
-  - Atmosphere: equatorial vs polar tropopause height/temperature (recurring — missed twice, 2026-08-18, count 2)
-  - Pressure: layer thickness in warm vs cold air
-  - Wind: friction effect (backing + slowing) on surface wind
+  - Fronts: cold vs warm occlusion — correct final answer but wrong first instinct (2026-08-18), needs more reps
 revision_due:
-  - Atmosphere (priority — tropopause height/temp trap missed twice)
-  - Clouds
-  - Pressure
-  - Wind
+  - Fronts (occlusion first-instinct reliability)
+  - Clouds (Nimbostratus, formation mapping)
 last_updated: "2026-08-18"
 history:
   - date: "2026-08-15"
@@ -75,3 +74,10 @@ history:
     accuracy: 0.80
     weak_topics:
       - Atmosphere: equatorial vs polar tropopause height/temperature (missed again, recurring)
+  - date: "2026-08-18"
+    chapter: Mixed 10-question follow-up (Atmosphere, Clouds, Pressure, Wind, Fronts, Stability, PressureSystems, Icing, JetStreams)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics:
+      - Fronts: warm occlusion — correct final answer but wrong first instinct, needs more reps
