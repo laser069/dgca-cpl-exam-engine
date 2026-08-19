@@ -71,6 +71,36 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** Same trap as above, missed again on immediate retest after revision sheet — needs a third confirmed-correct attempt before considered cleared.
 **Seen before:** yes, count 2
 
+## 2026-08-18 — RVR trend-indicator letter (U)
+**Q:** In `R22/P1500U`, what does the trailing U mean?
+**Your answer:** D (below 1500 m and decreasing) — **Correct:** C (1500 m or more, and increasing)
+**Why:** U/D/N are RVR trend letters — increasing/decreasing/no change. The value P1500 means "1500 m or more," not below. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Wind variable-direction group
+**Q:** In `08015G28KT 040V110`, what does 040V110 represent?
+**Your answer:** A (wind speed varying 40-110 kt) — **Correct:** B (wind direction varying between 040° and 110°)
+**Why:** A "dddVddd" group after the main wind group is always a direction-variation range, not a speed range. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — TAF validity-period arithmetic
+**Q:** TAF header 241206 — how should this validity period be characterized?
+**Your answer:** A (9-hour national TAF) — **Correct:** B (18-hour span, 1200Z–0600Z next day, doesn't fit standard 9-hr or 24/30-hr categories)
+**Why:** Day/hour arithmetic on TAF headers needs practice — this is an edge case worth recognizing rather than force-fitting to the two common categories.
+**Seen before:** no, count 1
+
+## 2026-08-18 — SIGMET vs AIRMET
+**Q:** Which product is the en-route hazard warning (TS/severe turbulence/icing/volcanic ash/TRS) for all traffic?
+**Your answer:** A (AIRMET) — **Correct:** B (SIGMET)
+**Why:** SIGMET = severe hazards, all traffic. AIRMET = lower-severity, altitude-capped, more GA-relevant. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — SNOWTAM purpose
+**Q:** What does SNOWTAM report?
+**Your answer:** A (upper-level wind forecasts) — **Correct:** B (runway surface contamination — snow/ice/slush)
+**Why:** SNOWTAM is specifically a runway-condition report, unrelated to wind forecasts. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
 ## 2026-08-18 — Layer thickness, warm vs cold air
 **Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
 **Your answer:** A (Cold air) — **Correct:** B (Warm air)
