@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.79
-questions_attempted: 121
+accuracy: 0.81
+questions_attempted: 131
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -34,6 +34,7 @@ strong_topics:
   - MetInformation: RVR M-prefix, DR vs BL, NOSIG, M00 negative dew point trap — correct on first attempt
   - Atmosphere: equatorial vs polar tropopause height/temperature — correct twice in a row, fully cleared
   - Atmosphere: ISA isothermal layer, atmospheric composition, moist/dry density, heating-from-below, virtual temperature, specific heat (land/sea), dominant heat-transfer mechanism, Wien's Law, minimum-temperature timing — clean 10/10
+  - Density (cross-chapter): gas law, ISA MSL density, moist/dry density, temperature/altitude effects, density altitude definition and performance impact, thermosphere heat-vs-temperature, atmospheric mass distribution — clean 10/10
 weak_topics:
   - Nacreous vs noctilucent cloud layers
   - Nimbostratus multi-level vertical extent (recurring — missed 2026-08-15 and 2026-08-18, count 2)
@@ -133,6 +134,12 @@ history:
     weak_topics: []
   - date: "2026-08-18"
     chapter: Atmosphere (10-question set, fresh wording)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Density (cross-chapter, Atmosphere/Pressure)
     questions: 10
     correct: 10
     accuracy: 1.00
