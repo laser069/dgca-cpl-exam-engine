@@ -131,6 +131,24 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** Cyclonic curvature (around a Low) slows the gradient wind below geostrophic; anticyclonic curvature (around a High) speeds it up above geostrophic. notes/Wind.md.
 **Seen before:** no, count 1
 
+## 2026-08-18 — ISA temperature-at-altitude arithmetic
+**Q:** Standard temperature at 8,000 ft using ISA lapse rate?
+**Your answer:** B (+0.8°C) — **Correct:** A (−0.8°C)
+**Why:** 15 − (1.98×8) = 15 − 15.84 ≈ −0.8°C. Sign slip on the standard lapse-rate subtraction. formulas/Meteorology.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — 250 hPa / FL340 correspondence
+**Q:** The 250 hPa pressure level corresponds to which flight level?
+**Your answer:** B (FL250) — **Correct:** C (FL340)
+**Why:** 250 hPa ≈ FL340 in the standard atmosphere — pressure-level number and flight-level number are unrelated; don't assume they match. notes/Pressure.md Numerical Problems.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Height-per-hPa growth with altitude
+**Q:** How does the height represented by 1 hPa change with altitude?
+**Your answer:** A (shrinks with altitude) — **Correct:** B (grows with altitude — ~27 ft near MSL to ~100 ft near 40,000 ft)
+**Why:** Air is thinner aloft, so a given pressure change spans more height at altitude. notes/Pressure.md Supplementary.
+**Seen before:** no, count 1
+
 ## 2026-08-18 — Layer thickness, warm vs cold air
 **Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
 **Your answer:** A (Cold air) — **Correct:** B (Warm air)
