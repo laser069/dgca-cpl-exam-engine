@@ -149,6 +149,24 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** Air is thinner aloft, so a given pressure change spans more height at altitude. notes/Pressure.md Supplementary.
 **Seen before:** no, count 1
 
+## 2026-08-18 — STJ southernmost month
+**Q:** The STJ over India reaches its southernmost position (~22°N) in which month?
+**Your answer:** B (December) — **Correct:** C (February)
+**Why:** STJ migrates south steadily through winter after first appearing in October, reaching ~22°N in February. notes/JetStreams.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — STJ horizontal shear asymmetry
+**Q:** Around the STJ core over India, is horizontal shear stronger north or south of the core?
+**Your answer:** B (stronger south) — **Correct:** A (stronger north, ~100 kt/100 NM vs ~35 kt/100 NM south)
+**Why:** notes/JetStreams.md Supplementary — asymmetry direction reversed in your answer.
+**Seen before:** no, count 1
+
+## 2026-08-18 — STJ vs TJ position/season swap
+**Q:** STJ mean position over India, and separately, STJ/TJ seasonal pairing?
+**Your answer:** STJ position ~13°N/150hPa (actually TJ's axis); STJ=summer/TJ=winter (reversed) — **Correct:** STJ ~27°N/~12km, present winter (non-monsoon); TJ ~13°N/150hPa, present summer (monsoon)
+**Why:** Recurring pattern — STJ and TJ specifics (position, season) getting swapped with each other. Worth a dedicated side-by-side comparison table.
+**Seen before:** no, count 1 (two related questions missed together)
+
 ## 2026-08-18 — Polar Maritime (Pm) vs Polar Continental (Pc)
 **Q:** Polar Maritime (Pm) air mass differs from Pc in that Pm is?
 **Your answer:** A (Cold and dry, identical to Pc) — **Correct:** B (Cold but humid, ocean-sourced)

@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.84
-questions_attempted: 191
+accuracy: 0.83
+questions_attempted: 201
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -47,8 +47,14 @@ strong_topics:
   - Thunderstorms (deep dive): Norwesters, CB life cycle stages, gale/squall, downbursts, frontal/thermal storm types, CB avoidance, lightning types, St Elmo's Fire, gust front — clean 10/10
   - Air masses: Arctic, Pc, Tc/Tm/Em (India), Western Disturbance moisture source, Cold Wave, frontolysis, two-axis classification — 9/10
   - Air masses: Pm (Polar Maritime, humid) vs Pc (Polar Continental, dry) — correct twice in a row, fully cleared
+  - Jet Streams: TJ (Asia/Africa-only, monsoon), TJ axis, WD/STJ interaction, vertical shear value, tropopause-break formation, stratospheric jet reversal — 6/10
 weak_topics:
   - Nacreous vs noctilucent cloud layers
+  - Jet Streams: STJ southernmost month (February, not December)
+  - Jet Streams: STJ horizontal shear asymmetry (stronger north of core)
+  - Jet Streams: STJ vs TJ position/season swapped (STJ ~27°N/12km/winter; TJ ~13°N/150hPa/summer)
+revision_due:
+  - Jet Streams (STJ vs TJ side-by-side comparison)
 revision_due: []
 last_updated: "2026-08-18"
 history:
@@ -205,3 +211,12 @@ history:
     correct: 2
     accuracy: 1.00
     weak_topics: []
+  - date: "2026-08-18"
+    chapter: Jet Streams, 10-question set (fresh angles)
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - STJ southernmost month (February)
+      - STJ horizontal shear asymmetry direction
+      - STJ vs TJ position/season swapped
