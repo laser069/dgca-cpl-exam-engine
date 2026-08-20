@@ -149,6 +149,12 @@ existing entries if the same topic keeps recurring. Format:
 **Why:** Air is thinner aloft, so a given pressure change spans more height at altitude. notes/Pressure.md Supplementary.
 **Seen before:** no, count 1
 
+## 2026-08-18 — Polar Maritime (Pm) vs Polar Continental (Pc)
+**Q:** Polar Maritime (Pm) air mass differs from Pc in that Pm is?
+**Your answer:** A (Cold and dry, identical to Pc) — **Correct:** B (Cold but humid, ocean-sourced)
+**Why:** Pm is ocean-sourced (sub-polar/Arctic ocean) so it's humid despite being cold; Pc is the dry, land-sourced counterpart. notes/Fronts.md Supplementary — Air Mass Classification.
+**Seen before:** no, count 1
+
 ## 2026-08-18 — Layer thickness, warm vs cold air
 **Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
 **Your answer:** A (Cold air) — **Correct:** B (Warm air)
