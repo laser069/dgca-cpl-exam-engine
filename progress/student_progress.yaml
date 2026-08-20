@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
-accuracy: 0.82
-questions_attempted: 166
+accuracy: 0.83
+questions_attempted: 169
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -43,13 +43,10 @@ strong_topics:
   - Fronts: cold vs warm occlusion — correct twice in a row, fully cleared
   - Icing (clear vs rime), Thunderstorms (3 ingredients), Precipitation (Bergeron process), Visibility (transmissometer), Jet Streams (STJ altitude), Stability (DALR/SALR), Climatology (Western Disturbance) — clean 10/10 mixed set
   - ISA: MSL reference values, Kelvin conversion, lapse-rate upper limit, -40 crossover, MSL rule hPa/ft, pressure unit equivalents — correct
+  - ISA: temperature-at-altitude arithmetic, 250 hPa/FL340 correspondence, height-per-hPa growth with altitude — all correct twice in a row, fully cleared
 weak_topics:
   - Nacreous vs noctilucent cloud layers
-  - ISA: temperature-at-altitude arithmetic (sign handling on lapse-rate subtraction)
-  - ISA: 250 hPa / FL340 chart correspondence
-  - ISA: height-per-hPa growth with altitude
-revision_due:
-  - ISA numerical arithmetic (temp-at-altitude, height-per-hPa trend, pressure/FL correspondence)
+revision_due: []
 last_updated: "2026-08-18"
 history:
   - date: "2026-08-15"
@@ -180,3 +177,9 @@ history:
       - Temperature-at-altitude arithmetic (sign handling)
       - 250 hPa / FL340 chart correspondence
       - Height-per-hPa growth with altitude
+  - date: "2026-08-18"
+    chapter: ISA confirmation round (3 misses re-tested, fresh numbers)
+    questions: 3
+    correct: 3
+    accuracy: 1.00
+    weak_topics: []
