@@ -1,7 +1,7 @@
 student: Student  # edit this
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 204
+questions_attempted: 214
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -49,9 +49,12 @@ strong_topics:
   - Air masses: Pm (Polar Maritime, humid) vs Pc (Polar Continental, dry) — correct twice in a row, fully cleared
   - Jet Streams: TJ (Asia/Africa-only, monsoon), TJ axis, WD/STJ interaction, vertical shear value, tropopause-break formation, stratospheric jet reversal — 6/10
   - Jet Streams: STJ southernmost month, shear asymmetry, STJ vs TJ position/season — correct on retest, confirm once more each
+  - CAT: cause, detection difficulty, wind shear value, jet streak risk, tropopause-break formation, PIREP/SIGWX forecasting, NE India/STJ hazard, rotor severity comparison, vs convective turbulence — 9/10
 weak_topics:
   - Nacreous vs noctilucent cloud layers
-revision_due: []
+  - CAT: seasonal variation (stronger in winter, tracking jet strength)
+revision_due:
+  - CAT seasonal pattern
 revision_due: []
 last_updated: "2026-08-18"
 history:
@@ -223,3 +226,10 @@ history:
     correct: 3
     accuracy: 1.00
     weak_topics: []
+  - date: "2026-08-18"
+    chapter: CAT (Clear Air Turbulence), 10-question set
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - CAT seasonal variation (winter stronger, tracking jet strength)
