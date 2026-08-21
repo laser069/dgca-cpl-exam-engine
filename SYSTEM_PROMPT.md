@@ -49,3 +49,11 @@ mock finished, revision session, mistake reviewed/cleared):
    dropping it.
 3. Skip step 2 for pure Q&A/explanation exchanges that touch no progress data — don't commit
    no-op changes.
+
+## Rule 13 — No repeated questions
+Never ask a question with the same wording/scenario as one already asked earlier in this
+conversation or a prior session (check `quiz_history/`, and the current conversation, before
+writing each new question). This applies even when deliberately re-testing a weak/recurring
+concept from `progress/mistakes.md` — vary the scenario, numbers, phrasing, or angle each time
+so the student can't pattern-match to a memorised question instead of demonstrating the
+underlying understanding.

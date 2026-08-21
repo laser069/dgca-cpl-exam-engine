@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
-accuracy: 0.79
-questions_attempted: 421
+accuracy: 0.83
+questions_attempted: 669
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -57,6 +57,16 @@ strong_topics:
   - Density vs temperature relationship, density altitude definition, westerlies direction — cleared 2026-08-16
   - Cold Wave air mass source (Pc) — cleared 2026-08-16 on 3rd attempt
   - Norwegian cyclone life-cycle sequence, Em as SW Monsoon air mass, Pc general characteristics, "Tc"/"Em" symbol expansions
+  - CAT position relative to jet core (cold side, near tropopause) — from merged 2026-08-17/18 sessions
+  - Thunderstorm life cycle, gale/squall, Norwesters, anvil hail, downbursts, lightning types, St Elmo's Fire, gust front — clean sweeps
+  - Icing: temperature band, rime/clear ice, CB unbounded severity, carburettor icing threshold
+  - MetInformation: RVR trend letters, wind variable-direction group, TAF validity arithmetic, SNOWTAM, SIGMET vs AIRMET, ACARS vs VOLMET, BC qualifier — all cleared after drilling
+  - Density (cross-chapter): gas law, ISA MSL density, moist/dry density, density altitude — clean 10/10
+  - General/global Circulation: three-cell model, ITCZ, polar front, horse latitudes, westerlies band, gradient wind curvature — cleared
+  - ISA numerical: temperature-at-altitude arithmetic, 250 hPa/FL340 correspondence, height-per-hPa growth — cleared after drilling
+  - Air Masses: Pm (humid) vs Pc (dry) distinction — cleared
+  - Jet Streams: STJ southernmost month (Feb), shear asymmetry, STJ vs TJ position/season — cleared after drilling
+  - Fronts: cold vs warm occlusion logic — cleared
 weak_topics:
   - "Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"
   - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
@@ -67,14 +77,15 @@ weak_topics:
   - Frontogenesis definition (new)
   - Tm (Tropical Maritime) characteristics (new)
   - Tc (Tropical Continental) general characteristics — hot and dry, not humid (new)
+  - Mountain Waves: cap cloud (Föhn wall) vs rotor cloud confusion (new)
+  - Mountain Waves: negatively-phrased ("NOT") question misread (new)
 revision_due:
-  - Clouds
-  - Stability
-  - Visibility
-  - JetStreams
-  - Thermodynamics
-  - Climatology (new — NE Monsoon season confusion)
-last_updated: "2026-08-16"
+  - Fronts (frontogenesis, Tm/Tc characteristics, air-mass modification)
+  - Climatology (Cold Day definition, monsoon depression source, STJ/TJ timing)
+  - Pressure (QFF vs QNH direction)
+  - MetInformation (CAVOK three-part criteria)
+  - Mountain Waves (cap vs rotor cloud, negative-phrasing care)
+last_updated: "2026-08-18"
 history:
   - date: "2026-08-15"
     chapter: Clouds
@@ -501,3 +512,187 @@ history:
       - Tm (Tropical Maritime) characteristics
       - Tc (Tropical Continental) general characteristics
     notes: This round had one recurring tool-call slip mid-quiz (Q7), acknowledged and stopped; quiz restarted from Q1 at student's request to rebuild trust after repeated clutter incidents. Cold Wave/Pc air mass source finally cleared on 3rd attempt. New gaps surfaced around Tm vs Tc characteristics and frontogenesis definition — worth a focused re-drill next session.
+  - date: "2026-08-17"
+    chapter: Mixed (Pressure, Clouds, Thunderstorms)
+    questions: 3
+    correct: 0
+    accuracy: 0.00
+    weak_topics:
+      - Pressure/temperature effect on true altitude
+      - Halo vs corona / cloud-icing mapping
+      - CB life cycle most-hazardous stage
+  - date: "2026-08-18"
+    chapter: JetStreams
+    questions: 3
+    correct: 3
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Mixed 50-question mock (all 16 chapters)
+    questions: 50
+    correct: 42
+    accuracy: 0.84
+    weak_topics:
+      - Fronts (occlusion logic, Indian air-mass classification) — 2/4
+      - Stability (inversion effect) — 1/2
+      - Atmosphere, Pressure, Clouds, PressureSystems — 3/4 each, isolated sign-error misses
+  - date: "2026-08-18"
+    chapter: Revision retest (5 missed concepts from mock)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - Atmosphere: equatorial vs polar tropopause height/temperature (missed again, recurring)
+  - date: "2026-08-18"
+    chapter: Mixed 10-question follow-up (Atmosphere, Clouds, Pressure, Wind, Fronts, Stability, PressureSystems, Icing, JetStreams)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics:
+      - Fronts: warm occlusion — correct final answer but wrong first instinct, needs more reps
+  - date: "2026-08-18"
+    chapter: METAR/TAF decode
+    questions: 10
+    correct: 5
+    accuracy: 0.50
+    weak_topics:
+      - RVR trend-indicator letters (U/D/N)
+      - Wind variable-direction group decode
+      - TAF validity-period day/hour arithmetic
+      - SIGMET vs AIRMET distinction
+      - SNOWTAM purpose
+  - date: "2026-08-18"
+    chapter: METAR/TAF decode retest (5 missed concepts, fresh wording)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - SIGMET vs AIRMET distinction (missed again, now recurring)
+  - date: "2026-08-18"
+    chapter: METAR/TAF decode, round 3 (fresh angles + SIGMET/AIRMET recheck)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - ACARS vs VOLMET distinction (datalink vs voice broadcast)
+  - date: "2026-08-18"
+    chapter: METAR/TAF decode, round 4 (confirmations + new angles)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - BC (patches) qualifier — misread as a timing indicator
+  - date: "2026-08-18"
+    chapter: METAR/TAF decode, round 5 (BC confirm + new angles)
+    questions: 5
+    correct: 5
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Atmosphere (10-question set, fresh wording)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Density (cross-chapter, Atmosphere/Pressure)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Circulations (global + wind circulation, cross-chapter)
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - Horse latitudes vs westerlies latitude band
+      - Gradient wind curvature effect direction
+  - date: "2026-08-18"
+    chapter: Circulations, round 2 (confirmations + new angles)
+    questions: 5
+    correct: 5
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Mixed 10-question set (all chapters, closing out remaining weak topics)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: ISA (International Standard Atmosphere), 10-question numerical set
+    questions: 10
+    correct: 7
+    accuracy: 0.70
+    weak_topics:
+      - Temperature-at-altitude arithmetic (sign handling)
+      - 250 hPa / FL340 chart correspondence
+      - Height-per-hPa growth with altitude
+  - date: "2026-08-18"
+    chapter: ISA confirmation round (3 misses re-tested, fresh numbers)
+    questions: 3
+    correct: 3
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Thunderstorms, deep-dive 10-question set
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Air Masses, 10-question set
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - Polar Maritime (Pm, humid) vs Polar Continental (Pc, dry)
+  - date: "2026-08-18"
+    chapter: Air Masses, confirmation round (Pm vs Pc)
+    questions: 2
+    correct: 2
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Jet Streams, 10-question set (fresh angles)
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - STJ southernmost month (February)
+      - STJ horizontal shear asymmetry direction
+      - STJ vs TJ position/season swapped
+  - date: "2026-08-18"
+    chapter: Jet Streams, confirmation round (3 misses re-tested)
+    questions: 3
+    correct: 3
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: CAT (Clear Air Turbulence), 10-question set
+    questions: 10
+    correct: 9
+    accuracy: 0.90
+    weak_topics:
+      - CAT seasonal variation (winter stronger, tracking jet strength)
+  - date: "2026-08-18"
+    chapter: CAT confirmation round (1 miss re-tested)
+    questions: 1
+    correct: 1
+    accuracy: 1.00
+    weak_topics: []
+  - date: "2026-08-18"
+    chapter: Mountain Waves, 10-question set
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - Cap cloud vs rotor cloud confusion
+      - Negatively-phrased ("NOT") question misread
+  - date: "2026-08-18"
+    chapter: General Circulation, 10-question set (three-cell model deep dive)
+    questions: 10
+    correct: 10
+    accuracy: 1.00
+    weak_topics: []

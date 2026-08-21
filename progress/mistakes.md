@@ -469,3 +469,177 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** D (Hot and very humid) — **Correct:** B (Hot and dry)
 **Why:** notes/Fronts.md: Tc is hot and DRY (continental source, low moisture) — "hot and very humid" describes Em instead. Easy to swap the two hot air masses if only "hot" is remembered without the moisture qualifier.
 **Seen before:** no, count 1
+
+## 2026-08-17 — Pressure/temperature effect on true altitude
+**Q:** Flying at constant indicated altitude (QNH set) with outside air significantly colder than ISA — how does true altitude compare to indicated?
+**Your answer:** C (Equal, since QNH compensates for temperature) — **Correct:** B (Lower than indicated)
+**Why:** QNH reduction uses ISA temperature only, never actual temperature. Colder-than-ISA air means true altitude is below indicated ("ISA cold, true low"). Classic sign-error trap flagged in notes/Pressure.md Common Mistakes.
+**Seen before:** no, count 1
+
+## 2026-08-17 — Halo vs corona / cloud-icing mapping
+**Q:** 22° radius ring around the sun, little color separation — cloud type and icing implication?
+**Your answer:** D (Nimbostratus — moderate icing, continuous rain) — **Correct:** B (Cirrostratus — negligible icing, ice crystals)
+**Why:** A 22° low-color ring is a halo (refraction through ice crystals in Cirrostratus), indicating negligible icing risk. Corona (not halo) is the Altostratus/moderate-icing phenomenon. notes/Clouds.md Supplementary — Optical Phenomena.
+**Seen before:** no, count 1
+
+## 2026-08-17 — CB life cycle, most hazardous stage
+**Q:** Which CB life-cycle stage is most hazardous, and why?
+**Your answer:** A (Cumulus stage — updraught only) — **Correct:** B (Mature stage — updraught+downdraught coexist)
+**Why:** The mature stage's coexisting updraught and downdraught produce simultaneous heavy rain, hail, lightning, and severe turbulence — the peak-hazard stage. Cumulus stage has no precipitation reaching ground yet. notes/Thunderstorms.md Formation.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Equatorial vs polar tropopause height/temperature
+**Q:** The tropopause is higher and ___ at the equator than at the poles?
+**Your answer:** A (Lower and warmer) — **Correct:** B (Higher and colder)
+**Why:** Equatorial tropopause is both higher (16-18 km) and colder than the polar tropopause — "higher" does not imply "warmer." notes/Atmosphere.md Common Mistakes.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Equatorial vs polar tropopause height/temperature (retest, still missed)
+**Q:** Compared to the tropopause at the poles, the tropopause at the equator is (retest wording)?
+**Your answer:** B (Higher and warmer) — **Correct:** C (Higher and colder)
+**Why:** Same trap as above, missed again on immediate retest after revision sheet — needs a third confirmed-correct attempt before considered cleared.
+**Seen before:** yes, count 2
+
+## 2026-08-18 — RVR trend-indicator letter (U)
+**Q:** In `R22/P1500U`, what does the trailing U mean?
+**Your answer:** D (below 1500 m and decreasing) — **Correct:** C (1500 m or more, and increasing)
+**Why:** U/D/N are RVR trend letters — increasing/decreasing/no change. The value P1500 means "1500 m or more," not below. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Wind variable-direction group
+**Q:** In `08015G28KT 040V110`, what does 040V110 represent?
+**Your answer:** A (wind speed varying 40-110 kt) — **Correct:** B (wind direction varying between 040° and 110°)
+**Why:** A "dddVddd" group after the main wind group is always a direction-variation range, not a speed range. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — TAF validity-period arithmetic
+**Q:** TAF header 241206 — how should this validity period be characterized?
+**Your answer:** A (9-hour national TAF) — **Correct:** B (18-hour span, 1200Z–0600Z next day, doesn't fit standard 9-hr or 24/30-hr categories)
+**Why:** Day/hour arithmetic on TAF headers needs practice — this is an edge case worth recognizing rather than force-fitting to the two common categories.
+**Seen before:** no, count 1
+
+## 2026-08-18 — SIGMET vs AIRMET
+**Q:** Which product is the en-route hazard warning (TS/severe turbulence/icing/volcanic ash/TRS) for all traffic?
+**Your answer:** A (AIRMET) — **Correct:** B (SIGMET)
+**Why:** SIGMET = severe hazards, all traffic. AIRMET = lower-severity, altitude-capped, more GA-relevant. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — SNOWTAM purpose
+**Q:** What does SNOWTAM report?
+**Your answer:** A (upper-level wind forecasts) — **Correct:** B (runway surface contamination — snow/ice/slush)
+**Why:** SNOWTAM is specifically a runway-condition report, unrelated to wind forecasts. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — SIGMET vs AIRMET (retest, still missed)
+**Q:** Moderate turbulence below FL100, mainly for GA traffic, lower severity than a full en-route hazard warning — which product?
+**Your answer:** A (SIGMET) — **Correct:** B (AIRMET)
+**Why:** Same trap as the first attempt — AIRMET is specifically the lower-severity, altitude-capped, GA-relevant product; SIGMET is for severe hazards affecting all traffic. This is now the clearest single recurring gap in METAR/TAF.
+**Seen before:** yes, count 2
+
+## 2026-08-18 — ACARS vs VOLMET distinction
+**Q:** Which delivery system is a datalink service delivering met data to the cockpit without voice communication?
+**Your answer:** B (VOLMET) — **Correct:** C (ACARS)
+**Why:** ACARS is the datalink system; VOLMET is the continuous *voice* broadcast of METARs/TAFs. Both deliver weather data to aircraft, but the mechanism (datalink vs voice) is the distinguishing fact. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — BC (patches) qualifier
+**Q:** What does the BC qualifier mean in a group like BCFG?
+**Your answer:** C (Before — occurred just prior to observation) — **Correct:** B (Patches — irregular, patchy coverage of the phenomenon)
+**Why:** BC is a coverage/distribution qualifier (patches), not a timing indicator. dgca_documents/METAR_TAF.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Horse latitudes vs westerlies latitude band
+**Q:** The westerlies wind belt is commonly cited around which latitude?
+**Your answer:** B (30° latitude) — **Correct:** C (~50-60° latitude)
+**Why:** Horse latitudes (~30°N/S) are the subtropical-high source region; westerlies are the distinct mid-latitude wind belt (~50-60°) that flows poleward from there toward the polar front. notes/Climatology.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Gradient wind curvature effect direction
+**Q:** Compared to geostrophic wind, how does gradient wind behave around a Low vs a High?
+**Your answer:** B (always equal, no curvature effect) — **Correct:** A (slightly slower around a Low, slightly faster around a High)
+**Why:** Cyclonic curvature (around a Low) slows the gradient wind below geostrophic; anticyclonic curvature (around a High) speeds it up above geostrophic. notes/Wind.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — ISA temperature-at-altitude arithmetic
+**Q:** Standard temperature at 8,000 ft using ISA lapse rate?
+**Your answer:** B (+0.8°C) — **Correct:** A (−0.8°C)
+**Why:** 15 − (1.98×8) = 15 − 15.84 ≈ −0.8°C. Sign slip on the standard lapse-rate subtraction. formulas/Meteorology.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — 250 hPa / FL340 correspondence
+**Q:** The 250 hPa pressure level corresponds to which flight level?
+**Your answer:** B (FL250) — **Correct:** C (FL340)
+**Why:** 250 hPa ≈ FL340 in the standard atmosphere — pressure-level number and flight-level number are unrelated; don't assume they match. notes/Pressure.md Numerical Problems.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Height-per-hPa growth with altitude
+**Q:** How does the height represented by 1 hPa change with altitude?
+**Your answer:** A (shrinks with altitude) — **Correct:** B (grows with altitude — ~27 ft near MSL to ~100 ft near 40,000 ft)
+**Why:** Air is thinner aloft, so a given pressure change spans more height at altitude. notes/Pressure.md Supplementary.
+**Seen before:** no, count 1
+
+## 2026-08-18 — STJ southernmost month
+**Q:** The STJ over India reaches its southernmost position (~22°N) in which month?
+**Your answer:** B (December) — **Correct:** C (February)
+**Why:** STJ migrates south steadily through winter after first appearing in October, reaching ~22°N in February. notes/JetStreams.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — STJ horizontal shear asymmetry
+**Q:** Around the STJ core over India, is horizontal shear stronger north or south of the core?
+**Your answer:** B (stronger south) — **Correct:** A (stronger north, ~100 kt/100 NM vs ~35 kt/100 NM south)
+**Why:** notes/JetStreams.md Supplementary — asymmetry direction reversed in your answer.
+**Seen before:** no, count 1
+
+## 2026-08-18 — STJ vs TJ position/season swap
+**Q:** STJ mean position over India, and separately, STJ/TJ seasonal pairing?
+**Your answer:** STJ position ~13°N/150hPa (actually TJ's axis); STJ=summer/TJ=winter (reversed) — **Correct:** STJ ~27°N/~12km, present winter (non-monsoon); TJ ~13°N/150hPa, present summer (monsoon)
+**Why:** Recurring pattern — STJ and TJ specifics (position, season) getting swapped with each other. Worth a dedicated side-by-side comparison table.
+**Seen before:** no, count 1 (two related questions missed together)
+
+## 2026-08-18 — Polar Maritime (Pm) vs Polar Continental (Pc)
+**Q:** Polar Maritime (Pm) air mass differs from Pc in that Pm is?
+**Your answer:** A (Cold and dry, identical to Pc) — **Correct:** B (Cold but humid, ocean-sourced)
+**Why:** Pm is ocean-sourced (sub-polar/Arctic ocean) so it's humid despite being cold; Pc is the dry, land-sourced counterpart. notes/Fronts.md Supplementary — Air Mass Classification.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Layer thickness, warm vs cold air
+**Q:** Vertical spacing (thickness) between two pressure levels is greater in which air mass?
+**Your answer:** A (Cold air) — **Correct:** B (Warm air)
+**Why:** Warm air is less dense, so a given pressure change spans more height — thickness is greater in warm air. notes/Pressure.md / notes/Fronts.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Friction effect on surface wind
+**Q:** Compared to gradient wind aloft, surface wind due to friction (NH)?
+**Your answer:** A (Backs and increases in speed) — **Correct:** C (Backs and decreases in speed)
+**Why:** Friction backs AND slows surface wind relative to the gradient wind aloft — speed decreases, not increases. notes/Wind.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Nimbostratus multi-level classification (recurrence)
+**Q:** Which cloud genus is classified low-level by base but extends through medium/high levels?
+**Your answer:** D (Stratocumulus) — **Correct:** B (Nimbostratus)
+**Why:** Same trap as 2026-08-15 entry — Nimbostratus, not Stratocumulus, extends vertically through multiple levels despite a low base classification.
+**Seen before:** yes, count 2
+
+## 2026-08-18 — Inversion effect on vertical mixing
+**Q:** A temperature inversion is associated with?
+**Your answer:** A (Strong convective cloud development) — **Correct:** B (Suppressed vertical mixing, trapping fog/haze below)
+**Why:** Inversions are extremely stable and suppress vertical mixing — they trap pollutants/fog beneath them rather than encouraging convection. notes/Stability.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — Cold occlusion air-mass temperature logic
+**Q:** In a cold occlusion, which air mass is colder — behind or ahead of the front?
+**Your answer:** B (Air behind is warmer, warm-front characteristics dominate) — **Correct:** A (Air behind is colder, cold-front characteristics dominate)
+**Why:** By definition, a *cold* occlusion has colder air behind the front than ahead of it, so cold-front weather dominates at the surface. notes/Fronts.md.
+**Seen before:** no, count 1
+
+## 2026-08-18 — India's dominant winter air mass
+**Q:** Which air mass, originating from the Siberian high, dominates over India in winter (cold, dry, hazy)?
+**Your answer:** B (Tropical Maritime, Tm) — **Correct:** C (Tropical Continental, Tc)
+**Why:** Tc (Tropical Continental) is India's dominant winter air mass, sourced from the Siberian high. Tm (Tropical Maritime) is the moist, SE-Asia-sourced monsoon-season air mass instead. notes/Fronts.md Supplementary.
+**Seen before:** no, count 1
+
+## 2026-08-18 — TRS energy source
+**Q:** The primary energy source for a Tropical Revolving Storm is?
+**Your answer:** A (Direct solar heating of cloud tops) — **Correct:** B (Latent heat release from condensation over warm ocean water)
+**Why:** TRS draws energy from latent heat released as moist air condenses over warm (>26-27°C) ocean water, not from direct solar heating. notes/PressureSystems.md.
+**Seen before:** no, count 1
