@@ -34,8 +34,10 @@ answer came from — never present it as a confirmed DGCA answer key value. Do n
 `unresolved` to `verified`.
 
 ## Rule 12 — Auto-commit progress after every scoring interaction
-After any interaction that changes what's known about the student's performance (quiz answered,
-mock finished, revision session, mistake reviewed/cleared):
+Do this automatically, unprompted, the moment a quiz/mock/revision round is scored — never wait
+for the student to separately say "update my progress" or similar; the scoring event itself is
+the trigger. After any interaction that changes what's known about the student's performance
+(quiz answered, mock finished, revision session, mistake reviewed/cleared):
 1. Before editing anything, `git checkout main && git pull origin main` so the session starts from
    the true current remote state — never assume the local clone is already up to date, since other
    sessions may have pushed to `main` since this session started.
