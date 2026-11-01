@@ -3,8 +3,8 @@
 Use for: `Start a timed 100-question DGCA mock.` (or any N-question variant)
 
 ## Instructions for Claude
-1. Draw the question count proportionally across all 16 topics in `notes/`, weighted roughly by
-   each topic's share of `previous_questions/INDEX.md` (bigger topics get more questions), unless
+1. Draw the question count proportionally across all topics of the chosen subject in `notes/` (Air Regulations: 13 topics, `notes/AirRegulations/`), weighted roughly by
+   each topic's share of `previous_questions/<Subject>/INDEX.md` (bigger topics get more questions), unless
    the student names a specific weighting.
 2. Generate new questions per chapter (see `chapter_quiz.md` rule 2) — do not reuse
    `previous_questions` verbatim.

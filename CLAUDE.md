@@ -1,43 +1,49 @@
-# DGCA-CPL Meteorology Study Repo
+# DGCA-CPL Study Repo
 
 @SYSTEM_PROMPT.md
 
 Act as described in `SYSTEM_PROMPT.md` for every session in this repo — you are the exam engine,
-the student is preparing for the DGCA CPL Meteorology written paper.
+the student is preparing for the DGCA CPL written papers. Subjects built so far: **Air Regulations**
+(current focus) and **Meteorology** (frozen earlier build). If the student doesn't name a subject, ask.
 
 ## Repo map
-- `syllabus/Meteorology.md` — official DGCA/CAR syllabus, §1.1–1.10
-- `notes/*.md` — 16 chapter files (Atmosphere, Pressure, Wind, Thermodynamics, Clouds, Fog,
-  Precipitation, Stability, Thunderstorms, Fronts, PressureSystems, JetStreams, Icing, Visibility,
-  Climatology, MetInformation), each following: Definition → Classification → Formation → DGCA
-  Important Facts → Frequently Tested Concepts → Numerical Problems → Memory Questions → Common
-  Mistakes → Revision Summary
-- `formulas/Meteorology.md` — every numeric fact/formula used across the notes, one page
-- `dgca_documents/METAR_TAF.md` — METAR/TAF/SIGMET/AIRMET decode reference
-- `previous_questions/*.md` (+ `INDEX.md`) — 2,167 deduped questions extracted from source PDFs,
-  grouped by topic, each tagged `Confidence: verified|unresolved` (see `SYSTEM_PROMPT.md` rule 11
-  — only ~14% carry a confirmed answer)
-- `memory_questions/YYYY-MM.md` — dated exam-recall compilations from Telegram study groups
-  (topic hints, not verified questions/wording)
-- `progress/student_progress.yaml`, `progress/mistakes.md` — updated after every quiz/mock
+Subject-specific files live in a subject folder for newer subjects (`.../AirRegulations/`); the
+Meteorology build keeps its original flat layout.
+
+### Air Regulations
+- `syllabus/AirRegulations.md` — DGCA Regs syllabus / road map (from the cockpitchats + DGCA syllabus PDFs)
+- `notes/AirRegulations/*.md` — 13 topic files: ICAOConventions, Licensing, RegistrationAirworthiness,
+  IndianRulesDGCA, RulesOfTheAir, ATSAirspace, CommunicationsRT, InstrumentProcedures, Aerodromes,
+  AccidentsSAR, SecurityFacilitationDG, HumanFactors — each: Definition → Classification → Formation →
+  DGCA Important Facts → Frequently Tested Concepts → Numerical Problems → Memory Questions → Common
+  Mistakes → Revision Summary (facts tagged `(src: ...)`)
+- `formulas/AirRegulations_KeyNumbers.md` — every key number found in the sources; `CONFLICT` marks disagreeing sources
+- `previous_questions/AirRegulations/*.md` (+ `INDEX.md`) — 2,083 deduped questions by topic. Confidence:
+  `derived` (1,266, model-worked answer + one-line why, NOT an official key), `unresolved` (817). **0 are `verified`.**
+- `memory_questions/AirRegulations/YYYY-MM.md` — exam-recall compilations (2021-02, 2025-01, 2025-05, undated); topic hints only
+
+### Meteorology (frozen)
+- `syllabus/Meteorology.md`, `notes/*.md` (16 chapters), `formulas/Meteorology.md`,
+  `dgca_documents/METAR_TAF.md`, `previous_questions/*.md` (2,167 questions, 292 verified),
+  `memory_questions/YYYY-MM.md`
+
+### Shared
+- `progress/student_progress.yaml`, `progress/mistakes.md` — updated after every quiz/mock (tag entries with the subject)
 - `quiz_history/` — mock-exam run logs
-- `prompts/chapter_quiz.md`, `prompts/mock_exam.md`, `prompts/revision.md` — detailed instructions
-  for the three quiz modes below
-- `output/` — generated revision sheets land here
+- `prompts/chapter_quiz.md`, `prompts/mock_exam.md`, `prompts/revision.md` — instructions for the quiz modes
+- `output/` — generated revision sheets
 
 ## Daily commands
-- `Generate 10 DGCA-level questions from Clouds.` → `prompts/chapter_quiz.md`
-- `Generate 20 mixed Meteorology questions.`
-- `Start a timed 100-question DGCA mock.` → `prompts/mock_exam.md`
-- `Review yesterday's mistakes.` / `Create revision notes for Fog.` → `prompts/revision.md`
-- `Ask only numerical questions from Pressure.`
+- `Generate 10 DGCA-level questions from ATSAirspace.` → `prompts/chapter_quiz.md`
+- `Generate 20 mixed Air Regulations questions.`
+- `Start a timed 100-question Air Regulations mock.` → `prompts/mock_exam.md`
+- `Review yesterday's mistakes.` / `Create revision notes for Aerodromes.` → `prompts/revision.md`
+- `Ask only numerical questions from RulesOfTheAir.`
 - `Explain every incorrect answer in detail.`
 - `Update my progress after this quiz.`
 
-Progress files auto-commit after every scoring interaction (`SYSTEM_PROMPT.md` Rule 12) — expect
-a git commit per quiz/mock/revision session, not just on request.
+Progress files auto-commit after every scoring interaction (`SYSTEM_PROMPT.md` Rule 12).
 
 ## Provenance
-Built from `Source/` (60 PDFs, 7 exact duplicates). Extraction/parsing pipeline lives in
-`../build/` (scripts + intermediate JSONL) — not part of the study repo itself, kept for
-re-running if more source PDFs are added later. See `../build/PIPELINE.md` for how to extend it.
+Air Regulations built from `Source/` (101 files; 46 Air Regs files mapped, see `../REMAINING.md` for what
+is not processed yet and known quality caveats). Pipeline in `../build/` (see `../build/PIPELINE.md`).
