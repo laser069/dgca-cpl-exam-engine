@@ -667,3 +667,21 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** D (Transit passengers exempt from all documents) — **Correct:** A
 **Why:** The two 2-day facts come from separate sources and must not be merged; transit is never exempt from all documents. notes/AirRegulations/SecurityFacilitationDG.md.
 **Seen before:** no, count 1
+
+## 2026-11-03 — [Air Regulations] Isolated parking distance
+**Q:** Minimum distance of the isolated parking position for an aircraft subjected to unlawful interference?
+**Your answer:** C (1000 m) — **Correct:** A (100 m)
+**Why:** Isolated parking bay is at least 100 m from other parking positions. notes/AirRegulations/SecurityFacilitationDG.md (derived from notes, not an official key; question wording also mentioned buildings/public areas, which the notes do not cover).
+**Seen before:** no, count 1
+
+## 2026-11-03 — [Air Regulations] Authority for arms and explosives
+**Q:** Who gives written permission for carriage of arms and explosives in an aircraft?
+**Your answer:** D (Airport security committee) — **Correct:** C (Central Government)
+**Why:** Central Government gives written permission; DGCA alone does not, DGPT concerns mails. notes/AirRegulations/SecurityFacilitationDG.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-03 — [Air Regulations] Hijacking convention
+**Q:** Which convention is mainly concerned with unlawful seizure of aircraft?
+**Your answer:** C (Warsaw) — **Correct:** B (Hague)
+**Why:** Hague = unlawful seizure; Warsaw = carriage liability; Tokyo = on-board offences; Rome = surface third-party damage. notes/AirRegulations/SecurityFacilitationDG.md.
+**Seen before:** no, count 1

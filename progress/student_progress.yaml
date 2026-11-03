@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 689
+questions_attempted: 699
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -68,6 +68,9 @@ strong_topics:
   - Jet Streams: STJ southernmost month (Feb), shear asymmetry, STJ vs TJ position/season — cleared after drilling
   - Fronts: cold vs warm occlusion logic — cleared
 weak_topics:
+  - "[Air Regulations] Security: isolated parking distance (100 m, not 1000 m)"
+  - "[Air Regulations] Security: arms/explosives need Central Government written permission (not airport security committee)"
+  - "[Air Regulations] Security conventions: Hague = unlawful seizure (not Warsaw, which is carriage liability)"
   - "[Air Regulations] Annex 9 terminology: inadmissible person vs deportee"
   - "[Air Regulations] Facilitation transit rules: 2 days (no connecting flight) vs visa exemption (under 2 days) are separate source facts"
   - "[Air Regulations] COSPAS-SARSAT satellite frequency (406 MHz, not 121.5 MHz; 5 km accuracy)"
@@ -84,6 +87,7 @@ weak_topics:
   - Mountain Waves: cap cloud (Föhn wall) vs rotor cloud confusion (new)
   - Mountain Waves: negatively-phrased ("NOT") question misread (new)
 revision_due:
+  - "[Air Regulations] SecurityFacilitationDG (100 m isolated parking, Central Govt for arms/explosives, Hague vs Warsaw)"
   - Fronts (frontogenesis, Tm/Tc characteristics, air-mass modification)
   - Climatology (Cold Day definition, monsoon depression source, STJ/TJ timing)
   - Pressure (QFF vs QNH direction)
@@ -721,3 +725,14 @@ history:
       - Inadmissible person vs deportee (Annex 9)
       - Transit 2-day rules from separate sources not to be merged
     notes: 'Annex 9 number, documents, copies, block-letter ink, annex pairings, purpose all correct. Q7 and Q10 partly drawn from ICAO Annex 9 knowledge beyond the thin repo notes; model-derived, not an official key.'
+  - date: "2026-11-03"
+    subject: Air Regulations
+    chapter: Security (SecurityFacilitationDG), 10-question set
+    questions: 10
+    correct: 7
+    accuracy: 0.70
+    weak_topics:
+      - Isolated parking distance (chose 1000 m, correct 100 m)
+      - Authority for arms/explosives carriage (chose airport security committee, correct Central Government)
+      - Hague vs Warsaw convention (chose Warsaw)
+    notes: 'Hijack procedure (7500, 500 ft level change), Annex 17, re-screening, squawk 7600, operator security programme, armed personnel, annex pairings all correct. Answers model-derived from notes, not an official key.'
