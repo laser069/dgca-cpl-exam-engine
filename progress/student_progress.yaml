@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 699
+questions_attempted: 709
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -68,6 +68,8 @@ strong_topics:
   - Jet Streams: STJ southernmost month (Feb), shear asymmetry, STJ vs TJ position/season — cleared after drilling
   - Fronts: cold vs warm occlusion logic — cleared
 weak_topics:
+  - "[Air Regulations] CofA validity age bands (aircraft 10-20 yrs = 2 years, not 5)"
+  - "[Air Regulations] MEL approved by DGCA (not the manufacturer)"
   - "[Air Regulations] Security: isolated parking distance (100 m, not 1000 m)"
   - "[Air Regulations] Security: arms/explosives need Central Government written permission (not airport security committee)"
   - "[Air Regulations] Security conventions: Hague = unlawful seizure (not Warsaw, which is carriage liability)"
@@ -87,6 +89,7 @@ weak_topics:
   - Mountain Waves: cap cloud (Föhn wall) vs rotor cloud confusion (new)
   - Mountain Waves: negatively-phrased ("NOT") question misread (new)
 revision_due:
+  - "[Air Regulations] RegistrationAirworthiness (CofA age bands 5/2/1 years, MEL approval by DGCA)"
   - "[Air Regulations] SecurityFacilitationDG (100 m isolated parking, Central Govt for arms/explosives, Hague vs Warsaw)"
   - Fronts (frontogenesis, Tm/Tc characteristics, air-mass modification)
   - Climatology (Cold Day definition, monsoon depression source, STJ/TJ timing)
@@ -736,3 +739,13 @@ history:
       - Authority for arms/explosives carriage (chose airport security committee, correct Central Government)
       - Hague vs Warsaw convention (chose Warsaw)
     notes: 'Hijack procedure (7500, 500 ft level change), Annex 17, re-screening, squawk 7600, operator security programme, armed personnel, annex pairings all correct. Answers model-derived from notes, not an official key.'
+  - date: "2026-11-03"
+    subject: Air Regulations
+    chapter: RegistrationAirworthiness, 10-question set
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - CofA validity age bands (12-year-old aircraft = 2 years, chose 5)
+      - MEL approval authority (chose manufacturer, correct DGCA)
+    notes: 'Hyphen between marks, 30 cm fuselage height, forbidden PAN, Annex 7, CofR on board, State of Registry continuing airworthiness, starboard green 110 deg, CofR/dual registration all correct. Answers model-derived from notes, not an official key.'

@@ -685,3 +685,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (Warsaw) — **Correct:** B (Hague)
 **Why:** Hague = unlawful seizure; Warsaw = carriage liability; Tokyo = on-board offences; Rome = surface third-party damage. notes/AirRegulations/SecurityFacilitationDG.md.
 **Seen before:** no, count 1
+
+## 2026-11-03 — [Air Regulations] CofA validity by aircraft age
+**Q:** A 12-year-old aircraft holds a valid CofA; for what period is it normally valid?
+**Your answer:** A (5 years) — **Correct:** B (2 years)
+**Why:** Age bands: 1-10 years = 5 years; 10-20 years = 2 years; over 20 years = 1 year. notes/AirRegulations/RegistrationAirworthiness.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-03 — [Air Regulations] MEL approval authority
+**Q:** Which authority approves the Minimum Equipment List for an Indian operator?
+**Your answer:** B (aircraft manufacturer) — **Correct:** C (DGCA)
+**Why:** The MEL is approved by DGCA; the manufacturer only supplies the Master MEL basis, and the Flight Manual is approved by the State of Design. notes/AirRegulations/RegistrationAirworthiness.md (derived from notes, not an official key).
+**Seen before:** no, count 1
