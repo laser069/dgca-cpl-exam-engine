@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 669
+questions_attempted: 679
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -68,7 +68,9 @@ strong_topics:
   - Jet Streams: STJ southernmost month (Feb), shear asymmetry, STJ vs TJ position/season — cleared after drilling
   - Fronts: cold vs warm occlusion logic — cleared
 weak_topics:
-  - "Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"
+  - "[Air Regulations] COSPAS-SARSAT satellite frequency (406 MHz, not 121.5 MHz; 5 km accuracy)"
+  - "[Air Regulations] Accident final report timeline (12 months, interim if late)"
+  - '"Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"'
   - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
   - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea)
   - STJ vs TJ seasonal timing (STJ=winter, TJ=monsoon — inconsistent, correct once, reversed once)
@@ -85,7 +87,8 @@ revision_due:
   - Pressure (QFF vs QNH direction)
   - MetInformation (CAVOK three-part criteria)
   - Mountain Waves (cap vs rotor cloud, negative-phrasing care)
-last_updated: "2026-08-18"
+  - "[Air Regulations] AccidentsSAR (COSPAS-SARSAT 406 MHz vs 121.5 MHz ELT, final report 12 months)"
+last_updated: "2026-11-03"
 history:
   - date: "2026-08-15"
     chapter: Clouds
@@ -249,7 +252,7 @@ history:
     weak_topics:
       - Virtual temperature direction (3rd miss)
       - Equatorial tropopause height+temperature pairing (3rd miss)
-    notes: 12th Atmosphere session, focused drill on the two remaining gaps. Both remain unresolved despite student correctly explaining the underlying mechanism/purpose for each when asked separately — the direct combined-fact recall is the sticking point. Gave memory anchor for virtual temperature: "moist air acts warmer than it really is."
+    notes: '12th Atmosphere session, focused drill on the two remaining gaps. Both remain unresolved despite student correctly explaining the underlying mechanism/purpose for each when asked separately — the direct combined-fact recall is the sticking point. Gave memory anchor for virtual temperature: "moist air acts warmer than it really is."'
   - date: "2026-08-16"
     chapter: Thermodynamics (Humidity)
     questions: 10
@@ -301,7 +304,7 @@ history:
     accuracy: 0.80
     weak_topics:
       - METAR negative dew point rounding, small magnitudes (2nd miss)
-    notes: 5th Humidity session. Mixing ratio/RH re-cleared, fog-timing formula fully cleared (2 correct). Only remaining gap: rounding small negative dew-point values (−0.3°C type cases) in METAR encoding.
+    notes: '5th Humidity session. Mixing ratio/RH re-cleared, fog-timing formula fully cleared (2 correct). Only remaining gap: rounding small negative dew-point values (−0.3°C type cases) in METAR encoding.'
   - date: "2026-08-16"
     chapter: Thermodynamics (Humidity — METAR rounding drill)
     questions: 5
@@ -387,7 +390,7 @@ history:
     correct: 9
     accuracy: 0.90
     weak_topics:
-      - "Cold Day" definition (max ≤16°C, confused with Cold Wave)
+      - '"Cold Day" definition (max ≤16°C, confused with Cold Wave)'
     notes: First Indian-regional-climatology session (separate from General Circulation, already cleared). SW Monsoon driver, NE Monsoon SE-coast exception, break monsoon, Mawsynram rainfall record, 75%-in-4-months figure, Cold Wave definition, Western Disturbance origin/track, and WD weather sequence all correct.
   - date: "2026-08-16"
     chapter: Comprehensive review (all 17 chapters/topics covered so far)
@@ -403,7 +406,7 @@ history:
     correct: 8
     accuracy: 0.80
     weak_topics:
-      - "Monsoon" word etymology
+      - '"Monsoon" word etymology'
       - Advection fog lift time (winter, coastal)
     notes: IMD season months, driest region, Norwesters, winter upper wind pattern, WD frequency, winter CAT/STJ link, lowered freezing level, and noon-haze-clearing all correct.
   - date: "2026-08-16"
@@ -696,3 +699,13 @@ history:
     correct: 10
     accuracy: 1.00
     weak_topics: []
+  - date: "2026-11-03"
+    subject: Air Regulations
+    chapter: AccidentsSAR, 10-question set
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - COSPAS-SARSAT 406 MHz (chose 121.5 MHz)
+      - Final report within 12 months (chose 3 months)
+    notes: First Air Regulations session. Accident definition, serious injury, ALERFA 5-min trigger, squawk 7600, state of occurrence, 24 h report, urgency/PAN PAN, PIC duty at distress scene all correct. Answers are model-derived from notes, not an official key.

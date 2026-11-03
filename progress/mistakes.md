@@ -643,3 +643,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (Direct solar heating of cloud tops) — **Correct:** B (Latent heat release from condensation over warm ocean water)
 **Why:** TRS draws energy from latent heat released as moist air condenses over warm (>26-27°C) ocean water, not from direct solar heating. notes/PressureSystems.md.
 **Seen before:** no, count 1
+
+## 2026-11-03 — [Air Regulations] COSPAS-SARSAT satellite frequency
+**Q:** Cospas-Sarsat satellite-aided SAR in India operates on which frequency, with ~5 km location accuracy?
+**Your answer:** A (121.5 MHz) — **Correct:** C (406 MHz)
+**Why:** COSPAS-SARSAT uses 406 MHz (digital, ~5 km accuracy); 121.5/243.0 MHz are the analogue VHF/UHF distress frequencies. notes/AirRegulations/AccidentsSAR.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-03 — [Air Regulations] Accident final report timeline
+**Q:** Final accident report should be released within what period (interim report if late)?
+**Your answer:** A (3 months) — **Correct:** C (12 months)
+**Why:** Final report within 12 months of the occurrence; otherwise an interim report is issued. notes/AirRegulations/AccidentsSAR.md (derived from notes, not an official key).
+**Seen before:** no, count 1
