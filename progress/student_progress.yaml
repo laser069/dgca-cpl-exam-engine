@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 679
+questions_attempted: 689
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -68,6 +68,8 @@ strong_topics:
   - Jet Streams: STJ southernmost month (Feb), shear asymmetry, STJ vs TJ position/season — cleared after drilling
   - Fronts: cold vs warm occlusion logic — cleared
 weak_topics:
+  - "[Air Regulations] Annex 9 terminology: inadmissible person vs deportee"
+  - "[Air Regulations] Facilitation transit rules: 2 days (no connecting flight) vs visa exemption (under 2 days) are separate source facts"
   - "[Air Regulations] COSPAS-SARSAT satellite frequency (406 MHz, not 121.5 MHz; 5 km accuracy)"
   - "[Air Regulations] Accident final report timeline (12 months, interim if late)"
   - '"Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"'
@@ -709,3 +711,13 @@ history:
       - COSPAS-SARSAT 406 MHz (chose 121.5 MHz)
       - Final report within 12 months (chose 3 months)
     notes: First Air Regulations session. Accident definition, serious injury, ALERFA 5-min trigger, squawk 7600, state of occurrence, 24 h report, urgency/PAN PAN, PIC duty at distress scene all correct. Answers are model-derived from notes, not an official key.
+  - date: "2026-11-03"
+    subject: Air Regulations
+    chapter: Facilitation (SecurityFacilitationDG), 10-question set
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - Inadmissible person vs deportee (Annex 9)
+      - Transit 2-day rules from separate sources not to be merged
+    notes: 'Annex 9 number, documents, copies, block-letter ink, annex pairings, purpose all correct. Q7 and Q10 partly drawn from ICAO Annex 9 knowledge beyond the thin repo notes; model-derived, not an official key.'

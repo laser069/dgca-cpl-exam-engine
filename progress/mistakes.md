@@ -655,3 +655,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (3 months) — **Correct:** C (12 months)
 **Why:** Final report within 12 months of the occurrence; otherwise an interim report is issued. notes/AirRegulations/AccidentsSAR.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-03 — [Air Regulations] Inadmissible person (Annex 9)
+**Q:** A person refused entry by a State and returned to the aircraft operator is called?
+**Your answer:** A (Deportee) — **Correct:** B (Inadmissible person)
+**Why:** Annex 9: an inadmissible is refused admission to a State; a deportee is a person lawfully admitted who is later ordered removed. notes/AirRegulations/SecurityFacilitationDG.md (term from ICAO Annex 9, not in repo notes; model-derived).
+**Seen before:** no, count 1
+
+## 2026-11-03 — [Air Regulations] Facilitation transit rules (2 days)
+**Q:** Transit without connecting flight (Zenith) vs visa exemption under 2 days (air_law_keys): which statement is correct?
+**Your answer:** D (Transit passengers exempt from all documents) — **Correct:** A
+**Why:** The two 2-day facts come from separate sources and must not be merged; transit is never exempt from all documents. notes/AirRegulations/SecurityFacilitationDG.md.
+**Seen before:** no, count 1
