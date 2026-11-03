@@ -1,0 +1,20 @@
+student: Student  # edit this
+subject: Air Regulations
+accuracy: null
+questions_attempted: 0
+strong_topics: []
+weak_topics: []
+revision_due: []
+last_updated: null
+history: []
+
+# NOTE (2026-11-03): This file was created when the active study subject switched to
+# Air Regulations. It starts empty because this repo currently has NO Air Regulations
+# source material (no syllabus, notes, formulas, or previous-questions bank for this
+# subject — see progress/README.md and the inspection report in this session's
+# conversation). No quiz has been run yet, so there is nothing to score.
+#
+# Meteorology's prior progress (421 questions, 6 months of history) has been preserved
+# untouched in progress/meteorology_progress.yaml and progress/meteorology_mistakes.md —
+# it is NOT merged into this file and does not feed into Air Regulations accuracy,
+# weak-topic detection, or readiness estimates.
