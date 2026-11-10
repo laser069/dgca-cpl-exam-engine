@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 709
+questions_attempted: 719
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -77,6 +77,10 @@ weak_topics:
   - "[Air Regulations] Facilitation transit rules: 2 days (no connecting flight) vs visa exemption (under 2 days) are separate source facts"
   - "[Air Regulations] COSPAS-SARSAT satellite frequency (406 MHz, not 121.5 MHz; 5 km accuracy)"
   - "[Air Regulations] Accident final report timeline (12 months, interim if late)"
+  - "[Air Regulations] ICAO: Chicago Convention in force 4 Apr 1947 (signed 7 Dec 1944)"
+  - "[Air Regulations] ICAO: Annex-number pairings (6 Operations, 8 Airworthiness, 11 ATS, 14 Aerodromes, 17 Security, 18 Dangerous Goods)"
+  - "[Air Regulations] ICAO: ANC recommends SARPs, Council adopts (not Assembly)"
+  - "[Air Regulations] ICAO: Montreal 1999 vs Hague (denunciation 6 months after notification)"
   - '"Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"'
   - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
   - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea)
@@ -97,7 +101,8 @@ revision_due:
   - MetInformation (CAVOK three-part criteria)
   - Mountain Waves (cap vs rotor cloud, negative-phrasing care)
   - "[Air Regulations] AccidentsSAR (COSPAS-SARSAT 406 MHz vs 121.5 MHz ELT, final report 12 months)"
-last_updated: "2026-11-03"
+  - "[Air Regulations] ICAOConventions (Chicago in-force date, Annex pairings, ANC vs Council vs Assembly, Montreal 1999)"
+last_updated: "2026-11-10"
 history:
   - date: "2026-08-15"
     chapter: Clouds
@@ -749,3 +754,15 @@ history:
       - CofA validity age bands (12-year-old aircraft = 2 years, chose 5)
       - MEL approval authority (chose manufacturer, correct DGCA)
     notes: 'Hyphen between marks, 30 cm fuselage height, forbidden PAN, Annex 7, CofR on board, State of Registry continuing airworthiness, starboard green 110 deg, CofR/dual registration all correct. Answers model-derived from notes, not an official key.'
+  - date: "2026-11-10"
+    subject: Air Regulations
+    chapter: ICAOConventions, 10-question set
+    questions: 10
+    correct: 6
+    accuracy: 0.60
+    weak_topics:
+      - Chicago Convention in-force date (chose 7 Dec 1944 = signing date)
+      - Annex pairings (chose Annex 17 = Dangerous Goods; it is Security)
+      - ANC recommends SARPs, Council adopts (chose Assembly)
+      - Montreal 1999 facts (chose unlawful seizure = Hague)
+    notes: Assembly 3-yearly, 2nd freedom, Tokyo, notify differences, Doc 4444, Rome 1952 all correct. Answers model-derived from notes, not an official key.
