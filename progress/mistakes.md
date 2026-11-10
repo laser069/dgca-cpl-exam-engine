@@ -721,3 +721,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (unlawful seizure) — **Correct:** B (denunciation effective 6 months after depositary governments receive notice)
 **Why:** Unlawful seizure = Hague 1970. Montreal 1999 = carrier liability (amended Warsaw); denunciation 6 months after notification (matched to a source key). notes/AirRegulations/ICAOConventions.md.
 **Seen before:** no, count 1
+
+## 2026-11-10 — [Air Regulations] Annex 7 content
+**Q:** Annex 7 (Aircraft Nationality and Registration Marks) contains:
+**Your answer:** C (Standards and Recommended Practices) — **Correct:** B (Standards only)
+**Why:** Source key (air_regulations_4 Q84/Q86, matched): Annex 7 has Standards but no Recommended Practices. notes/AirRegulations/RegistrationAirworthiness.md.
+**Seen before:** no, count 1
+
+## 2026-11-10 — [Air Regulations] CofR issuing authority
+**Q:** Who issues the Certificate of Registration of an Indian aircraft?
+**Your answer:** A (Director-General of Civil Aviation) — **Correct:** B (Central Government)
+**Why:** Central Government registers/issues the CofR; the DG issues/validates the CofA. notes/AirRegulations/RegistrationAirworthiness.md (derived from notes, not an official key).
+**Seen before:** no, count 1

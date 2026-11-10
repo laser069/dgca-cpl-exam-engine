@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 719
+questions_attempted: 729
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -81,6 +81,7 @@ weak_topics:
   - "[Air Regulations] ICAO: Annex-number pairings (6 Operations, 8 Airworthiness, 11 ATS, 14 Aerodromes, 17 Security, 18 Dangerous Goods)"
   - "[Air Regulations] ICAO: ANC recommends SARPs, Council adopts (not Assembly)"
   - "[Air Regulations] ICAO: Montreal 1999 vs Hague (denunciation 6 months after notification)"
+  - "[Air Regulations] Registration marks: Annex 7 = Standards only (not SARPs); CofR issued by Central Government (not DG)"
   - '"Cold Day" definition (max temp ≤16°C, not min temp below 0°C) — distinct from "Cold Wave"'
   - CAVOK full three-part criteria (visibility + no low cloud/CB + no significant weather, not visibility alone)
   - Monsoon depression source region (North Bay of Bengal primary, not Arabian Sea)
@@ -101,6 +102,7 @@ revision_due:
   - MetInformation (CAVOK three-part criteria)
   - Mountain Waves (cap vs rotor cloud, negative-phrasing care)
   - "[Air Regulations] AccidentsSAR (COSPAS-SARSAT 406 MHz vs 121.5 MHz ELT, final report 12 months)"
+  - "[Air Regulations] RegistrationAirworthiness (Annex 7 Standards only, CofR issuer = Central Government)"
   - "[Air Regulations] ICAOConventions (Chicago in-force date, Annex pairings, ANC vs Council vs Assembly, Montreal 1999)"
 last_updated: "2026-11-10"
 history:
@@ -766,3 +768,13 @@ history:
       - ANC recommends SARPs, Council adopts (chose Assembly)
       - Montreal 1999 facts (chose unlawful seizure = Hague)
     notes: Assembly 3-yearly, 2nd freedom, Tokyo, notify differences, Doc 4444, Rome 1952 all correct. Answers model-derived from notes, not an official key.
+  - date: "2026-11-10"
+    subject: Air Regulations
+    chapter: RegistrationAirworthiness (registration marks), 10-question set
+    questions: 10
+    correct: 8
+    accuracy: 0.80
+    weak_topics:
+      - Annex 7 contains Standards only (chose Standards and Recommended Practices)
+      - CofR issued by Central Government (chose Director-General)
+    notes: Mark heights (50 cm wings, 30 cm fuselage/tail, 50 cm LTA), VT/VU, forbidden PAN, hyphen, registry assigns mark, cancellation only if destroyed/sold abroad all correct. Answers model-derived from notes, not an official key.
