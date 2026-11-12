@@ -697,3 +697,39 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** B (aircraft manufacturer) — **Correct:** C (DGCA)
 **Why:** The MEL is approved by DGCA; the manufacturer only supplies the Master MEL basis, and the Flight Manual is approved by the State of Design. notes/AirRegulations/RegistrationAirworthiness.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-10 — [Air Regulations] Chicago Convention in-force date
+**Q:** When did the Chicago Convention come into force?
+**Your answer:** A (7 Dec 1944) — **Correct:** B (4 Apr 1947)
+**Why:** 7 Dec 1944 is the signing date; it came into force 4 Apr 1947. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-10 — [Air Regulations] Annex pairing
+**Q:** Which Annex-subject pairing is correct?
+**Your answer:** D (Annex 17 – Dangerous Goods) — **Correct:** B (Annex 8 – Airworthiness)
+**Why:** Annex 17 = Security; Annex 18 = Dangerous Goods; Annex 6 = Operations; Annex 7 = Nationality/Registration Marks; Annex 11 = ATS; Annex 14 = Aerodromes. notes/AirRegulations/ICAOConventions.md.
+**Seen before:** no, count 1
+
+## 2026-11-10 — [Air Regulations] Who recommends SARPs
+**Q:** The Council adopts SARPs after consideration and recommendation by which body?
+**Your answer:** A (Assembly) — **Correct:** C (Air Navigation Commission)
+**Why:** ANC (aviation experts) considers and recommends SARPs/PANS; Council adopts or approves; Assembly is the sovereign body. notes/AirRegulations/ICAOConventions.md.
+**Seen before:** no, count 1
+
+## 2026-11-10 — [Air Regulations] Montreal Convention 1999
+**Q:** Which statement about Montreal 1999 is correct?
+**Your answer:** A (unlawful seizure) — **Correct:** B (denunciation effective 6 months after depositary governments receive notice)
+**Why:** Unlawful seizure = Hague 1970. Montreal 1999 = carrier liability (amended Warsaw); denunciation 6 months after notification (matched to a source key). notes/AirRegulations/ICAOConventions.md.
+**Seen before:** no, count 1
+
+## 2026-11-10 — [Air Regulations] Annex 7 content
+**Q:** Annex 7 (Aircraft Nationality and Registration Marks) contains:
+**Your answer:** C (Standards and Recommended Practices) — **Correct:** B (Standards only)
+**Why:** Source key (air_regulations_4 Q84/Q86, matched): Annex 7 has Standards but no Recommended Practices. notes/AirRegulations/RegistrationAirworthiness.md.
+**Seen before:** no, count 1
+
+## 2026-11-10 — [Air Regulations] CofR issuing authority
+**Q:** Who issues the Certificate of Registration of an Indian aircraft?
+**Your answer:** A (Director-General of Civil Aviation) — **Correct:** B (Central Government)
+**Why:** Central Government registers/issues the CofR; the DG issues/validates the CofA. notes/AirRegulations/RegistrationAirworthiness.md (derived from notes, not an official key).
+**Seen before:** no, count 1
