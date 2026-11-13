@@ -733,3 +733,21 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (Director-General of Civil Aviation) — **Correct:** B (Central Government)
 **Why:** Central Government registers/issues the CofR; the DG issues/validates the CofA. notes/AirRegulations/RegistrationAirworthiness.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-13 — [Air Regulations] AIP Supplement purpose
+**Q:** An AIP Supplement is published to notify:
+**Your answer:** A (permanent changes, AIRAC only) — **Correct:** B (temporary changes to the AIP, published as special pages)
+**Why:** Supplements carry temporary changes; permanent/scheduled changes go via AIRAC amendments. notes/AirRegulations/ATSAirspace.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-13 — [Air Regulations] Short-term AIP Supplement
+**Q:** A short-term AIP Supplement is valid for:
+**Your answer:** B (less than 28 days) — **Correct:** A (less than 3 months)
+**Why:** Long-term = more than 3 months; short-term = less than 3 months. notes/AirRegulations/ATSAirspace.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-13 — [Air Regulations] FIR entry notification for FIS
+**Q:** Notify the ATS unit before entering an FIR (no flight plan on file) to obtain FIS:
+**Your answer:** C (at least 2 hours) — **Correct:** B (about 10 minutes)
+**Why:** Notes (zenith source) give 10 min before entry; single-source, treat as derived, not an official key. notes/AirRegulations/ATSAirspace.md.
+**Seen before:** no, count 1

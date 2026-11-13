@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 729
+questions_attempted: 739
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -93,6 +93,8 @@ weak_topics:
   - Tc (Tropical Continental) general characteristics — hot and dry, not humid (new)
   - Mountain Waves: cap cloud (Föhn wall) vs rotor cloud confusion (new)
   - Mountain Waves: negatively-phrased ("NOT") question misread (new)
+  - "[Air Regulations] AIS: AIP Supplement = temporary changes via special pages (not permanent/AIRAC); short-term < 3 months"
+  - "[Air Regulations] AIS: FIR entry notification for FIS (~10 min before, not 2 hours)"
 revision_due:
   - "[Air Regulations] RegistrationAirworthiness (CofA age bands 5/2/1 years, MEL approval by DGCA)"
   - "[Air Regulations] SecurityFacilitationDG (100 m isolated parking, Central Govt for arms/explosives, Hague vs Warsaw)"
@@ -104,7 +106,8 @@ revision_due:
   - "[Air Regulations] AccidentsSAR (COSPAS-SARSAT 406 MHz vs 121.5 MHz ELT, final report 12 months)"
   - "[Air Regulations] RegistrationAirworthiness (Annex 7 Standards only, CofR issuer = Central Government)"
   - "[Air Regulations] ICAOConventions (Chicago in-force date, Annex pairings, ANC vs Council vs Assembly, Montreal 1999)"
-last_updated: "2026-11-10"
+  - "[Air Regulations] ATSAirspace/AIS (AIP Supplement definition, short-term <3 months, FIR entry notification 10 min)"
+last_updated: "2026-11-13"
 history:
   - date: "2026-08-15"
     chapter: Clouds
@@ -778,3 +781,14 @@ history:
       - Annex 7 contains Standards only (chose Standards and Recommended Practices)
       - CofR issued by Central Government (chose Director-General)
     notes: Mark heights (50 cm wings, 30 cm fuselage/tail, 50 cm LTA), VT/VU, forbidden PAN, hyphen, registry assigns mark, cancellation only if destroyed/sold abroad all correct. Answers model-derived from notes, not an official key.
+  - date: "2026-11-13"
+    subject: Air Regulations
+    chapter: ATSAirspace (AIS portion), 10-question set
+    questions: 10
+    correct: 7
+    accuracy: 0.70
+    weak_topics:
+      - AIP Supplement purpose (chose permanent changes/AIRAC; correct temporary changes via special pages)
+      - Short-term AIP Supplement duration (chose 28 days; correct less than 3 months)
+      - FIR entry notification for FIS (chose 2 hours; correct about 10 minutes)
+    notes: NOTAM definition, AIRAC definition, ENR 1.4 airspace classes, FIS definition, NOTAM vs AIRAC, restricted-area access, NOTAM as source all correct. Answers model-derived from notes (zenithaviation_regsnotes), not an official key.
