@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 785
+questions_attempted: 790
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -103,6 +103,8 @@ weak_topics:
   - "[Air Regulations] Ops: cabin crew scale (150-199 seats = 4; 100-149 = 3)"
   - "[Air Regulations] Comms: radio failure IMC - radar 7 min vs non-radar 20 min hold; always squawk 7600 (not assigned code, not 7700) - missed 2 of 3 attempts"
   - "[Air Regulations] Comms: interception - squawk 7700, call 121.5 MHz first then 243.0 MHz"
+  - "[Air Regulations] Comms: Mode C level tolerance +/-300 ft (chose +/-100 ft)"
+  - "[Air Regulations] Comms: Heavy 136,000 kg threshold (chose 100,000 kg; Light is >7,000 and <136,000 kg)"
   - "[Air Regulations] Ops: rule 28A - age 65+ may not be PIC or co-pilot in CAT (not the Annex 1 age 60-64 rule)"
 revision_due:
   - "[Air Regulations] CommunicationsRT (7 min radar vs 20 min non-radar radio failure; interception 7700 + 121.5 first)"
@@ -883,3 +885,13 @@ history:
       - Radio failure IMC timing radar 7 min vs non-radar 20 min (missed twice before correct; chose assigned code 4271 once)
       - Interception action (chose 7500 + 243 MHz first; correct is 7700 + 121.5 MHz first)
     notes: Q1 reworded 3 times (2 wrong, then correct). Mode+code read-back with IDENT, ATIS 30 s / VHF or VOR not ILS, Heavy call-sign category all correct. Answers model-derived from notes, not an official key.
+  - date: "2026-11-16"
+    subject: Air Regulations
+    chapter: CommunicationsRT set 2, answers revealed at end (one early reveal on Q2, replaced)
+    questions: 5
+    correct: 3
+    accuracy: 0.60
+    weak_topics:
+      - Mode C level tolerance +/-300 ft (chose +/-100 ft)
+      - Heavy call-sign category 136,000 kg (chose 100,000 kg; missed before in a different form - Heavy category now wrong once)
+    notes: Radar IMC hold 7 min, ATIS 30 s, hijack code 7500 correct. Original Q2 (interception 90 degree climbing turn) voided because answer was revealed early; replaced. Answers model-derived from notes, not an official key.

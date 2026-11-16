@@ -853,3 +853,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (7500, 243.0 MHz first) — **Correct:** C (7700, 121.5 MHz first)
 **Why:** Intercepted aircraft squawks 7700 and calls on 121.5 MHz, 243.0 MHz only as fallback. notes/AirRegulations/CommunicationsRT.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Mode C level tolerance
+**Q:** Mode C derived level accepted as "maintaining assigned level" within what tolerance?
+**Your answer:** A (+/-100 ft) — **Correct:** C (+/-300 ft)
+**Why:** Mode C derived level is accepted within +/-300 ft of the assigned level. notes/AirRegulations/CommunicationsRT.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Heavy/Light R/T weight categories
+**Q:** Which pair correctly gives the Heavy and Light weight categories for call signs?
+**Your answer:** B (Heavy 100,000 kg) — **Correct:** A (Heavy >=136,000 kg; Light <136,000 and >7,000 kg)
+**Why:** Heavy threshold is 136,000 kg; Light is above 7,000 kg and below 136,000 kg. notes/AirRegulations/CommunicationsRT.md (derived from notes, not an official key).
+**Seen before:** no, count 1
