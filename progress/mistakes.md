@@ -811,3 +811,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (100 h / 1000 h) — **Correct:** B (125 h / 1000 h)
 **Why:** Vinod notes: 125 h/30 days; sources conflict so derived. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
 **Seen before:** yes, count 2
+
+## 2026-11-16 — [Air Regulations] Aerodrome photography
+**Q:** Requirement to photograph an aerodrome from the air:
+**Your answer:** A (nothing needed) — **Correct:** B (DGCA permission)
+**Why:** Photographs of aerodromes from an aircraft in flight need DGCA permission. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Rule 21 dangerous flying
+**Q:** Rule covering flying so as to cause unnecessary danger:
+**Your answer:** C (Rule 26 dropping articles) — **Correct:** A (Rule 21)
+**Why:** Rule 21 = dangerous flying; Rule 26 = dropping articles. Penalty figures conflict across sources. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** no, count 1

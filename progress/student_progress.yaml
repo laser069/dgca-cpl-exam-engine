@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 763
+questions_attempted: 768
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -842,3 +842,13 @@ history:
       - Fuelling 43 m jet-outlet rule vs 30 m smoking distance (recurring)
       - 30-day flight time limit 125 h (recurring; chose 100 h again)
     notes: Public health 2 h R/T notice correct. Q5 (rule 29B PED) skipped by student, not scored. Answers model-derived from notes, not an official key.
+  - date: "2026-11-16"
+    subject: Air Regulations
+    chapter: Operational Procedures set 5 (IndianRulesDGCA), 5-question set with immediate feedback
+    questions: 5
+    correct: 3
+    accuracy: 0.60
+    weak_topics:
+      - Photographing aerodromes from the air needs DGCA permission (chose no permission needed)
+      - Rule 21 dangerous flying (chose rule 26 dropping articles)
+    notes: Rule 27 wings/undercarriage, rule 28 minimum age 16, rule 25B hangar all correct. Answers model-derived from notes, not an official key.
