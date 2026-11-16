@@ -835,3 +835,21 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (43 m persons, 30 m flames) — **Correct:** A (15 m persons, 30 m flames)
 **Why:** 15 m persons and buildings; 30 m smoking/flames; 43 m jet outlet to fuelling equipment. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
 **Seen before:** yes, count 3
+
+## 2026-11-16 — [Air Regulations] Radio failure IMC hold time and code (radar)
+**Q:** Radar environment, IMC, last level FL 240, assigned code 4271 - correct action?
+**Your answer:** C (keep 4271, hold 7 min) — **Correct:** B (squawk 7600, hold level/speed 7 min)
+**Why:** Radio failure always means 7600, not the assigned code; radar = 7 min, non-radar = 20 min. notes/AirRegulations/CommunicationsRT.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Radio failure IMC hold time (non-radar)
+**Q:** Non-radar IFR, IMC, FL 90, code 3415 - correct action?
+**Your answer:** B (7600, 7 min) — **Correct:** A (7600, 20 min)
+**Why:** Non-radar hold is 20 min; 7 min is radar only. notes/AirRegulations/CommunicationsRT.md (derived from notes, not an official key).
+**Seen before:** yes, count 2
+
+## 2026-11-16 — [Air Regulations] Interception action
+**Q:** Intercepted, transponder serviceable, no ATS instruction - correct action?
+**Your answer:** A (7500, 243.0 MHz first) — **Correct:** C (7700, 121.5 MHz first)
+**Why:** Intercepted aircraft squawks 7700 and calls on 121.5 MHz, 243.0 MHz only as fallback. notes/AirRegulations/CommunicationsRT.md (derived from notes, not an official key).
+**Seen before:** no, count 1

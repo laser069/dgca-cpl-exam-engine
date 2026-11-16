@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 778
+questions_attempted: 785
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -101,8 +101,11 @@ weak_topics:
   - "[Air Regulations] Ops: public health - commander informs health officer at least 2 hours ahead by R/T"
   - "[Air Regulations] Ops: flight-time cumulative limit 125 h/30 days, 1000 h/365 days (CONFLICT across sources)"
   - "[Air Regulations] Ops: cabin crew scale (150-199 seats = 4; 100-149 = 3)"
+  - "[Air Regulations] Comms: radio failure IMC - radar 7 min vs non-radar 20 min hold; always squawk 7600 (not assigned code, not 7700) - missed 2 of 3 attempts"
+  - "[Air Regulations] Comms: interception - squawk 7700, call 121.5 MHz first then 243.0 MHz"
   - "[Air Regulations] Ops: rule 28A - age 65+ may not be PIC or co-pilot in CAT (not the Annex 1 age 60-64 rule)"
 revision_due:
+  - "[Air Regulations] CommunicationsRT (7 min radar vs 20 min non-radar radio failure; interception 7700 + 121.5 first)"
   - "[Air Regulations] RegistrationAirworthiness (CofA age bands 5/2/1 years, MEL approval by DGCA)"
   - "[Air Regulations] SecurityFacilitationDG (100 m isolated parking, Central Govt for arms/explosives, Hague vs Warsaw)"
   - Fronts (frontogenesis, Tm/Tc characteristics, air-mass modification)
@@ -870,3 +873,13 @@ history:
     accuracy: 1.00
     weak_topics: []
     notes: Re-tested fuelling 30/43 m, navigator 600 NM + equipment condition, rule 29B PED, 12 h alcohol, mail permission (DG Posts and Telegraph) - all correct. Cleared recurring weak topics; confirm again after a gap. Answers model-derived from notes, not an official key.
+  - date: "2026-11-16"
+    subject: Air Regulations
+    chapter: CommunicationsRT set 1, immediate feedback
+    questions: 7
+    correct: 4
+    accuracy: 0.57
+    weak_topics:
+      - Radio failure IMC timing radar 7 min vs non-radar 20 min (missed twice before correct; chose assigned code 4271 once)
+      - Interception action (chose 7500 + 243 MHz first; correct is 7700 + 121.5 MHz first)
+    notes: Q1 reworded 3 times (2 wrong, then correct). Mode+code read-back with IDENT, ATIS 30 s / VHF or VOR not ILS, Heavy call-sign category all correct. Answers model-derived from notes, not an official key.
