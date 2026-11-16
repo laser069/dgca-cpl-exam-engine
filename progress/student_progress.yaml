@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 768
+questions_attempted: 773
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -852,3 +852,13 @@ history:
       - Photographing aerodromes from the air needs DGCA permission (chose no permission needed)
       - Rule 21 dangerous flying (chose rule 26 dropping articles)
     notes: Rule 27 wings/undercarriage, rule 28 minimum age 16, rule 25B hangar all correct. Answers model-derived from notes, not an official key.
+  - date: "2026-11-16"
+    subject: Air Regulations
+    chapter: Operational Procedures set 6 (IndianRulesDGCA), weak-spot drill, immediate feedback
+    questions: 5
+    correct: 3
+    accuracy: 0.60
+    weak_topics:
+      - Flight navigator 600 NM threshold (chose 500 NM rule; recurring, 3rd miss)
+      - Fuelling distances 15 m persons / 30 m flames / 43 m jet outlet (confused again; recurring, 3rd miss)
+    notes: 30-day flight-time arithmetic (125-118=7), rule 28A age 65 co-pilot, cabin crew scale 120 seats=3 all correct (cleared). Answers model-derived from notes, not an official key.

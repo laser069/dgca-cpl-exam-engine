@@ -823,3 +823,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (Rule 26 dropping articles) — **Correct:** A (Rule 21)
 **Why:** Rule 21 = dangerous flying; Rule 26 = dropping articles. Penalty figures conflict across sources. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Flight navigator 600 NM threshold
+**Q:** 520 NM sector, no continuous-position equipment - navigator needed?
+**Your answer:** B (yes, over 500 NM) — **Correct:** C (no, sector under 600 NM)
+**Why:** Navigator needed only when >600 NM AND no continuous-position equipment; no 500 NM rule. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** yes, count 3
+
+## 2026-11-16 — [Air Regulations] Fuelling distances
+**Q:** Persons / flames distances during fuelling:
+**Your answer:** C (43 m persons, 30 m flames) — **Correct:** A (15 m persons, 30 m flames)
+**Why:** 15 m persons and buildings; 30 m smoking/flames; 43 m jet outlet to fuelling equipment. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** yes, count 3
