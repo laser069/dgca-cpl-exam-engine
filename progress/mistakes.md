@@ -751,3 +751,33 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (at least 2 hours) — **Correct:** B (about 10 minutes)
 **Why:** Notes (zenith source) give 10 min before entry; single-source, treat as derived, not an official key. notes/AirRegulations/ATSAirspace.md.
 **Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Fuelling smoking distance
+**Q:** Minimum distance from aircraft being fuelled at which smoking/naked flame is prohibited:
+**Your answer:** C (43 m) — **Correct:** B (30 m)
+**Why:** 30 m is smoking/flame; 43 m is turbojet rear outlet to fuelling equipment; 15 m is building/persons. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Portable electronic devices (rule 29B)
+**Q:** When may passengers use cellular phones on the ground after landing?
+**Your answer:** D (never) — **Correct:** B (after landing and clearing the active runway, with PIC permission)
+**Why:** PEDs barred in flight; cellphones allowed only after clearing the active runway at the PIC's permission. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Flight navigator requirement
+**Q:** Extra crew for a 750 NM great-circle sector without continuous position equipment:
+**Your answer:** C (second cabin crew) — **Correct:** B (flight navigator, >600 NM)
+**Why:** Public transport aircraft over 600 NM without instant continuous position equipment must carry a navigator. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Public health notice
+**Q:** How far ahead and how must the commander notify the health officer of a quarantinable disease case?
+**Your answer:** A (30 min by phone) — **Correct:** C (2 hours ahead, by R/T)
+**Why:** Aircraft (Public Health) Rules 1954: at least 2 hours in advance by R/T. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] 30-day flight time limit
+**Q:** Cumulative flight-time limit in 30 consecutive days:
+**Your answer:** A (100 h) — **Correct:** B (125 h)
+**Why:** Vinod notes: 125 h/30 days, 1000 h/365 days. Source figures conflict, so treat as derived. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** no, count 1
