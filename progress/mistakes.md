@@ -793,3 +793,21 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** D (PIC if accompanied by pilot under 60) — **Correct:** B (may not act as PIC or co-pilot)
 **Why:** Rule 28A bars PIC and co-pilot at 65+; the under-60 pairing is the ICAO Annex 1 age 60-64 rule. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Flight navigator conditions
+**Q:** 800 NM sector with continuous-position equipment - navigator needed?
+**Your answer:** A (yes, over 600 NM) — **Correct:** C (no, equipment present)
+**Why:** Both conditions must hold: >600 NM and no instant continuous position equipment. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** yes, count 2
+
+## 2026-11-16 — [Air Regulations] Fuelling 43 m jet outlet
+**Q:** Fuelling equipment 40 m from a turbojet rear outlet - what happens?
+**Your answer:** A (continues, over 30 m) — **Correct:** B (stops, within 43 m)
+**Why:** 43 m = jet outlet to fuelling equipment; 30 m = smoking/flame. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** yes, count 2
+
+## 2026-11-16 — [Air Regulations] 30-day flight time limit
+**Q:** Cumulative flight-time limits per Vinod notes:
+**Your answer:** A (100 h / 1000 h) — **Correct:** B (125 h / 1000 h)
+**Why:** Vinod notes: 125 h/30 days; sources conflict so derived. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** yes, count 2

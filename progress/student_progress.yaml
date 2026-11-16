@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 759
+questions_attempted: 763
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -831,3 +831,14 @@ history:
     accuracy: 1.00
     weak_topics: []
     notes: Dropping articles (rule 26), fuelling rules (rule 25A), animal permit (rule 24C), scheduled-service documents (rules 140B-140C), crew assault (rule 22) all correct. Answers model-derived from notes, not an official key.
+  - date: "2026-11-16"
+    subject: Air Regulations
+    chapter: Operational Procedures set 4 (IndianRulesDGCA), weak-spot drill, immediate feedback
+    questions: 4
+    correct: 1
+    accuracy: 0.25
+    weak_topics:
+      - Flight navigator needs BOTH >600 NM AND no continuous-position equipment (recurring)
+      - Fuelling 43 m jet-outlet rule vs 30 m smoking distance (recurring)
+      - 30-day flight time limit 125 h (recurring; chose 100 h again)
+    notes: Public health 2 h R/T notice correct. Q5 (rule 29B PED) skipped by student, not scored. Answers model-derived from notes, not an official key.
