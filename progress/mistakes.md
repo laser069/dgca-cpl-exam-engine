@@ -781,3 +781,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (100 h) — **Correct:** B (125 h)
 **Why:** Vinod notes: 125 h/30 days, 1000 h/365 days. Source figures conflict, so treat as derived. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Cabin crew scale
+**Q:** Minimum cabin crew for a 180-seat scheduled passenger aircraft:
+**Your answer:** A (3) — **Correct:** B (4)
+**Why:** Scale: 10-49 = 1; 50-99 = 2; 100-149 = 3; 150-199 = 4; 200-249 = 5; 250-299 = 6 (single source, zenith). notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-16 — [Air Regulations] Rule 28A age 65
+**Q:** Restriction on a licence holder aged 65 in commercial air transport:
+**Your answer:** D (PIC if accompanied by pilot under 60) — **Correct:** B (may not act as PIC or co-pilot)
+**Why:** Rule 28A bars PIC and co-pilot at 65+; the under-60 pairing is the ICAO Annex 1 age 60-64 rule. notes/AirRegulations/IndianRulesDGCA.md (derived from notes, not an official key).
+**Seen before:** no, count 1

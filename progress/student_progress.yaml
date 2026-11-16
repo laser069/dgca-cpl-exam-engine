@@ -1,7 +1,7 @@
 student: Reefa
 subject: Meteorology
 accuracy: 0.83
-questions_attempted: 749
+questions_attempted: 754
 strong_topics:
   - Cloud base numerical calculation (T-Td method)
   - CB hazard combination (icing/turbulence/hail/lightning)
@@ -100,6 +100,8 @@ weak_topics:
   - "[Air Regulations] Ops: flight navigator needed when >600 NM great-circle without continuous-position equipment (not cabin crew)"
   - "[Air Regulations] Ops: public health - commander informs health officer at least 2 hours ahead by R/T"
   - "[Air Regulations] Ops: flight-time cumulative limit 125 h/30 days, 1000 h/365 days (CONFLICT across sources)"
+  - "[Air Regulations] Ops: cabin crew scale (150-199 seats = 4; 100-149 = 3)"
+  - "[Air Regulations] Ops: rule 28A - age 65+ may not be PIC or co-pilot in CAT (not the Annex 1 age 60-64 rule)"
 revision_due:
   - "[Air Regulations] RegistrationAirworthiness (CofA age bands 5/2/1 years, MEL approval by DGCA)"
   - "[Air Regulations] SecurityFacilitationDG (100 m isolated parking, Central Govt for arms/explosives, Hague vs Warsaw)"
@@ -811,3 +813,13 @@ history:
       - Public health notice (chose 30 min by phone; correct 2 hours by R/T)
       - 30-day flight time limit (chose 100 h; correct 125 h per notes, sources conflict)
     notes: Flight deck admission (commander decides), 12-hour alcohol rule, log book certification/5 years, prisoner permit (DG/authorised officer), ballast only droppable all correct. Answers model-derived from notes (notes_air_regs_vinod_yadav), not an official key.
+  - date: "2026-11-16"
+    subject: Air Regulations
+    chapter: Operational Procedures set 2 (IndianRulesDGCA), 5-question set with immediate feedback
+    questions: 5
+    correct: 3
+    accuracy: 0.60
+    weak_topics:
+      - Cabin crew scale (chose 3 for 180 seats; correct 4)
+      - Rule 28A age 65 limit (chose PIC with pilot under 60; correct no PIC or co-pilot)
+    notes: Accident notice 24 h (rule 68), mental disorder/epilepsy medical certificate (rule 24A), sonic boom (rule 29A) correct. Student asked for answers after each question. Answers model-derived from notes, not an official key.
