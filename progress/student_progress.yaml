@@ -927,3 +927,12 @@ history:
     weak_topics:
       - Tokyo 1963 vs Montreal 1971 - chose Tokyo for aircraft sabotage and Montreal for commander's powers on board (still swapped; Tokyo/Hague/Montreal group missed in 4 sessions)
     notes: Improved - Chicago 96 articles, 52 signatory states, and convention-subject pairing (Montreal 1971 = sabotage/violence) all correct. Answers model-derived from notes, not an official key.
+  - date: "2026-11-18"
+    subject: Air Regulations
+    chapter: ICAOConventions remedial set 3 (Tokyo/Hague/Montreal 1971)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - Montreal 1971 - damage to air navigation facilities (chose Rome 1952)
+    notes: Big improvement - Tokyo on-board behaviour, Hague hijack, commander's restraint powers, and Tokyo denunciation to ICAO all correct. Answers model-derived from notes, not an official key.

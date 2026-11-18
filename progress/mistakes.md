@@ -925,3 +925,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (Montreal 1971) — **Correct:** B (Tokyo 1963)
 **Why:** Tokyo = commander's powers and state of registry jurisdiction. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
 **Seen before:** yes, count 4
+
+## 2026-11-18 — [Air Regulations] Navigation facility damage
+**Q:** Which convention makes damaging an air navigation facility (e.g. ILS) a punishable offence?
+**Your answer:** D (Rome 1952) — **Correct:** C (Montreal 1971)
+**Why:** Montreal 1971 covers sabotage, violence and damage to air navigation facilities; Rome 1952 is surface damage to third parties. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** no, count 1
