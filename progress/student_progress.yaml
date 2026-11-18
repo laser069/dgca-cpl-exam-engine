@@ -106,6 +106,7 @@ weak_topics:
   - "[Air Regulations] Comms: Mode C level tolerance +/-300 ft (chose +/-100 ft)"
   - "[Air Regulations] Comms: Heavy 136,000 kg threshold (chose 100,000 kg; Light is >7,000 and <136,000 kg)"
   - "[Air Regulations] Ops: rule 28A - age 65+ may not be PIC or co-pilot in CAT (not the Annex 1 age 60-64 rule)"
+  - "[Air Regulations] ICAOConventions: fifth freedom (3rd-state pick-up), Tokyo (offences on board) vs Montreal 1971 vs Hague (hijack), Council adopts SARPs after ANC, Chicago 96 articles/in force 1947 (missed 2026-11-10 and 2026-11-18)"
 revision_due:
   - "[Air Regulations] CommunicationsRT (7 min radar vs 20 min non-radar radio failure; interception 7700 + 121.5 first)"
   - "[Air Regulations] RegistrationAirworthiness (CofA age bands 5/2/1 years, MEL approval by DGCA)"
@@ -120,7 +121,7 @@ revision_due:
   - "[Air Regulations] ICAOConventions (Chicago in-force date, Annex pairings, ANC vs Council vs Assembly, Montreal 1999)"
   - "[Air Regulations] ATSAirspace/AIS (AIP Supplement definition, short-term <3 months, FIR entry notification 10 min)"
   - "[Air Regulations] Operational procedures / IndianRulesDGCA (fuelling distances 15/30/43 m, rule 29B PED, 600 NM navigator, 2 h public health notice, FDTL 125 h/30 d)"
-last_updated: "2026-11-16"
+last_updated: "2026-11-18"
 history:
   - date: "2026-08-15"
     chapter: Clouds
@@ -895,3 +896,15 @@ history:
       - Mode C level tolerance +/-300 ft (chose +/-100 ft)
       - Heavy call-sign category 136,000 kg (chose 100,000 kg; missed before in a different form - Heavy category now wrong once)
     notes: Radar IMC hold 7 min, ATIS 30 s, hijack code 7500 correct. Original Q2 (interception 90 degree climbing turn) voided because answer was revealed early; replaced. Answers model-derived from notes, not an official key.
+  - date: "2026-11-18"
+    subject: Air Regulations
+    chapter: ICAOConventions (Chapter 1), answers given early on request
+    questions: 10
+    correct: 4
+    accuracy: 0.40
+    weak_topics:
+      - Freedoms of the air (chose 4th for a 5th-freedom case)
+      - Tokyo vs Montreal 1971 vs Hague (missed twice; same confusion as 2026-11-10)
+      - Council adopts SARPs, ANC recommends (chose Regional Air Navigation Meeting; missed before)
+      - Chicago Convention 96 articles / in force 1947 (missed again)
+    notes: Q2 (Rome 1952 third-party surface damage) answer revealed on student's request without an attempt, so not scored (4 correct of 9 attempted). Annex 13, Article 38 notice of differences, Doc 4444 PANS-ATM, ICAO HQ Montreal/Assembly 3 years correct. Answers model-derived from notes, not an official key.

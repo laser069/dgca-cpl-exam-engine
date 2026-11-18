@@ -865,3 +865,33 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** B (Heavy 100,000 kg) — **Correct:** A (Heavy >=136,000 kg; Light <136,000 and >7,000 kg)
 **Why:** Heavy threshold is 136,000 kg; Light is above 7,000 kg and below 136,000 kg. notes/AirRegulations/CommunicationsRT.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-18 — [Air Regulations] Fifth freedom
+**Q:** Airline of A picks up in B for carriage to third state C - which freedom?
+**Your answer:** B (4th) — **Correct:** C (5th)
+**Why:** 5th freedom = carry traffic between two foreign states on a flight to/from home state; 4th = traffic from foreign state to home state. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-18 — [Air Regulations] Tokyo Convention jurisdiction
+**Q:** Which convention gives state of registration jurisdiction over offences on board over high seas?
+**Your answer:** B (Montreal 1971) — **Correct:** C (Tokyo 1963)
+**Why:** Tokyo = offences/acts on board; Montreal 1971 = violence/sabotage to aircraft/nav facilities; Hague = hijacking. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** yes, count 2
+
+## 2026-11-18 — [Air Regulations] Who adopts SARPs
+**Q:** SARPs adopted by which body after ANC recommendation?
+**Your answer:** D (Regional Air Navigation Meeting) — **Correct:** B (Council)
+**Why:** ANC recommends; Council adopts/approves; Assembly is sovereign. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** yes, count 2
+
+## 2026-11-18 — [Air Regulations] Chicago Convention articles and in-force year
+**Q:** How many articles and year in force?
+**Your answer:** A (96; 1944) — **Correct:** C (96; 1947)
+**Why:** 1944 = signing; 4 Apr 1947 = in force; 52 = signatory states. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** yes, count 2
+
+## 2026-11-18 — [Air Regulations] Hague Convention
+**Q:** Convention on unlawful seizure of aircraft?
+**Your answer:** C (Montreal 1971) — **Correct:** B (Hague 1970)
+**Why:** Hague 1970 = unlawful seizure; Montreal 1971 = violence/sabotage. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** yes, count 2
