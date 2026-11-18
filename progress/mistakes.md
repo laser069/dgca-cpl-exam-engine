@@ -913,3 +913,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (Hague 1970) — **Correct:** C (Tokyo 1963)
 **Why:** Tokyo = offences on board; Hague = hijacking. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
 **Seen before:** yes, count 3
+
+## 2026-11-18 — [Air Regulations] Aircraft sabotage convention (retest)
+**Q:** Explosive placed in hold to destroy aircraft - which convention punishes destruction of aircraft/damage to nav facilities?
+**Your answer:** A (Tokyo 1963) — **Correct:** C (Montreal 1971)
+**Why:** Montreal 1971 = sabotage/violence; Tokyo = offences on board. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** yes, count 4
+
+## 2026-11-18 — [Air Regulations] Commander's powers (retest)
+**Q:** Which convention gives commander power of reasonable measures incl. restraint over high-seas on-board offender?
+**Your answer:** C (Montreal 1971) — **Correct:** B (Tokyo 1963)
+**Why:** Tokyo = commander's powers and state of registry jurisdiction. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** yes, count 4
