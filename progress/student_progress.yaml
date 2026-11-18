@@ -107,6 +107,7 @@ weak_topics:
   - "[Air Regulations] Comms: Heavy 136,000 kg threshold (chose 100,000 kg; Light is >7,000 and <136,000 kg)"
   - "[Air Regulations] Ops: rule 28A - age 65+ may not be PIC or co-pilot in CAT (not the Annex 1 age 60-64 rule)"
   - "[Air Regulations] ICAOConventions: fifth freedom (3rd-state pick-up), Tokyo (offences on board) vs Montreal 1971 vs Hague (hijack), Council adopts SARPs after ANC, Chicago 96 articles/in force 1947 (missed 2026-11-10 and 2026-11-18)"
+  - "[Air Regulations] ATSAirspace: Class D VFR gets traffic info only, no separation (chose Class C wording); arrivals within 15 NM of VOR/DME = 220 kt IAS (chose general 250 kt)"
 revision_due:
   - "[Air Regulations] CommunicationsRT (7 min radar vs 20 min non-radar radio failure; interception 7700 + 121.5 first)"
   - "[Air Regulations] RegistrationAirworthiness (CofA age bands 5/2/1 years, MEL approval by DGCA)"
@@ -119,6 +120,7 @@ revision_due:
   - "[Air Regulations] AccidentsSAR (COSPAS-SARSAT 406 MHz vs 121.5 MHz ELT, final report 12 months)"
   - "[Air Regulations] RegistrationAirworthiness (Annex 7 Standards only, CofR issuer = Central Government)"
   - "[Air Regulations] ICAOConventions (Chicago in-force date, Annex pairings, ANC vs Council vs Assembly, Montreal 1999)"
+  - "[Air Regulations] ATSAirspace (Class C vs D service, 220 kt within 15 NM, 250 kt below 10,000 ft)"
   - "[Air Regulations] ATSAirspace/AIS (AIP Supplement definition, short-term <3 months, FIR entry notification 10 min)"
   - "[Air Regulations] Operational procedures / IndianRulesDGCA (fuelling distances 15/30/43 m, rule 29B PED, 600 NM navigator, 2 h public health notice, FDTL 125 h/30 d)"
 last_updated: "2026-11-18"
@@ -936,3 +938,13 @@ history:
     weak_topics:
       - Montreal 1971 - damage to air navigation facilities (chose Rome 1952)
     notes: Big improvement - Tokyo on-board behaviour, Hague hijack, commander's restraint powers, and Tokyo denunciation to ICAO all correct. Answers model-derived from notes, not an official key.
+  - date: "2026-11-18"
+    subject: Air Regulations
+    chapter: ATSAirspace (Chapter 5), answers given after each response
+    questions: 5
+    correct: 3
+    accuracy: 0.60
+    weak_topics:
+      - Class D VFR service (chose Class C wording - separation from IFR)
+      - Speed limit within 15 NM of VOR/DME (chose 250 kt; correct 220 kt)
+    notes: ALERFA 5-min trigger, CTA lower limit 200 m/700 ft, special VFR 1500 m correct. Answers model-derived from notes, not an official key.

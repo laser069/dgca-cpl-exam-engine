@@ -931,3 +931,15 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** D (Rome 1952) — **Correct:** C (Montreal 1971)
 **Why:** Montreal 1971 covers sabotage, violence and damage to air navigation facilities; Rome 1952 is surface damage to third parties. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-18 — [Air Regulations] Class D service to VFR
+**Q:** A VFR flight in Class D airspace receives which service?
+**Your answer:** B (separation from IFR; traffic info on other VFR) — **Correct:** C (traffic information on all other flights, no separation)
+**Why:** Class D separates only IFR from IFR; VFR gets traffic information. B is Class C. notes/AirRegulations/ATSAirspace.md (derived from notes, not an official key).
+**Seen before:** no, count 1
+
+## 2026-11-18 — [Air Regulations] Arrival speed limit near VOR/DME
+**Q:** Max IAS for an arriving aircraft within 15 NM of the VOR/DME serving the aerodrome, below 10,000 ft (India):
+**Your answer:** A (250 kt) — **Correct:** B (220 kt)
+**Why:** 250 kt is the general limit below 10,000 ft; arrivals within 15 NM of the VOR/DME are limited to 220 kt. notes/AirRegulations/ATSAirspace.md (derived from notes, not an official key).
+**Seen before:** no, count 1
