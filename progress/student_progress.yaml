@@ -948,3 +948,12 @@ history:
       - Class D VFR service (chose Class C wording - separation from IFR)
       - Speed limit within 15 NM of VOR/DME (chose 250 kt; correct 220 kt)
     notes: ALERFA 5-min trigger, CTA lower limit 200 m/700 ft, special VFR 1500 m correct. Answers model-derived from notes, not an official key.
+  - date: "2026-11-18"
+    subject: Air Regulations
+    chapter: ATSAirspace weak-area retest (Class C/D, speed limits)
+    questions: 5
+    correct: 4
+    accuracy: 0.80
+    weak_topics:
+      - Class C vs Class D separation wording (chose D for the Class C description; missed again, 2 sessions)
+    notes: 220 kt within 15 NM of VOR/DME, 250 kt general below 10,000 ft, Class D VFR service and CTR 5 NM minimum all correct - speed limits cleared. Answers model-derived from notes, not an official key.

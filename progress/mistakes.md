@@ -943,3 +943,9 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** A (250 kt) — **Correct:** B (220 kt)
 **Why:** 250 kt is the general limit below 10,000 ft; arrivals within 15 NM of the VOR/DME are limited to 220 kt. notes/AirRegulations/ATSAirspace.md (derived from notes, not an official key).
 **Seen before:** no, count 1
+
+## 2026-11-18 — [Air Regulations] Class C service wording
+**Q:** Which class separates IFR from IFR and VFR, with VFR given information only on other VFR?
+**Your answer:** C (Class D) — **Correct:** B (Class C)
+**Why:** Class C separates IFR from VFR; in Class D IFR only gets traffic information on VFR. notes/AirRegulations/ATSAirspace.md (derived from notes, not an official key).
+**Seen before:** yes, count 2
