@@ -895,3 +895,21 @@ existing entries if the same topic keeps recurring. Format:
 **Your answer:** C (Montreal 1971) — **Correct:** B (Hague 1970)
 **Why:** Hague 1970 = unlawful seizure; Montreal 1971 = violence/sabotage. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
 **Seen before:** yes, count 2
+
+## 2026-11-18 — [Air Regulations] Hijack convention (retest)
+**Q:** Armed men seize aircraft in flight and divert it - which convention suppresses this?
+**Your answer:** A (Tokyo 1963) — **Correct:** B (Hague 1970)
+**Why:** Hague = unlawful seizure; Tokyo = offences/acts on board incl. commander's powers. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** yes, count 3
+
+## 2026-11-18 — [Air Regulations] Chicago in-force date and signatories (retest)
+**Q:** In-force date and number of original signatory states?
+**Your answer:** C (4 Apr 1947; 96 states) — **Correct:** B (4 Apr 1947; 52 states)
+**Why:** 96 is the number of articles; 52 states signed. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** yes, count 3
+
+## 2026-11-18 — [Air Regulations] Commander's powers on board (retest)
+**Q:** Which convention governs commander's restraint powers and state-of-registry jurisdiction over on-board offences?
+**Your answer:** A (Hague 1970) — **Correct:** C (Tokyo 1963)
+**Why:** Tokyo = offences on board; Hague = hijacking. notes/AirRegulations/ICAOConventions.md (derived from notes, not an official key).
+**Seen before:** yes, count 3

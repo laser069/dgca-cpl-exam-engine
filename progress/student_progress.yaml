@@ -908,3 +908,13 @@ history:
       - Council adopts SARPs, ANC recommends (chose Regional Air Navigation Meeting; missed before)
       - Chicago Convention 96 articles / in force 1947 (missed again)
     notes: Q2 (Rome 1952 third-party surface damage) answer revealed on student's request without an attempt, so not scored (4 correct of 9 attempted). Annex 13, Article 38 notice of differences, Doc 4444 PANS-ATM, ICAO HQ Montreal/Assembly 3 years correct. Answers model-derived from notes, not an official key.
+  - date: "2026-11-18"
+    subject: Air Regulations
+    chapter: ICAOConventions remedial set (weak-area retest)
+    questions: 5
+    correct: 2
+    accuracy: 0.40
+    weak_topics:
+      - Hague 1970 (hijacking) vs Tokyo 1963 (offences on board) - chose Tokyo for hijack and Hague for on-board offences (swapped; now missed 4 times across sessions)
+      - Chicago Convention in-force 4 Apr 1947 and 52 signatory states (chose 96 states; 96 is articles; missed 3 times)
+    notes: Fourth freedom (Dubai to Delhi) and Council adopts SARPs/36 members correct this time. Q1 answer was asked for after the student had already answered C. Answers model-derived from notes, not an official key.
